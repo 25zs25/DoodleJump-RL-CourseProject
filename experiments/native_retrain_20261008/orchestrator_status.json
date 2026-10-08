@@ -1,0 +1,20 @@
+{
+  "completed_this_launch": [
+    "native_v2_ppo_full_h128_seed42_1000000",
+    "native_v2_dqn_full_h128_seed42_1000000",
+    "native_v2_double_dqn_full_h128_seed42_1000000",
+    "native_v2_dqn_full_h128_seed59_1000000",
+    "native_v2_ppo_full_h128_seed59_1000000",
+    "native_v2_double_dqn_full_h128_seed59_1000000",
+    "native_v2_dqn_full_h128_seed143_1000000",
+    "native_v2_ppo_full_h128_seed143_1000000",
+    "native_v2_double_dqn_full_h128_seed143_1000000",
+    "native_v2_ppo_no_velocity_h128_seed42_1000000",
+    "native_v2_ppo_no_velocity_h128_seed59_1000000",
+    "native_v2_ppo_no_velocity_h128_seed143_1000000"
+  ],
+  "active": [],
+  "queued": [],
+  "elapsed_seconds": 2634.0413542000024,
+  "complete": true
+}

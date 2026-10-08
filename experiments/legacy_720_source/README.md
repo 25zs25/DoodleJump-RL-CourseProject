@@ -1,0 +1,1 @@
+历史405×720环境源码快照，仅用于核对旧实验。当前运行入口在项目根目录。旧CPU训练算法源码另见capacity_1m_seed42/previous_training_source。

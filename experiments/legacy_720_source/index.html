@@ -1,0 +1,15 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Doodle Jump 原版规则强化学习</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div><small>研究生强化学习课程项目</small><h1>Doodle Jump <span>原版规则</span></h1></div><a href="upstream/index.html" target="_blank">查看未修改的开源原版 ↗</a></header>
+<main><section class="play"><aside><h2>游戏控制</h2><p>画面使用原版图片、声音与绘制函数。角色自动跳跃，左右按键直接设置速度，松开立即停止。</p>
+<label for="controller">控制方式</label><select id="controller"><option value="manual">手动试玩</option><option value="random">随机动作（未训练）</option></select>
+<p class="hint">每种算法提供一个按验证集选出的展示模型，无需选择训练种子。</p>
+<label for="seed">地图种子</label><input id="seed" type="number" min="0" max="4294967295" value="10003">
+<label for="selection">PPO动作方式</label><select id="selection"><option value="argmax">最大概率动作</option><option value="sample">按网络概率采样</option></select>
+<div class="buttons"><button id="start">开始</button><button id="reset">重开</button></div><div class="arrows"><button id="left">←</button><button id="right">→</button></div>
+<p class="hint">← / → 或 A / D 控制，空格暂停。切换模型、地图后点击重开。固定游戏窗口405×720，显示缩放不改变物理。</p>
+<dl><dt>原版得分</dt><dd id="score">0</dd><dt>实际上升高度</dt><dd id="height">0</dd><dt>决策数 / 当前动作</dt><dd id="steps">0 / 停</dd><dt>状态</dt><dd id="status">正在载入原版素材</dd></dl>
+<p id="network" class="hint"></p><p id="model-info" class="hint">手动与学习模型使用同一份未改动的原版引擎。</p></aside>
+<div class="game-area"><div id="frame-wrap"><iframe id="game" src="game.html" width="405" height="720" title="未改动的原版游戏画面" allow="autoplay"></iframe></div></div></section>
+<section class="evidence"><h2>训练与独立测试</h2><p>以下结果只来自本次原版规则重训练。旧改造版模型和成绩保留在另一个目录。</p><div id="summary">训练进行中，完成后填入真实评测数据。</div><canvas id="curve" width="1040" height="340" aria-label="原版得分验证曲线"></canvas><div id="table"></div></section>
+<section class="evidence"><h2>复现范围</h2><p>上游固定提交 d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4。upstream 内游戏脚本、样式、图片和声音按原文件保存。训练适配层增加随机种子、状态观测、动作接口、奖励和时间截断。平台全宽随机、易碎旁补普通、全屏移动、上升/下降重力及原版得分逻辑均保留。</p><p>模型输入为209维结构特征，包含玩家、最多20个平台以及原版单黑洞。没有目标平台、路线提示或教师动作。四人分工、报告、原版对照测试和运行说明随项目提供。</p><a href="README.md">运行说明</a>　<a href="PROVENANCE.md">原版保留与验证说明</a></section></main>
+<script src="models.js"></script><script src="results.js"></script><script src="app.js"></script></body></html>

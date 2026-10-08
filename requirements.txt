@@ -1,0 +1,6 @@
+# Training/evaluation uses a structured observation and CPU PyTorch.
+numpy>=1.26,<3
+torch>=2.2,<3
+# Optional: plots and replay videos (not required for training).
+matplotlib>=3.8
+Pillow>=10

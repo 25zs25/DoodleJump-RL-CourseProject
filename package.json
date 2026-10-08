@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "doodle-jump-native-parity",
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

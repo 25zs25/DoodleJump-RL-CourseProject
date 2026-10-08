@@ -1,0 +1,65 @@
+{
+  "algorithm": "dqn",
+  "seed": 143,
+  "steps": 1000000,
+  "obs": "full",
+  "run_id": "dqn_full_seed143_1000000",
+  "learning_rate": null,
+  "epsilon_decay_steps": 600000,
+  "checkpoint_every": 50000,
+  "observation_dim": 209,
+  "hidden": 128,
+  "training_map_seed_start": 2430000,
+  "validation_seeds": [
+    10000,
+    10001,
+    10002,
+    10003,
+    10004,
+    10005,
+    10006,
+    10007,
+    10008,
+    10009,
+    10010,
+    10011,
+    10012,
+    10013,
+    10014,
+    10015,
+    10016,
+    10017,
+    10018,
+    10019
+  ],
+  "mode": "original",
+  "viewport": [
+    405,
+    720
+  ],
+  "versions": {
+    "python": "3.11.7",
+    "torch": "2.5.1+cu124",
+    "numpy": "1.26.4"
+  },
+  "source_sha256": {
+    "agents.py": "0fbec25380ab68fdf0761d0eef3a00cf14966813778d47ba9aae5d0b6c0b8564",
+    "env.py": "5704e3f43078f7124a6bd0787f12c294122f15da89d4002e1921060e7ac028be",
+    "train.py": "9349b7aa36554c3fce77f840c9df2caa1a686a107463076a7afbe682e5969255",
+    "evaluate.py": "d7247c5c7784c1ffe60f8681c2cc627504557a3bcce6df0e0ffa9802bcc037da"
+  },
+  "hyperparameters": {
+    "gamma": 0.99,
+    "learning_rate": 0.0005,
+    "buffer": 100000,
+    "learning_starts": 2500,
+    "batch_size": 128,
+    "train_every": 4,
+    "target_every": 2000,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "epsilon_decay_steps": 600000,
+    "loss": "Huber",
+    "max_grad_norm": 10.0
+  }
+}

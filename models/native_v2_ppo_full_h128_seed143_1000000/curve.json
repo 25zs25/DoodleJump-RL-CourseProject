@@ -1,0 +1,775 @@
+[
+  {
+    "steps": 50176,
+    "frames": 199993,
+    "seconds": 11.818391100001463,
+    "interactions_per_second": 4245.586355658325,
+    "train_episodes": 557,
+    "validation": {
+      "mean_score": 181.65,
+      "median_score": 0.0,
+      "mean_height": 0.0,
+      "median_height": 0.0,
+      "height_sd": 0.0,
+      "p10_height": 0.0,
+      "p90_height": 0.0,
+      "mean_return": 0.734349999999999,
+      "mean_steps": 82.15,
+      "mean_frames": 327.55,
+      "mean_landings": 2.25,
+      "threshold_rates": {
+        "1000": 0.0,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.0,
+      "death_counts": {
+        "fall": 20
+      }
+    },
+    "policy_loss": -0.0016749125206843019,
+    "value_loss": 0.4428871888667345,
+    "entropy": 1.0818986594676971,
+    "approx_kl": 0.0003662083181552589,
+    "clip_fraction": 0.0,
+    "gradient_updates": 784,
+    "recent_train_mean_height": 11.865363072148948,
+    "recent_train_mean_return": 0.5446500000000019
+  },
+  {
+    "steps": 100352,
+    "frames": 399997,
+    "seconds": 24.933416700001544,
+    "interactions_per_second": 4024.7993769740265,
+    "train_episodes": 1092,
+    "validation": {
+      "mean_score": 311.05,
+      "median_score": 0.0,
+      "mean_height": 11.812830876648565,
+      "median_height": 0.0,
+      "height_sd": 52.828585693789236,
+      "p10_height": 0.0,
+      "p90_height": 0.0,
+      "mean_return": 1.7186000000000132,
+      "mean_steps": 1091.9,
+      "mean_frames": 4367.25,
+      "mean_landings": 43.85,
+      "threshold_rates": {
+        "1000": 0.0,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.7,
+      "death_counts": {
+        "time_limit": 14,
+        "fall": 6
+      }
+    },
+    "policy_loss": -0.0027460941346362233,
+    "value_loss": 0.6120580416172743,
+    "entropy": 1.0075284652411938,
+    "approx_kl": 0.0032063647668110207,
+    "clip_fraction": 0.000732421875,
+    "gradient_updates": 1568,
+    "recent_train_mean_height": 18.28298138091546,
+    "recent_train_mean_return": 1.7388500000000002
+  },
+  {
+    "steps": 150528,
+    "frames": 600119,
+    "seconds": 36.828836800003046,
+    "interactions_per_second": 4087.231992078217,
+    "train_episodes": 1534,
+    "validation": {
+      "mean_score": 529.25,
+      "median_score": 190.0,
+      "mean_height": 32.35208805275419,
+      "median_height": 0.0,
+      "height_sd": 98.27814674321435,
+      "p10_height": 0.0,
+      "p90_height": 51.097829325059045,
+      "mean_return": 4.013800000000076,
+      "mean_steps": 478.7,
+      "mean_frames": 1913.9,
+      "mean_landings": 19.1,
+      "threshold_rates": {
+        "1000": 0.0,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.2,
+      "death_counts": {
+        "fall": 16,
+        "time_limit": 4
+      }
+    },
+    "policy_loss": -0.0065472141723148525,
+    "value_loss": 0.6367026586085558,
+    "entropy": 1.0582076162099838,
+    "approx_kl": 0.006873164049466141,
+    "clip_fraction": 0.10791015625,
+    "gradient_updates": 2352,
+    "recent_train_mean_height": 33.427273855702126,
+    "recent_train_mean_return": 2.4576899999999977
+  },
+  {
+    "steps": 200704,
+    "frames": 800458,
+    "seconds": 49.11189600000216,
+    "interactions_per_second": 4086.6677189573616,
+    "train_episodes": 1811,
+    "validation": {
+      "mean_score": 532.65,
+      "median_score": 0.0,
+      "mean_height": 54.42818463925529,
+      "median_height": 0.0,
+      "height_sd": 203.4908520244037,
+      "p10_height": 0.0,
+      "p90_height": 51.454608223429865,
+      "mean_return": 4.0482000000000795,
+      "mean_steps": 678.3,
+      "mean_frames": 2712.65,
+      "mean_landings": 28.1,
+      "threshold_rates": {
+        "1000": 0.0,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.4,
+      "death_counts": {
+        "time_limit": 8,
+        "fall": 12
+      }
+    },
+    "policy_loss": -0.0044745255436282605,
+    "value_loss": 0.22721163369715214,
+    "entropy": 0.9430454075336456,
+    "approx_kl": 0.004608689152519219,
+    "clip_fraction": 0.033935546875,
+    "gradient_updates": 3136,
+    "recent_train_mean_height": 38.047010318076126,
+    "recent_train_mean_return": 4.024390000000004
+  },
+  {
+    "steps": 250880,
+    "frames": 1000895,
+    "seconds": 61.91441920000216,
+    "interactions_per_second": 4052.044794114636,
+    "train_episodes": 2012,
+    "validation": {
+      "mean_score": 643.5,
+      "median_score": 668.5,
+      "mean_height": 32.39026609775029,
+      "median_height": 0.0,
+      "height_sd": 98.33932369472278,
+      "p10_height": 0.0,
+      "p90_height": 50.92889992242135,
+      "mean_return": 5.0723499999999335,
+      "mean_steps": 712.65,
+      "mean_frames": 2849.6,
+      "mean_landings": 28.9,
+      "threshold_rates": {
+        "1000": 0.0,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.35,
+      "death_counts": {
+        "time_limit": 7,
+        "fall": 12,
+        "blackhole": 1
+      }
+    },
+    "policy_loss": -0.003455453261267394,
+    "value_loss": 0.559033015742898,
+    "entropy": 0.9174188897013664,
+    "approx_kl": 0.0022549547866219655,
+    "clip_fraction": 0.0126953125,
+    "gradient_updates": 3920,
+    "recent_train_mean_height": 98.44184266873566,
+    "recent_train_mean_return": 6.605419999999988
+  },
+  {
+    "steps": 300032,
+    "frames": 1197276,
+    "seconds": 73.4558582000027,
+    "interactions_per_second": 4084.521062746075,
+    "train_episodes": 2178,
+    "validation": {
+      "mean_score": 479.05,
+      "median_score": 423.5,
+      "mean_height": 15.790313809154426,
+      "median_height": 0.0,
+      "height_sd": 42.9433239508986,
+      "p10_height": 0.0,
+      "p90_height": 48.11723894491943,
+      "mean_return": 3.5426500000000454,
+      "mean_steps": 447.85,
+      "mean_frames": 1790.1,
+      "mean_landings": 17.75,
+      "threshold_rates": {
+        "1000": 0.0,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.2,
+      "death_counts": {
+        "time_limit": 4,
+        "fall": 15,
+        "blackhole": 1
+      }
+    },
+    "policy_loss": -0.0034404228135826997,
+    "value_loss": 0.5372197292745113,
+    "entropy": 0.789925578981638,
+    "approx_kl": 0.003335739325848408,
+    "clip_fraction": 0.0380859375,
+    "gradient_updates": 4688,
+    "recent_train_mean_height": 79.68428859581083,
+    "recent_train_mean_return": 5.991309999999969
+  },
+  {
+    "steps": 350208,
+    "frames": 1397741,
+    "seconds": 85.64906820000033,
+    "interactions_per_second": 4088.871103445334,
+    "train_episodes": 2353,
+    "validation": {
+      "mean_score": 1046.55,
+      "median_score": 895.0,
+      "mean_height": 88.84317416602043,
+      "median_height": 0.0,
+      "height_sd": 188.6726832350538,
+      "p10_height": 0.0,
+      "p90_height": 335.954696664081,
+      "mean_return": 9.07100000000015,
+      "mean_steps": 694.5,
+      "mean_frames": 2776.8,
+      "mean_landings": 28.2,
+      "threshold_rates": {
+        "1000": 0.0,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.3,
+      "death_counts": {
+        "time_limit": 6,
+        "fall": 12,
+        "blackhole": 2
+      }
+    },
+    "policy_loss": -0.003760942432563752,
+    "value_loss": 0.4609932079911232,
+    "entropy": 0.7398491092026234,
+    "approx_kl": 0.0028589868888957426,
+    "clip_fraction": 0.02392578125,
+    "gradient_updates": 5472,
+    "recent_train_mean_height": 84.50222909231981,
+    "recent_train_mean_return": 7.189590000000013
+  },
+  {
+    "steps": 400384,
+    "frames": 1598253,
+    "seconds": 100.66712460000053,
+    "interactions_per_second": 3977.306410518036,
+    "train_episodes": 2510,
+    "validation": {
+      "mean_score": 1367.85,
+      "median_score": 1099.5,
+      "mean_height": 146.39323855702136,
+      "median_height": 20.581714507370407,
+      "height_sd": 221.63319381112453,
+      "p10_height": 0.0,
+      "p90_height": 532.4533778122584,
+      "mean_return": 12.433899999999863,
+      "mean_steps": 444.6,
+      "mean_frames": 1777.0,
+      "mean_landings": 18.5,
+      "threshold_rates": {
+        "1000": 0.0,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.2,
+      "death_counts": {
+        "time_limit": 4,
+        "fall": 14,
+        "blackhole": 2
+      }
+    },
+    "policy_loss": -0.005766588728874922,
+    "value_loss": 0.8031980525702238,
+    "entropy": 0.6706785000860691,
+    "approx_kl": 0.0030350419983733445,
+    "clip_fraction": 0.03466796875,
+    "gradient_updates": 6256,
+    "recent_train_mean_height": 177.7761996896823,
+    "recent_train_mean_return": 11.65162000000001
+  },
+  {
+    "steps": 450560,
+    "frames": 1798718,
+    "seconds": 117.54153140000199,
+    "interactions_per_second": 3833.1983141066376,
+    "train_episodes": 2673,
+    "validation": {
+      "mean_score": 1873.7,
+      "median_score": 1881.0,
+      "mean_height": 225.05719356090054,
+      "median_height": 234.10783553142085,
+      "height_sd": 178.59714839733158,
+      "p10_height": 0.0,
+      "p90_height": 435.95549728471843,
+      "mean_return": 17.44784999999985,
+      "mean_steps": 489.15,
+      "mean_frames": 1955.3,
+      "mean_landings": 20.8,
+      "threshold_rates": {
+        "1000": 0.0,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.2,
+      "death_counts": {
+        "time_limit": 4,
+        "fall": 10,
+        "blackhole": 6
+      }
+    },
+    "policy_loss": -0.00381885573733598,
+    "value_loss": 1.6697201058268547,
+    "entropy": 0.642269391566515,
+    "approx_kl": 0.002286933668074198,
+    "clip_fraction": 0.02099609375,
+    "gradient_updates": 7040,
+    "recent_train_mean_height": 267.8429087664862,
+    "recent_train_mean_return": 16.90848000000001
+  },
+  {
+    "steps": 500736,
+    "frames": 1999147,
+    "seconds": 144.20884680000017,
+    "interactions_per_second": 3472.2973736448976,
+    "train_episodes": 2871,
+    "validation": {
+      "mean_score": 3044.95,
+      "median_score": 2896.0,
+      "mean_height": 511.11123933281704,
+      "median_height": 475.420108611327,
+      "height_sd": 387.1084298657094,
+      "p10_height": 138.5073079906914,
+      "p90_height": 834.993099301786,
+      "mean_return": 29.084349999999848,
+      "mean_steps": 415.15,
+      "mean_frames": 1659.45,
+      "mean_landings": 16.85,
+      "threshold_rates": {
+        "1000": 0.1,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.05,
+      "death_counts": {
+        "blackhole": 8,
+        "fall": 11,
+        "time_limit": 1
+      }
+    },
+    "policy_loss": -0.0009287316061090678,
+    "value_loss": 2.409955382347107,
+    "entropy": 0.47388358414173126,
+    "approx_kl": 0.0004345337947597727,
+    "clip_fraction": 0.000244140625,
+    "gradient_updates": 7824,
+    "recent_train_mean_height": 391.338124204811,
+    "recent_train_mean_return": 24.774689999999996
+  },
+  {
+    "steps": 550912,
+    "frames": 2199649,
+    "seconds": 177.83267220000198,
+    "interactions_per_second": 3097.92341972126,
+    "train_episodes": 3018,
+    "validation": {
+      "mean_score": 3290.45,
+      "median_score": 2886.0,
+      "mean_height": 512.8004689681935,
+      "median_height": 429.2314313421261,
+      "height_sd": 376.13010106705747,
+      "p10_height": 138.5073079906914,
+      "p90_height": 863.7948867339046,
+      "mean_return": 31.478399999999844,
+      "mean_steps": 576.1,
+      "mean_frames": 2303.0,
+      "mean_landings": 24.2,
+      "threshold_rates": {
+        "1000": 0.1,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.15,
+      "death_counts": {
+        "fall": 12,
+        "blackhole": 5,
+        "time_limit": 3
+      }
+    },
+    "policy_loss": -0.0009353095665574074,
+    "value_loss": 1.4724234342575073,
+    "entropy": 0.5754156298935413,
+    "approx_kl": 0.002338690057513304,
+    "clip_fraction": 0.023193359375,
+    "gradient_updates": 8608,
+    "recent_train_mean_height": 574.8753445306452,
+    "recent_train_mean_return": 32.39986
+  },
+  {
+    "steps": 600064,
+    "frames": 2396063,
+    "seconds": 211.3288418000011,
+    "interactions_per_second": 2839.4799067128415,
+    "train_episodes": 3159,
+    "validation": {
+      "mean_score": 2920.8,
+      "median_score": 2836.0,
+      "mean_height": 471.0669266873554,
+      "median_height": 324.8127889837096,
+      "height_sd": 426.6693497948206,
+      "p10_height": 124.65657719162228,
+      "p90_height": 929.5773475562469,
+      "mean_return": 27.736099999999613,
+      "mean_steps": 721.9,
+      "mean_frames": 2886.55,
+      "mean_landings": 30.75,
+      "threshold_rates": {
+        "1000": 0.1,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.25,
+      "death_counts": {
+        "time_limit": 5,
+        "fall": 12,
+        "blackhole": 3
+      }
+    },
+    "policy_loss": -0.004995658062398434,
+    "value_loss": 2.8459921181201935,
+    "entropy": 0.5747322030365467,
+    "approx_kl": 0.004094883493962698,
+    "clip_fraction": 0.0556640625,
+    "gradient_updates": 9376,
+    "recent_train_mean_height": 484.7647362296364,
+    "recent_train_mean_return": 28.595779999999866
+  },
+  {
+    "steps": 650240,
+    "frames": 2596594,
+    "seconds": 244.31650880000234,
+    "interactions_per_second": 2661.4656667850754,
+    "train_episodes": 3282,
+    "validation": {
+      "mean_score": 3347.4,
+      "median_score": 2985.0,
+      "mean_height": 529.9147711404203,
+      "median_height": 473.56526377036505,
+      "height_sd": 369.73112688900886,
+      "p10_height": 138.4012203258349,
+      "p90_height": 944.808022498063,
+      "mean_return": 32.005950000000176,
+      "mean_steps": 568.05,
+      "mean_frames": 2271.05,
+      "mean_landings": 24.3,
+      "threshold_rates": {
+        "1000": 0.1,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.1,
+      "death_counts": {
+        "blackhole": 6,
+        "fall": 12,
+        "time_limit": 2
+      }
+    },
+    "policy_loss": -0.0036093280650675297,
+    "value_loss": 1.4278003498911858,
+    "entropy": 0.4570980742573738,
+    "approx_kl": 0.0021338504884624854,
+    "clip_fraction": 0.024658203125,
+    "gradient_updates": 10160,
+    "recent_train_mean_height": 614.692719084563,
+    "recent_train_mean_return": 33.634829999999916
+  },
+  {
+    "steps": 700416,
+    "frames": 2797077,
+    "seconds": 277.3445634000018,
+    "interactions_per_second": 2525.4361989775907,
+    "train_episodes": 3451,
+    "validation": {
+      "mean_score": 3126.75,
+      "median_score": 2588.5,
+      "mean_height": 485.8698079906916,
+      "median_height": 329.0056167571768,
+      "height_sd": 368.0450976631519,
+      "p10_height": 138.3586501163702,
+      "p90_height": 1021.9330791311113,
+      "mean_return": 29.89360000000023,
+      "mean_steps": 523.9,
+      "mean_frames": 2094.15,
+      "mean_landings": 22.3,
+      "threshold_rates": {
+        "1000": 0.15,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.15,
+      "death_counts": {
+        "blackhole": 7,
+        "fall": 10,
+        "time_limit": 3
+      }
+    },
+    "policy_loss": -0.0030967582133598626,
+    "value_loss": 1.588169887661934,
+    "entropy": 0.5489484891295433,
+    "approx_kl": 0.002013987861573696,
+    "clip_fraction": 0.02490234375,
+    "gradient_updates": 10944,
+    "recent_train_mean_height": 510.3510506594269,
+    "recent_train_mean_return": 28.575899999999944
+  },
+  {
+    "steps": 750592,
+    "frames": 2997632,
+    "seconds": 310.78790110000045,
+    "interactions_per_second": 2415.1261916675653,
+    "train_episodes": 3577,
+    "validation": {
+      "mean_score": 2846.6,
+      "median_score": 2828.0,
+      "mean_height": 453.5934806051212,
+      "median_height": 476.2647556245156,
+      "height_sd": 259.9236466924991,
+      "p10_height": 138.5073079906914,
+      "p90_height": 714.4106159813821,
+      "mean_return": 27.112749999999984,
+      "mean_steps": 453.25,
+      "mean_frames": 1812.0,
+      "mean_landings": 18.85,
+      "threshold_rates": {
+        "1000": 0.05,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.1,
+      "death_counts": {
+        "blackhole": 6,
+        "fall": 12,
+        "time_limit": 2
+      }
+    },
+    "policy_loss": -0.0006380489212460816,
+    "value_loss": 2.148167662322521,
+    "entropy": 0.3756147623062134,
+    "approx_kl": 0.0021464705787366256,
+    "clip_fraction": 0.025390625,
+    "gradient_updates": 11728,
+    "recent_train_mean_height": 590.09127276959,
+    "recent_train_mean_return": 33.29828999999991
+  },
+  {
+    "steps": 800768,
+    "frames": 3198183,
+    "seconds": 345.1537974000021,
+    "interactions_per_second": 2320.032420422662,
+    "train_episodes": 3698,
+    "validation": {
+      "mean_score": 3909.1,
+      "median_score": 3095.5,
+      "mean_height": 666.5243269976738,
+      "median_height": 570.9091427463158,
+      "height_sd": 565.4815658009227,
+      "p10_height": 38.950582622188165,
+      "p90_height": 1329.6494732350684,
+      "mean_return": 37.64879999999963,
+      "mean_steps": 642.2,
+      "mean_frames": 2567.2,
+      "mean_landings": 27.6,
+      "threshold_rates": {
+        "1000": 0.35,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.2,
+      "death_counts": {
+        "blackhole": 3,
+        "fall": 13,
+        "time_limit": 4
+      }
+    },
+    "policy_loss": -0.007389200909528881,
+    "value_loss": 0.7344968840479851,
+    "entropy": 0.5659885890781879,
+    "approx_kl": 0.0024570793320890516,
+    "clip_fraction": 0.02587890625,
+    "gradient_updates": 12512,
+    "recent_train_mean_height": 568.4320103180771,
+    "recent_train_mean_return": 33.6656499999999
+  },
+  {
+    "steps": 850944,
+    "frames": 3398717,
+    "seconds": 379.11017730000094,
+    "interactions_per_second": 2244.5823165718475,
+    "train_episodes": 3822,
+    "validation": {
+      "mean_score": 3093.7,
+      "median_score": 3049.0,
+      "mean_height": 520.4615461598148,
+      "median_height": 570.3482971295591,
+      "height_sd": 380.15552826078726,
+      "p10_height": 124.2430380139641,
+      "p90_height": 1021.3681792086902,
+      "mean_return": 29.526000000000266,
+      "mean_steps": 561.0,
+      "mean_frames": 2242.8,
+      "mean_landings": 23.45,
+      "threshold_rates": {
+        "1000": 0.15,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.15,
+      "death_counts": {
+        "blackhole": 8,
+        "fall": 9,
+        "time_limit": 3
+      }
+    },
+    "policy_loss": -0.0037704251590184867,
+    "value_loss": 0.5731014274060726,
+    "entropy": 0.5342392027378082,
+    "approx_kl": 0.0031463892228202894,
+    "clip_fraction": 0.03466796875,
+    "gradient_updates": 13296,
+    "recent_train_mean_height": 551.4273610550825,
+    "recent_train_mean_return": 31.19199999999978
+  },
+  {
+    "steps": 900096,
+    "frames": 3595172,
+    "seconds": 414.09470070000316,
+    "interactions_per_second": 2173.6477150720348,
+    "train_episodes": 3939,
+    "validation": {
+      "mean_score": 2567.5,
+      "median_score": 1880.5,
+      "mean_height": 394.07241233514446,
+      "median_height": 187.38196276183135,
+      "height_sd": 480.9084694228416,
+      "p10_height": 0.0,
+      "p90_height": 762.6500961986055,
+      "mean_return": 24.356899999999264,
+      "mean_steps": 718.1,
+      "mean_frames": 2871.65,
+      "mean_landings": 30.0,
+      "threshold_rates": {
+        "1000": 0.1,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.4,
+      "death_counts": {
+        "fall": 11,
+        "time_limit": 8,
+        "blackhole": 1
+      }
+    },
+    "policy_loss": -0.0036770478764083236,
+    "value_loss": 1.5935715958476067,
+    "entropy": 0.5289543494582176,
+    "approx_kl": 0.005284045430016704,
+    "clip_fraction": 0.069091796875,
+    "gradient_updates": 14064,
+    "recent_train_mean_height": 605.8616304887523,
+    "recent_train_mean_return": 34.568349999999796
+  },
+  {
+    "steps": 950272,
+    "frames": 3795713,
+    "seconds": 447.08799,
+    "interactions_per_second": 2125.469753727896,
+    "train_episodes": 4063,
+    "validation": {
+      "mean_score": 3040.85,
+      "median_score": 2464.0,
+      "mean_height": 488.62038091543934,
+      "median_height": 324.83643910007777,
+      "height_sd": 402.9939025740455,
+      "p10_height": 121.5854406516687,
+      "p90_height": 1122.561621411949,
+      "mean_return": 29.179099999999995,
+      "mean_steps": 229.4,
+      "mean_frames": 916.55,
+      "mean_landings": 9.5,
+      "threshold_rates": {
+        "1000": 0.15,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.0,
+      "death_counts": {
+        "blackhole": 7,
+        "fall": 13
+      }
+    },
+    "policy_loss": -0.001537320378702134,
+    "value_loss": 1.1398317478597164,
+    "entropy": 0.5250417999923229,
+    "approx_kl": 0.0016843594057718292,
+    "clip_fraction": 0.010009765625,
+    "gradient_updates": 14848,
+    "recent_train_mean_height": 535.0898735453851,
+    "recent_train_mean_return": 30.502929999999665
+  },
+  {
+    "steps": 1000000,
+    "frames": 3994459,
+    "seconds": 478.87675650000165,
+    "interactions_per_second": 2088.219957278291,
+    "train_episodes": 4200,
+    "validation": {
+      "mean_score": 2944.75,
+      "median_score": 2726.0,
+      "mean_height": 453.5665806827008,
+      "median_height": 329.0056167571768,
+      "height_sd": 373.854801913323,
+      "p10_height": 0.0,
+      "p90_height": 818.5805942591179,
+      "mean_return": 28.154550000000075,
+      "mean_steps": 292.95,
+      "mean_frames": 1170.65,
+      "mean_landings": 11.15,
+      "threshold_rates": {
+        "1000": 0.05,
+        "3000": 0.0,
+        "6000": 0.0
+      },
+      "time_limit_rate": 0.0,
+      "death_counts": {
+        "fall": 18,
+        "blackhole": 2
+      }
+    },
+    "policy_loss": 0.004189274972304702,
+    "value_loss": 0.21591694528857866,
+    "entropy": 0.5636982470750809,
+    "approx_kl": 0.008233291717867056,
+    "clip_fraction": 0.1123046875,
+    "gradient_updates": 15628,
+    "recent_train_mean_height": 509.6800501939499,
+    "recent_train_mean_return": 28.98070000000001
+  }
+]

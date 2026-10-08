@@ -1,0 +1,24 @@
+{
+  "actualOriginalBrowser": true,
+  "viewport": {
+    "width": 1360,
+    "height": 720
+  },
+  "canvas": {
+    "width": 405,
+    "height": 720
+  },
+  "seed": 42,
+  "frames": 6000,
+  "score": 4884,
+  "maxError": 6.30961949354969e-12,
+  "gaps": [
+    {
+      "upperY": 293.4156710628396,
+      "lowerY": 446.85244375484916,
+      "distance": 153.43677269200958
+    }
+  ],
+  "normalJumpAscent": 113.6695112490303,
+  "springs": 0
+}

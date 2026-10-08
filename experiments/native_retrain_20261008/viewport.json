@@ -1,0 +1,14 @@
+{
+  "windowWidth": 683,
+  "windowHeight": 871,
+  "width": 683,
+  "height": 871,
+  "stepSize": 96,
+  "threshold": 300,
+  "jump": 5.507098525989139,
+  "gravity": 0.10811481768813033,
+  "platformHeight": 18.920093095422807,
+  "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+  "environment_version": "native-viewport-v2",
+  "source": "actual_codex_in_app_browser"
+}

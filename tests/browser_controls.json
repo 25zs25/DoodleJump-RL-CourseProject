@@ -1,0 +1,19 @@
+{
+  "errors": [],
+  "failed": [],
+  "assets": {
+    "left": true,
+    "right": true,
+    "spring": true,
+    "hole": true,
+    "width": 405,
+    "height": 720,
+    "FPS": 70
+  },
+  "manualRightMoved": true,
+  "manualLeftMoved": true,
+  "resetSame": true,
+  "pauseStable": true,
+  "desktopOverflow": false,
+  "mobileOverflow": false
+}

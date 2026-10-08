@@ -1,0 +1,481 @@
+{
+  "date": "2026-10-08",
+  "upstream": {
+    "commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+    "unchanged_files": 21
+  },
+  "training": {
+    "completed_runs": 12,
+    "decisions": 12000000,
+    "physics_frames": 47921935,
+    "compute": "CPU, one PyTorch thread per training process"
+  },
+  "evaluation": {
+    "learned_episodes": 3900,
+    "baseline_episodes": 600,
+    "test_used_for_checkpoint_selection": false
+  },
+  "original_oracle": {
+    "trajectories": 30,
+    "decisions": 20460,
+    "frames": 81803,
+    "special_cases": 7,
+    "all_passed": true
+  },
+  "algorithm_tests": {
+    "tests_run": 5,
+    "all_passed": true,
+    "note": "TD target selection, terminal masks, GAE reset/truncation and JSON export, already executed during implementation"
+  },
+  "browser_inference": {
+    "errors": [],
+    "failed": [],
+    "models": 12,
+    "comparisons": 4320,
+    "max_abs_error": 3.750138041880291e-06,
+    "argmax_mismatches": 0,
+    "demo": [
+      {
+        "kind": "good",
+        "score": 6421,
+        "height": 996.3432117920877,
+        "expected": 6421,
+        "frames": 6000
+      },
+      {
+        "kind": "failure",
+        "score": 1168,
+        "height": 193.8588052754074,
+        "expected": 1168,
+        "frames": 465
+      }
+    ],
+    "desktopOverflow": false,
+    "mobileOverflow": false
+  },
+  "browser_controls": {
+    "errors": [],
+    "failed": [],
+    "assets": {
+      "left": true,
+      "right": true,
+      "spring": true,
+      "hole": true,
+      "width": 405,
+      "height": 720,
+      "FPS": 70
+    },
+    "manualRightMoved": true,
+    "manualLeftMoved": true,
+    "resetSame": true,
+    "pauseStable": true,
+    "desktopOverflow": false,
+    "mobileOverflow": false
+  },
+  "live_recording": {
+    "model": "double_dqn_full_seed42_1000000",
+    "seed": 10006,
+    "real_browser_scheduled_draw": true,
+    "frames": 120,
+    "capture_milliseconds": [
+      540,
+      791,
+      1050,
+      1304,
+      1553,
+      1807,
+      2056,
+      2306,
+      2557,
+      2805,
+      3052,
+      3305,
+      3557,
+      3806,
+      4056,
+      4315,
+      4557,
+      4804,
+      5059,
+      5316,
+      5566,
+      5833,
+      6099,
+      6356,
+      6618,
+      6872,
+      7130,
+      7373,
+      7627,
+      7876,
+      8132,
+      8387,
+      8645,
+      8924,
+      9189,
+      9442,
+      9750,
+      10013,
+      10267,
+      10547,
+      10805,
+      11055,
+      11325,
+      11583,
+      11842,
+      12102,
+      12366,
+      12618,
+      12873,
+      13135,
+      13376,
+      13632,
+      13894,
+      14159,
+      14419,
+      14687,
+      14948,
+      15208,
+      15469,
+      15717,
+      15960,
+      16229,
+      16475,
+      16724,
+      16977,
+      17235,
+      17482,
+      17731,
+      17979,
+      18240,
+      18489,
+      18749,
+      19004,
+      19246,
+      19501,
+      19751,
+      20010,
+      20260,
+      20588,
+      20828,
+      21076,
+      21331,
+      21598,
+      21860,
+      22112,
+      22362,
+      22618,
+      22865,
+      23114,
+      23357,
+      23619,
+      23873,
+      24121,
+      24369,
+      24618,
+      24866,
+      25116,
+      25370,
+      25636,
+      25910,
+      26162,
+      26419,
+      26667,
+      26916,
+      27167,
+      27421,
+      27717,
+      27959,
+      28209,
+      28459,
+      28706,
+      28997,
+      29245,
+      29506,
+      29760,
+      30011,
+      30267,
+      30524,
+      30791,
+      31041
+    ],
+    "duration_ms": 31041,
+    "method": "Live p5 draw scheduling, no scripted actions or synchronous stepping"
+  },
+  "launcher": {
+    "http_status": 200,
+    "own_process_stopped": true,
+    "method": "start_game.ps1 -NoBrowser and stop_game.ps1, actual execution"
+  },
+  "presentation": {
+    "slides": 17,
+    "main_slides": 14,
+    "seconds": 780,
+    "sha256": "74abf3ee9d258eadd85b5e5dcae245a3804bcf16a0b124541a1346fda666471d",
+    "editable_tables": 9,
+    "editable_charts": 2,
+    "package_layout_workbook_import_passed": true,
+    "visual_review": "All 17 final slides inspected individually",
+    "native_powerpoint_opened": false
+  },
+  "demo_selector": {
+    "algorithms": 3,
+    "one_checkpoint_per_algorithm": true,
+    "selection_basis": "held-out validation score",
+    "all_training_runs_preserved": 12,
+    "browser_smoke": "tests/selector_simplified.json"
+  },
+  "legacy_note": "Existing training/evaluation/PPT are the historical fixed 405x720 experiment; not native-viewport-v2 performance.",
+  "native_viewport_v2": {
+    "upstream_files_unchanged": 21,
+    "browser": {
+      "runs": [
+        {
+          "viewport": {
+            "width": 1360,
+            "height": 1060
+          },
+          "seed": 42,
+          "initialPlatforms": 10,
+          "initialEqual": true,
+          "frames": 2000,
+          "allFramesEqual": true,
+          "canvas": {
+            "width": 596.25,
+            "height": 1060
+          }
+        },
+        {
+          "viewport": {
+            "width": 1360,
+            "height": 1060
+          },
+          "seed": 10003,
+          "initialPlatforms": 10,
+          "initialEqual": true,
+          "frames": 116,
+          "allFramesEqual": true,
+          "canvas": {
+            "width": 596.25,
+            "height": 1060
+          }
+        },
+        {
+          "viewport": {
+            "width": 1360,
+            "height": 1060
+          },
+          "seed": 20001,
+          "initialPlatforms": 10,
+          "initialEqual": true,
+          "frames": 2000,
+          "allFramesEqual": true,
+          "canvas": {
+            "width": 596.25,
+            "height": 1060
+          }
+        },
+        {
+          "viewport": {
+            "width": 1360,
+            "height": 720
+          },
+          "seed": 42,
+          "initialPlatforms": 9,
+          "initialEqual": true,
+          "frames": 696,
+          "allFramesEqual": true,
+          "canvas": {
+            "width": 405,
+            "height": 720
+          }
+        },
+        {
+          "viewport": {
+            "width": 1360,
+            "height": 720
+          },
+          "seed": 10003,
+          "initialPlatforms": 9,
+          "initialEqual": true,
+          "frames": 381,
+          "allFramesEqual": true,
+          "canvas": {
+            "width": 405,
+            "height": 720
+          }
+        },
+        {
+          "viewport": {
+            "width": 1360,
+            "height": 720
+          },
+          "seed": 20001,
+          "initialPlatforms": 9,
+          "initialEqual": true,
+          "frames": 564,
+          "allFramesEqual": true,
+          "canvas": {
+            "width": 405,
+            "height": 720
+          }
+        },
+        {
+          "viewport": {
+            "width": 1360,
+            "height": 844
+          },
+          "seed": 42,
+          "initialPlatforms": 10,
+          "initialEqual": true,
+          "frames": 2000,
+          "allFramesEqual": true,
+          "canvas": {
+            "width": 474.75,
+            "height": 844
+          }
+        },
+        {
+          "viewport": {
+            "width": 1360,
+            "height": 844
+          },
+          "seed": 10003,
+          "initialPlatforms": 10,
+          "initialEqual": true,
+          "frames": 107,
+          "allFramesEqual": true,
+          "canvas": {
+            "width": 474.75,
+            "height": 844
+          }
+        },
+        {
+          "viewport": {
+            "width": 1360,
+            "height": 844
+          },
+          "seed": 20001,
+          "initialPlatforms": 10,
+          "initialEqual": true,
+          "frames": 2000,
+          "allFramesEqual": true,
+          "canvas": {
+            "width": 474.75,
+            "height": 844
+          }
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "seed": 42,
+          "initialPlatforms": 10,
+          "initialEqual": true,
+          "frames": 2000,
+          "allFramesEqual": true,
+          "canvas": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "seed": 10003,
+          "initialPlatforms": 10,
+          "initialEqual": true,
+          "frames": 107,
+          "allFramesEqual": true,
+          "canvas": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "seed": 20001,
+          "initialPlatforms": 10,
+          "initialEqual": true,
+          "frames": 1220,
+          "allFramesEqual": true,
+          "canvas": {
+            "width": 390,
+            "height": 844
+          }
+        }
+      ],
+      "totalFrames": 13191,
+      "manualKeyboard": true,
+      "manualUnlimited": true,
+      "pauseStable": true,
+      "modelInference": true,
+      "independentReference": {
+        "frames": 1800,
+        "equal": true,
+        "viewport": {
+          "width": 1360,
+          "height": 1060,
+          "mobile": false
+        }
+      },
+      "errors": []
+    },
+    "python_actual_browser_parity": {
+      "actual_browser_viewports": 4,
+      "frames": 3096,
+      "all_passed": true,
+      "stale_scaling_rejected": true
+    },
+    "native_gap": {
+      "actualOriginalBrowser": true,
+      "viewport": {
+        "width": 1360,
+        "height": 720
+      },
+      "canvas": {
+        "width": 405,
+        "height": 720
+      },
+      "seed": 42,
+      "frames": 6000,
+      "score": 4884,
+      "maxError": 6.30961949354969e-12,
+      "gaps": [
+        {
+          "upperY": 293.4156710628396,
+          "lowerY": 446.85244375484916,
+          "distance": 153.43677269200958
+        }
+      ],
+      "normalJumpAscent": 113.6695112490303,
+      "springs": 0
+    },
+    "new_training": "3000-decision CUDA smoke test only; no formal new-window comparison",
+    "manual_controls_and_export": {
+      "nativeIframeKeyboard": true,
+      "outerDirectionButton": true,
+      "nativeTouch": true,
+      "downloadFilename": "native-viewport.json",
+      "downloadedGeometry": {
+        "windowWidth": 1360,
+        "windowHeight": 1060,
+        "width": 596.25,
+        "height": 1060,
+        "stepSize": 117,
+        "threshold": 300,
+        "jump": 6.7020946470131895,
+        "gravity": 0.13157486423584175,
+        "platformHeight": 23.025601241272305,
+        "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+        "environment_version": "native-viewport-v2"
+      }
+    }
+  }
+}

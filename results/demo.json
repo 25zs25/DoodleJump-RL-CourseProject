@@ -1,0 +1,42 @@
+{
+  "model": "native_v2_dqn_full_h128_seed59_1000000",
+  "algorithm": "dqn",
+  "selection": "argmax",
+  "viewport": [
+    683,
+    871
+  ],
+  "selection_note": "仅依据20张验证地图选展示案例：最高分和最低分死亡局，不用于测试统计。",
+  "good": {
+    "episode": {
+      "seed": 10019,
+      "score": 41949,
+      "height": 8619.236322730836,
+      "landings": 67,
+      "springs": 8,
+      "fragile_used": 2,
+      "death_reason": null,
+      "steps": 1500,
+      "frames": 6000,
+      "episode_return": 417.9900000000047,
+      "terminated": false,
+      "truncated": true
+    }
+  },
+  "failure": {
+    "episode": {
+      "seed": 10000,
+      "score": 1565,
+      "height": 127.24985259891474,
+      "landings": 4,
+      "springs": 0,
+      "fragile_used": 0,
+      "death_reason": "blackhole",
+      "steps": 73,
+      "frames": 290,
+      "episode_return": 14.577000000000012,
+      "terminated": true,
+      "truncated": false
+    }
+  }
+}

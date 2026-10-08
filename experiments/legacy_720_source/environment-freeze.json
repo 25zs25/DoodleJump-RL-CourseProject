@@ -1,0 +1,12 @@
+{
+  "version": "original-rules-v1",
+  "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+  "viewport": [
+    405,
+    720
+  ],
+  "hashes": {
+    "env.py": "5704e3f43078f7124a6bd0787f12c294122f15da89d4002e1921060e7ac028be",
+    "bridge-core.js": "37f3004cd71233b1a2273ced2dd649a13d0848212a6a294bd04e8ac28634c910"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "runs": [
+    {
+      "viewport": {
+        "width": 1360,
+        "height": 1060
+      },
+      "seed": 42,
+      "initialPlatforms": 10,
+      "initialEqual": true,
+      "frames": 2000,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 596.25,
+        "height": 1060
+      }
+    },
+    {
+      "viewport": {
+        "width": 1360,
+        "height": 1060
+      },
+      "seed": 10003,
+      "initialPlatforms": 10,
+      "initialEqual": true,
+      "frames": 116,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 596.25,
+        "height": 1060
+      }
+    },
+    {
+      "viewport": {
+        "width": 1360,
+        "height": 1060
+      },
+      "seed": 20001,
+      "initialPlatforms": 10,
+      "initialEqual": true,
+      "frames": 2000,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 596.25,
+        "height": 1060
+      }
+    },
+    {
+      "viewport": {
+        "width": 1360,
+        "height": 720
+      },
+      "seed": 42,
+      "initialPlatforms": 9,
+      "initialEqual": true,
+      "frames": 696,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 405,
+        "height": 720
+      }
+    },
+    {
+      "viewport": {
+        "width": 1360,
+        "height": 720
+      },
+      "seed": 10003,
+      "initialPlatforms": 9,
+      "initialEqual": true,
+      "frames": 381,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 405,
+        "height": 720
+      }
+    },
+    {
+      "viewport": {
+        "width": 1360,
+        "height": 720
+      },
+      "seed": 20001,
+      "initialPlatforms": 9,
+      "initialEqual": true,
+      "frames": 564,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 405,
+        "height": 720
+      }
+    },
+    {
+      "viewport": {
+        "width": 1360,
+        "height": 844
+      },
+      "seed": 42,
+      "initialPlatforms": 10,
+      "initialEqual": true,
+      "frames": 2000,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 474.75,
+        "height": 844
+      }
+    },
+    {
+      "viewport": {
+        "width": 1360,
+        "height": 844
+      },
+      "seed": 10003,
+      "initialPlatforms": 10,
+      "initialEqual": true,
+      "frames": 107,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 474.75,
+        "height": 844
+      }
+    },
+    {
+      "viewport": {
+        "width": 1360,
+        "height": 844
+      },
+      "seed": 20001,
+      "initialPlatforms": 10,
+      "initialEqual": true,
+      "frames": 2000,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 474.75,
+        "height": 844
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "seed": 42,
+      "initialPlatforms": 10,
+      "initialEqual": true,
+      "frames": 2000,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "seed": 10003,
+      "initialPlatforms": 10,
+      "initialEqual": true,
+      "frames": 107,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "seed": 20001,
+      "initialPlatforms": 10,
+      "initialEqual": true,
+      "frames": 1220,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "totalFrames": 13191,
+  "manualKeyboard": true,
+  "manualUnlimited": true,
+  "pauseStable": true,
+  "modelInference": true,
+  "independentReference": {
+    "frames": 1800,
+    "equal": true,
+    "viewport": {
+      "width": 1360,
+      "height": 1060,
+      "mobile": false
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "case": "spring",
+    "passed": true,
+    "frames": 12
+  },
+  {
+    "case": "fragile",
+    "passed": true,
+    "frames": 12
+  },
+  {
+    "case": "moving_boundary",
+    "passed": true,
+    "frames": 12
+  },
+  {
+    "case": "hole_death",
+    "passed": true,
+    "frames": 1
+  },
+  {
+    "case": "fall",
+    "passed": true,
+    "frames": 1
+  },
+  {
+    "case": "wrap",
+    "passed": true,
+    "frames": 12
+  },
+  {
+    "case": "scroll_and_splice",
+    "passed": true,
+    "frames": 12
+  }
+]

@@ -1,0 +1,7 @@
+# Exact versions used for the delivered CPU training/evaluation.
+# The local torch build included CUDA, but all project tensors stayed on CPU.
+numpy==1.26.4
+torch==2.5.1
+# Optional for analysis/replay figures:
+matplotlib==3.10.0
+Pillow==10.3.0

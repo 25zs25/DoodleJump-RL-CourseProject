@@ -1,0 +1,2925 @@
+[
+  {
+    "height": 720,
+    "seed": 42,
+    "score": 4884,
+    "max_height": 1003.7945694336695,
+    "jump_ascent": 113.66951124903025,
+    "gaps": [
+      {
+        "lower": {
+          "x": 201.10059728328108,
+          "y": 446.852443754849,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "upper": {
+          "x": 274.6665678642739,
+          "y": 293.41567106283946,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "gap": 153.43677269200953
+      }
+    ],
+    "platforms": [
+      {
+        "x": 237.39197225576459,
+        "y": -26.578743211791682,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 314.81363589172895,
+        "y": 50.92443754848761,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 270.4629333458745,
+        "y": 133.7787432117921,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 71.0483947391381,
+        "y": 214.26470131885216,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 274.6665678642739,
+        "y": 293.41567106283946,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 201.10059728328108,
+        "y": 446.852443754849,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 66.10059728328108,
+        "y": 452.7956555469358,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 138.71187420375645,
+        "y": 538.5154383242829,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 122.06110888501985,
+        "y": 611.9913110938716,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 280.4595360496836,
+        "y": 688.1036462373937,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 145.4595360496836,
+        "y": 689.5838634600469,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "snapshot": {
+      "width": 405.0,
+      "height": 720.0,
+      "x": 207.2243715351637,
+      "y": 323.2317020946502,
+      "vx": 4.022068965517241,
+      "vy": -1.692474786656323,
+      "direction": 1,
+      "score": 4884,
+      "rng": 3605525518,
+      "scroll": 1173.9574864235842,
+      "heightScore": 1003.7945694336695,
+      "platforms": [
+        {
+          "x": 145.4595360496836,
+          "y": 689.5838634600469,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 280.4595360496836,
+          "y": 688.1036462373937,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 122.06110888501985,
+          "y": 611.9913110938716,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 138.71187420375645,
+          "y": 538.5154383242829,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 66.10059728328108,
+          "y": 452.7956555469358,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 201.10059728328108,
+          "y": 446.852443754849,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 274.6665678642739,
+          "y": 293.41567106283946,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 71.0483947391381,
+          "y": 214.26470131885216,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 270.4629333458745,
+          "y": 133.7787432117921,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 314.81363589172895,
+          "y": 50.92443754848761,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 237.39197225576459,
+          "y": -26.578743211791682,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        }
+      ],
+      "hole": {
+        "x": 72.16656786427387,
+        "y": 290.7792086889062
+      },
+      "terminated": false,
+      "frames": 6000
+    }
+  },
+  {
+    "height": 720,
+    "seed": 10003,
+    "score": 1947,
+    "max_height": 195.8640806826998,
+    "jump_ascent": 113.66951124903025,
+    "gaps": [
+      {
+        "lower": {
+          "x": 172.60048337786554,
+          "y": 446.0269976726145,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "upper": {
+          "x": 274.8589453364578,
+          "y": 288.79193173002324,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "gap": 157.2350659425913
+      }
+    ],
+    "platforms": [
+      {
+        "x": 92.54433423380272,
+        "y": -33.973002327385394,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 90.139629429696,
+        "y": 46.02699767261452,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 91.73387994675832,
+        "y": 126.02699767261441,
+        "type": 5,
+        "vx": 2.0,
+        "springed": true,
+        "springX": -18.673957638082836,
+        "springY": -11.730023273855702
+      },
+      {
+        "x": 64.42728476095465,
+        "y": 203.26206361520568,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 334.42728476095465,
+        "y": 206.0269976726145,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 274.8589453364578,
+        "y": 288.79193173002324,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 172.60048337786554,
+        "y": 446.0269976726145,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 271.80710149998777,
+        "y": 526.0269976726146,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 232.2415480271046,
+        "y": 606.0269976726148,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 69.30480550985044,
+        "y": 683.2620636152059,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "snapshot": {
+      "width": 405.0,
+      "height": 720.0,
+      "x": 168.92689655172398,
+      "y": 363.4574150504301,
+      "vx": 0.0,
+      "vy": -3.3011636927851047,
+      "direction": 1,
+      "score": 1947,
+      "rng": 3666002630,
+      "scroll": 366.02699767261447,
+      "heightScore": 195.8640806826998,
+      "platforms": [
+        {
+          "x": 69.30480550985044,
+          "y": 683.2620636152059,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 232.2415480271046,
+          "y": 606.0269976726148,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 271.80710149998777,
+          "y": 526.0269976726146,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 172.60048337786554,
+          "y": 446.0269976726145,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 274.8589453364578,
+          "y": 288.79193173002324,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 334.42728476095465,
+          "y": 206.0269976726145,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 64.42728476095465,
+          "y": 203.26206361520568,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 91.73387994675832,
+          "y": 126.02699767261441,
+          "type": 5,
+          "vx": 2.0,
+          "springed": true,
+          "springX": -18.673957638082836,
+          "springY": -11.730023273855702
+        },
+        {
+          "x": 90.139629429696,
+          "y": 46.02699767261452,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 92.54433423380272,
+          "y": -33.973002327385394,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        }
+      ],
+      "hole": {
+        "x": 72.3589453364578,
+        "y": 286.0269976726144
+      },
+      "terminated": false,
+      "frames": 6000
+    }
+  },
+  {
+    "height": 720,
+    "seed": 10001,
+    "score": 2103,
+    "max_height": 195.8640806826998,
+    "jump_ascent": 113.66951124903025,
+    "gaps": [
+      {
+        "lower": {
+          "x": 311.7889043817313,
+          "y": 446.0269976726145,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "upper": {
+          "x": 330.6077258372117,
+          "y": 288.79193173002324,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "gap": 157.2350659425913
+      }
+    ],
+    "platforms": [
+      {
+        "x": 367.3232888380098,
+        "y": -33.973002327385394,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 31.05371636860394,
+        "y": 46.02699767261452,
+        "type": 5,
+        "vx": 2.0,
+        "springed": true,
+        "springX": -12.266386028237898,
+        "springY": -11.730023273855702
+      },
+      {
+        "x": 283.5511458810772,
+        "y": 123.26206361520556,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 148.55114588107722,
+        "y": 126.02699767261441,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 342.58968058248564,
+        "y": 206.0269976726145,
+        "type": 5,
+        "vx": 2.0,
+        "springed": true,
+        "springX": -14.451109912683226,
+        "springY": -11.730023273855702
+      },
+      {
+        "x": 60.60772583721172,
+        "y": 286.0269976726144,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 330.6077258372117,
+        "y": 288.79193173002324,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 311.7889043817313,
+        "y": 446.0269976726145,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 167.27407832063156,
+        "y": 526.0269976726146,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 147.0981577896144,
+        "y": 606.0269976726148,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 169.17889220245053,
+        "y": 683.2620636152059,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "snapshot": {
+      "width": 405.0,
+      "height": 720.0,
+      "x": 312.06856107925205,
+      "y": 363.4574150504301,
+      "vx": 0.0,
+      "vy": -3.3011636927851047,
+      "direction": 1,
+      "score": 2103,
+      "rng": 1107348268,
+      "scroll": 366.02699767261447,
+      "heightScore": 195.8640806826998,
+      "platforms": [
+        {
+          "x": 169.17889220245053,
+          "y": 683.2620636152059,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 147.0981577896144,
+          "y": 606.0269976726148,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 167.27407832063156,
+          "y": 526.0269976726146,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 311.7889043817313,
+          "y": 446.0269976726145,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 330.6077258372117,
+          "y": 288.79193173002324,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 60.60772583721172,
+          "y": 286.0269976726144,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 342.58968058248564,
+          "y": 206.0269976726145,
+          "type": 5,
+          "vx": 2.0,
+          "springed": true,
+          "springX": -14.451109912683226,
+          "springY": -11.730023273855702
+        },
+        {
+          "x": 148.55114588107722,
+          "y": 126.02699767261441,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 283.5511458810772,
+          "y": 123.26206361520556,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 31.05371636860394,
+          "y": 46.02699767261452,
+          "type": 5,
+          "vx": 2.0,
+          "springed": true,
+          "springX": -12.266386028237898,
+          "springY": -11.730023273855702
+        },
+        {
+          "x": 367.3232888380098,
+          "y": -33.973002327385394,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        }
+      ],
+      "hole": {
+        "x": 140.0896805824857,
+        "y": 203.26206361520568
+      },
+      "terminated": false,
+      "frames": 6000
+    }
+  },
+  {
+    "height": 720,
+    "seed": 10007,
+    "score": 1947,
+    "max_height": 195.8640806826998,
+    "jump_ascent": 113.66951124903025,
+    "gaps": [
+      {
+        "lower": {
+          "x": 200.42584046496657,
+          "y": 446.0269976726145,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "upper": {
+          "x": 334.3458198605282,
+          "y": 288.79193173002324,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "gap": 157.2350659425913
+      }
+    ],
+    "platforms": [
+      {
+        "x": 63.49280611025009,
+        "y": -33.973002327385394,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 247.25733907188385,
+        "y": 46.02699767261452,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 235.427141997345,
+        "y": 126.02699767261441,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 83.81961927401579,
+        "y": 203.26206361520568,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 353.8196192740158,
+        "y": 206.0269976726145,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 334.3458198605282,
+        "y": 288.79193173002324,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 200.42584046496657,
+        "y": 446.0269976726145,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 230.7326048123249,
+        "y": 526.0269976726146,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 309.4864749447764,
+        "y": 606.0269976726148,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 295.2174659991107,
+        "y": 683.2620636152059,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "snapshot": {
+      "width": 405.0,
+      "height": 720.0,
+      "x": 202.2912255019802,
+      "y": 363.4574150504301,
+      "vx": 0.0,
+      "vy": -3.3011636927851047,
+      "direction": 0,
+      "score": 1947,
+      "rng": 3734608145,
+      "scroll": 366.02699767261447,
+      "heightScore": 195.8640806826998,
+      "platforms": [
+        {
+          "x": 295.2174659991107,
+          "y": 683.2620636152059,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 309.4864749447764,
+          "y": 606.0269976726148,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 230.7326048123249,
+          "y": 526.0269976726146,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 200.42584046496657,
+          "y": 446.0269976726145,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 334.3458198605282,
+          "y": 288.79193173002324,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 353.8196192740158,
+          "y": 206.0269976726145,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 83.81961927401579,
+          "y": 203.26206361520568,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 235.427141997345,
+          "y": 126.02699767261441,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 247.25733907188385,
+          "y": 46.02699767261452,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 63.49280611025009,
+          "y": -33.973002327385394,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        }
+      ],
+      "hole": {
+        "x": 15.845819860528195,
+        "y": 286.0269976726144
+      },
+      "terminated": false,
+      "frames": 6000
+    }
+  },
+  {
+    "height": 720,
+    "seed": 10019,
+    "score": 2145,
+    "max_height": 195.8640806826998,
+    "jump_ascent": 113.66951124903025,
+    "gaps": [
+      {
+        "lower": {
+          "x": 358.05055408775485,
+          "y": 446.0269976726145,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "upper": {
+          "x": 304.8707021613734,
+          "y": 288.79193173002324,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "gap": 157.2350659425913
+      }
+    ],
+    "platforms": [
+      {
+        "x": 243.52793904562512,
+        "y": -33.973002327385394,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 269.26290669281775,
+        "y": 46.02699767261452,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 84.5710702358167,
+        "y": 126.02699767261441,
+        "type": 5,
+        "vx": 2.0,
+        "springed": true,
+        "springX": -20.74273206091904,
+        "springY": -11.730023273855702
+      },
+      {
+        "x": 380.2250706093418,
+        "y": 203.26206361520568,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 245.2250706093418,
+        "y": 206.0269976726145,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 34.8707021613734,
+        "y": 286.0269976726144,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 304.8707021613734,
+        "y": 288.79193173002324,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 358.05055408775485,
+        "y": 446.0269976726145,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 338.36930083465796,
+        "y": 526.0269976726146,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 210.68520598995886,
+        "y": 606.0269976726148,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 339.6617789135539,
+        "y": 683.2620636152059,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "snapshot": {
+      "width": 405.0,
+      "height": 720.0,
+      "x": 315.5168870415542,
+      "y": 363.4574150504301,
+      "vx": -4.022068965517241,
+      "vy": -3.3011636927851047,
+      "direction": 0,
+      "score": 2145,
+      "rng": 4272966456,
+      "scroll": 366.02699767261447,
+      "heightScore": 195.8640806826998,
+      "platforms": [
+        {
+          "x": 339.6617789135539,
+          "y": 683.2620636152059,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 210.68520598995886,
+          "y": 606.0269976726148,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 338.36930083465796,
+          "y": 526.0269976726146,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 358.05055408775485,
+          "y": 446.0269976726145,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 304.8707021613734,
+          "y": 288.79193173002324,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 34.8707021613734,
+          "y": 286.0269976726144,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 245.2250706093418,
+          "y": 206.0269976726145,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 380.2250706093418,
+          "y": 203.26206361520568,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 84.5710702358167,
+          "y": 126.02699767261441,
+          "type": 5,
+          "vx": 2.0,
+          "springed": true,
+          "springX": -20.74273206091904,
+          "springY": -11.730023273855702
+        },
+        {
+          "x": 269.26290669281775,
+          "y": 46.02699767261452,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 243.52793904562512,
+          "y": -33.973002327385394,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        }
+      ],
+      "hole": {
+        "x": 287.0710702358167,
+        "y": 123.26206361520556
+      },
+      "terminated": false,
+      "frames": 6000
+    }
+  },
+  {
+    "height": 900,
+    "seed": 42,
+    "score": 4559,
+    "max_height": 1251.5709852598884,
+    "jump_ascent": 142.0868890612876,
+    "gaps": [
+      {
+        "lower": {
+          "x": 251.37574660410132,
+          "y": 481.5104732350635,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "upper": {
+          "x": 343.33320983034224,
+          "y": 291.5508145849469,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "gap": 189.95965865011658
+      }
+    ],
+    "platforms": [
+      {
+        "x": 376.01704486466116,
+        "y": -20.053529868117067,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 338.07866668234306,
+        "y": 94.58805275407046,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 257.09022840362536,
+        "y": 188.93948797517203,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 343.33320983034224,
+        "y": 291.5508145849469,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 251.37574660410132,
+        "y": 481.5104732350635,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 82.62574660410132,
+        "y": 487.7106283941015,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 173.38984275469556,
+        "y": 587.8223429014714,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 326.57638610627475,
+        "y": 694.5252133436746,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 350.57442006210454,
+        "y": 783.0744763382443,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 181.8244200621045,
+        "y": 787.0403413498813,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 155.23829577548895,
+        "y": 883.5841737781204,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "snapshot": {
+      "width": 506.25,
+      "height": 900.0,
+      "x": 259.03046441895464,
+      "y": 364.73632273084337,
+      "vx": 5.027586206896552,
+      "vy": -3.7913110938712142,
+      "direction": 1,
+      "score": 4559,
+      "rng": 3787396177,
+      "scroll": 1389.2746314972817,
+      "heightScore": 1251.5709852598884,
+      "platforms": [
+        {
+          "x": 155.23829577548895,
+          "y": 883.5841737781204,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 181.8244200621045,
+          "y": 787.0403413498813,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 350.57442006210454,
+          "y": 783.0744763382443,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 326.57638610627475,
+          "y": 694.5252133436746,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 173.38984275469556,
+          "y": 587.8223429014714,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 82.62574660410132,
+          "y": 487.7106283941015,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 251.37574660410132,
+          "y": 481.5104732350635,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 343.33320983034224,
+          "y": 291.5508145849469,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 257.09022840362536,
+          "y": 188.93948797517203,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 338.07866668234306,
+          "y": 94.58805275407046,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 376.01704486466116,
+          "y": -20.053529868117067,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        }
+      ],
+      "hole": {
+        "x": 3.9652284036253604,
+        "y": 185.0364623739308
+      },
+      "terminated": false,
+      "frames": 6000
+    }
+  },
+  {
+    "height": 900,
+    "seed": 10003,
+    "score": 1587,
+    "max_height": 241.99301784328856,
+    "jump_ascent": 142.0868890612876,
+    "gaps": [
+      {
+        "lower": {
+          "x": 215.75060422233193,
+          "y": 479.69666408068184,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "upper": {
+          "x": 343.5736816705722,
+          "y": 283.9348332040332,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "gap": 195.76183087664862
+      }
+    ],
+    "platforms": [
+      {
+        "x": 112.67453678711999,
+        "y": -20.415050426688055,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 114.6673499334479,
+        "y": 79.80837858805195,
+        "type": 5,
+        "vx": 2.0,
+        "springed": true,
+        "springX": -23.342447047603542,
+        "springY": -14.662529092319629
+      },
+      {
+        "x": 80.53410595119317,
+        "y": 175.45849495733046,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 418.0341059511932,
+        "y": 179.58494957331186,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 343.5736816705722,
+        "y": 283.9348332040332,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 215.75060422233193,
+        "y": 479.69666408068184,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 339.75887687498465,
+        "y": 579.6966640806819,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 259.30193503388074,
+        "y": 679.696664080682,
+        "type": 2,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 86.63100688731305,
+        "y": 779.696664080682,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 450.0332512234032,
+        "y": 875.5702094647007,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "snapshot": {
+      "width": 506.25,
+      "height": 900.0,
+      "x": 211.15862068965532,
+      "y": 436.21238169128014,
+      "vx": 0.0,
+      "vy": -5.467028704422032,
+      "direction": 1,
+      "score": 1587,
+      "rng": 1068118569,
+      "scroll": 379.6966640806819,
+      "heightScore": 241.99301784328856,
+      "platforms": [
+        {
+          "x": 450.0332512234032,
+          "y": 875.5702094647007,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 86.63100688731305,
+          "y": 779.696664080682,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 259.30193503388074,
+          "y": 679.696664080682,
+          "type": 2,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 339.75887687498465,
+          "y": 579.6966640806819,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 215.75060422233193,
+          "y": 479.69666408068184,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 343.5736816705722,
+          "y": 283.9348332040332,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 418.0341059511932,
+          "y": 179.58494957331186,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 80.53410595119317,
+          "y": 175.45849495733046,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 114.6673499334479,
+          "y": 79.80837858805195,
+          "type": 5,
+          "vx": 2.0,
+          "springed": true,
+          "springX": -23.342447047603542,
+          "springY": -14.662529092319629
+        },
+        {
+          "x": 112.67453678711999,
+          "y": -20.415050426688055,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        }
+      ],
+      "hole": {
+        "x": 90.44868167057223,
+        "y": 279.6966640806819
+      },
+      "terminated": false,
+      "frames": 6000
+    }
+  },
+  {
+    "height": 900,
+    "seed": 10001,
+    "score": 1707,
+    "max_height": 242.43987587276877,
+    "jump_ascent": 142.0868890612876,
+    "gaps": [
+      {
+        "lower": {
+          "x": 389.73613047716407,
+          "y": 480.1435221101621,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "upper": {
+          "x": 413.25965729651466,
+          "y": 284.26997672614345,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "gap": 195.87354538401866
+      }
+    ],
+    "platforms": [
+      {
+        "x": 38.81714546075492,
+        "y": -19.856477889837862,
+        "type": 5,
+        "vx": 2.0,
+        "springed": true,
+        "springX": -15.332982535297374,
+        "springY": -14.662529092319629
+      },
+      {
+        "x": 354.4389323513465,
+        "y": 75.90535298681071,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 185.68893235134652,
+        "y": 80.03180760279209,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 428.237100728107,
+        "y": 180.2552366175321,
+        "type": 5,
+        "vx": 2.0,
+        "springed": true,
+        "springX": -18.06388739085403,
+        "springY": -14.662529092319629
+      },
+      {
+        "x": 75.75965729651466,
+        "y": 280.1435221101621,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 413.25965729651466,
+        "y": 284.26997672614345,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 389.73613047716407,
+        "y": 480.1435221101621,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 209.09259790078946,
+        "y": 580.143522110162,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 183.87269723701797,
+        "y": 680.143522110162,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 211.47361525306317,
+        "y": 780.1435221101622,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 72.05662841032108,
+        "y": 876.0170674941808,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "snapshot": {
+      "width": 506.25,
+      "height": 900.0,
+      "x": 390.0857013490655,
+      "y": 446.0354383243298,
+      "vx": 0.0,
+      "vy": 6.395934833204038,
+      "direction": 1,
+      "score": 1707,
+      "rng": 1075774839,
+      "scroll": 380.1435221101621,
+      "heightScore": 242.43987587276877,
+      "platforms": [
+        {
+          "x": 72.05662841032108,
+          "y": 876.0170674941808,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 211.47361525306317,
+          "y": 780.1435221101622,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 183.87269723701797,
+          "y": 680.143522110162,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 209.09259790078946,
+          "y": 580.143522110162,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 389.73613047716407,
+          "y": 480.1435221101621,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 413.25965729651466,
+          "y": 284.26997672614345,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 75.75965729651466,
+          "y": 280.1435221101621,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 428.237100728107,
+          "y": 180.2552366175321,
+          "type": 5,
+          "vx": 2.0,
+          "springed": true,
+          "springX": -18.06388739085403,
+          "springY": -14.662529092319629
+        },
+        {
+          "x": 185.68893235134652,
+          "y": 80.03180760279209,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 354.4389323513465,
+          "y": 75.90535298681071,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 38.81714546075492,
+          "y": -19.856477889837862,
+          "type": 5,
+          "vx": 2.0,
+          "springed": true,
+          "springX": -15.332982535297374,
+          "springY": -14.662529092319629
+        }
+      ],
+      "hole": {
+        "x": 175.11210072810695,
+        "y": 176.01706749418065
+      },
+      "terminated": false,
+      "frames": 6000
+    }
+  },
+  {
+    "height": 900,
+    "seed": 10007,
+    "score": 1587,
+    "max_height": 242.43987587276877,
+    "jump_ascent": 142.0868890612876,
+    "gaps": [
+      {
+        "lower": {
+          "x": 250.5323005812082,
+          "y": 480.1435221101621,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "upper": {
+          "x": 90.93227482566022,
+          "y": 284.26997672614345,
+          "type": 2,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "gap": 195.87354538401866
+      }
+    ],
+    "platforms": [
+      {
+        "x": 309.0716738398548,
+        "y": -19.856477889837862,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 294.2839274966812,
+        "y": 80.03180760279209,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 104.77452409251964,
+        "y": 176.01706749418065,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 442.27452409251964,
+        "y": 180.2552366175321,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 90.93227482566022,
+        "y": 284.26997672614345,
+        "type": 2,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 250.5323005812082,
+        "y": 480.1435221101621,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 257.4157560154061,
+        "y": 580.143522110162,
+        "type": 2,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 386.85809368097046,
+        "y": 680.143522110162,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 369.02183249888833,
+        "y": 780.1435221101622,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 134.20937263555345,
+        "y": 876.0170674941808,
+        "type": 2,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "snapshot": {
+      "width": 506.25,
+      "height": 900.0,
+      "x": 252.86403187747493,
+      "y": 446.0354383243298,
+      "vx": 0.0,
+      "vy": 6.395934833204038,
+      "direction": 1,
+      "score": 1587,
+      "rng": 3298113416,
+      "scroll": 380.1435221101621,
+      "heightScore": 242.43987587276877,
+      "platforms": [
+        {
+          "x": 134.20937263555345,
+          "y": 876.0170674941808,
+          "type": 2,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 369.02183249888833,
+          "y": 780.1435221101622,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 386.85809368097046,
+          "y": 680.143522110162,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 257.4157560154061,
+          "y": 580.143522110162,
+          "type": 2,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 250.5323005812082,
+          "y": 480.1435221101621,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 90.93227482566022,
+          "y": 284.26997672614345,
+          "type": 2,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 442.27452409251964,
+          "y": 180.2552366175321,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 104.77452409251964,
+          "y": 176.01706749418065,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 294.2839274966812,
+          "y": 80.03180760279209,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 309.0716738398548,
+          "y": -19.856477889837862,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        }
+      ],
+      "hole": {
+        "x": 19.807274825660215,
+        "y": 280.1435221101621
+      },
+      "terminated": false,
+      "frames": 6000
+    }
+  },
+  {
+    "height": 900,
+    "seed": 10019,
+    "score": 1749,
+    "max_height": 241.99301784328856,
+    "jump_ascent": 142.0868890612876,
+    "gaps": [
+      {
+        "lower": {
+          "x": 101.5631926096936,
+          "y": 479.69666408068184,
+          "type": 2,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "upper": {
+          "x": 381.0883777017167,
+          "y": 283.9348332040332,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        "gap": 195.76183087664862
+      }
+    ],
+    "platforms": [
+      {
+        "x": 187.0786333660222,
+        "y": -20.415050426688055,
+        "type": 2,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 105.71383779477088,
+        "y": 79.80837858805195,
+        "type": 5,
+        "vx": 2.0,
+        "springed": true,
+        "springX": -25.928415076148795,
+        "springY": -14.662529092319629
+      },
+      {
+        "x": 475.2813382616772,
+        "y": 175.45849495733046,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 306.5313382616772,
+        "y": 179.58494957331186,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 43.588377701716695,
+        "y": 279.6966640806819,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 381.0883777017167,
+        "y": 283.9348332040332,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 101.5631926096936,
+        "y": 479.69666408068184,
+        "type": 2,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 36.96162604332244,
+        "y": 579.6966640806819,
+        "type": 2,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 263.35650748744854,
+        "y": 679.696664080682,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 424.5772236419424,
+        "y": 779.696664080682,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 177.02939054271374,
+        "y": 875.5702094647007,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "snapshot": {
+      "width": 506.25,
+      "height": 900.0,
+      "x": 92.74093638814998,
+      "y": 436.21238169128014,
+      "vx": 0.0,
+      "vy": -5.467028704422032,
+      "direction": 0,
+      "score": 1749,
+      "rng": 4289580627,
+      "scroll": 379.6966640806819,
+      "heightScore": 241.99301784328856,
+      "platforms": [
+        {
+          "x": 177.02939054271374,
+          "y": 875.5702094647007,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 424.5772236419424,
+          "y": 779.696664080682,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 263.35650748744854,
+          "y": 679.696664080682,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 36.96162604332244,
+          "y": 579.6966640806819,
+          "type": 2,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 101.5631926096936,
+          "y": 479.69666408068184,
+          "type": 2,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 381.0883777017167,
+          "y": 283.9348332040332,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 43.588377701716695,
+          "y": 279.6966640806819,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 306.5313382616772,
+          "y": 179.58494957331186,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 475.2813382616772,
+          "y": 175.45849495733046,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 105.71383779477088,
+          "y": 79.80837858805195,
+          "type": 5,
+          "vx": 2.0,
+          "springed": true,
+          "springX": -25.928415076148795,
+          "springY": -14.662529092319629
+        },
+        {
+          "x": 187.0786333660222,
+          "y": -20.415050426688055,
+          "type": 2,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        }
+      ],
+      "hole": {
+        "x": 358.8388377947709,
+        "y": 75.57020946470051
+      },
+      "terminated": false,
+      "frames": 6000
+    }
+  },
+  {
+    "height": 1060,
+    "seed": 10001,
+    "score": 40127,
+    "max_height": 10823.962916989913,
+    "jump_ascent": 167.34678044996133,
+    "gaps": [],
+    "platforms": [
+      {
+        "x": 477.6649400484668,
+        "y": -71.50038789759274,
+        "type": 2,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 483.09589045914095,
+        "y": 46.00124127230696,
+        "type": 2,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 378.5275079946331,
+        "y": 175.7722265321974,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 498.29950932974947,
+        "y": 276.26780449961365,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 299.54950932974947,
+        "y": 279.94367726920245,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 160.07826281019993,
+        "y": 394.36974398759037,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 145.23102950199572,
+        "y": 514.0505818463951,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 439.73665315653034,
+        "y": 647.2096198603579,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 267.53119509184637,
+        "y": 747.4256012412758,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 441.12744041596716,
+        "y": 850.3388673390242,
+        "type": 2,
+        "vx": -2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 246.5268326064608,
+        "y": 995.3231962761841,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 47.776832606460786,
+        "y": 996.1126454615993,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "snapshot": {
+      "width": 596.25,
+      "height": 1060.0,
+      "x": 158.0679310344824,
+      "y": 352.7039565554692,
+      "vx": 0.0,
+      "vy": 4.208093095422803,
+      "direction": 1,
+      "score": 40127,
+      "rng": 1199932846,
+      "scroll": 11044.36943366951,
+      "heightScore": 10823.962916989913,
+      "platforms": [
+        {
+          "x": 47.776832606460786,
+          "y": 996.1126454615993,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 246.5268326064608,
+          "y": 995.3231962761841,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 441.12744041596716,
+          "y": 850.3388673390242,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 267.53119509184637,
+          "y": 747.4256012412758,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 240.98665315653037,
+          "y": 651.1486423584183,
+          "type": 0,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 439.73665315653034,
+          "y": 647.2096198603579,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 145.23102950199572,
+          "y": 514.0505818463951,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 160.07826281019993,
+          "y": 394.36974398759037,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 299.54950932974947,
+          "y": 279.94367726920245,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 498.29950932974947,
+          "y": 276.26780449961365,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 378.5275079946331,
+          "y": 175.7722265321974,
+          "type": 2,
+          "vx": -2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 483.09589045914095,
+          "y": 46.00124127230696,
+          "type": 2,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 477.6649400484668,
+          "y": -71.50038789759274,
+          "type": 2,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        }
+      ],
+      "hole": {
+        "x": 565.6561950918464,
+        "y": 745.1970519782813
+      },
+      "terminated": false,
+      "frames": 6000
+    }
+  },
+  {
+    "height": 1060,
+    "seed": 10019,
+    "score": 45949,
+    "max_height": 12031.754383242816,
+    "jump_ascent": 167.34678044996133,
+    "gaps": [],
+    "platforms": [
+      {
+        "x": 97.14413490497452,
+        "y": -39.84359968968582,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 490.69621938298627,
+        "y": 56.89387121799521,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 588.3348542857084,
+        "y": 191.99363847943653,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 389.58485428570845,
+        "y": 195.40636152055367,
+        "type": 3,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 226.43582052647756,
+        "y": 319.84856477889497,
+        "type": 5,
+        "vx": 2.0,
+        "springed": true,
+        "springX": -32.850628106874126,
+        "springY": -17.269200930954227
+      },
+      {
+        "x": 104.94482853832446,
+        "y": 441.9964313421203,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 402.88041570776045,
+        "y": 556.8089992241996,
+        "type": 2,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 370.48781169371296,
+        "y": 671.547556245147,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 120.73704497409577,
+        "y": 774.9542280837819,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 168.29560002533253,
+        "y": 905.3173002327349,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 342.57511231478844,
+        "y": 1016.5691233514323,
+        "type": 5,
+        "vx": 2.0,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "snapshot": {
+      "width": 596.25,
+      "height": 1060.0,
+      "x": 199.51758620689623,
+      "y": 300.0,
+      "vx": 5.921379310344828,
+      "vy": -4.333747090768039,
+      "direction": 1,
+      "score": 45949,
+      "rng": 575274917,
+      "scroll": 12252.160899922414,
+      "heightScore": 12031.754383242816,
+      "platforms": [
+        {
+          "x": 342.57511231478844,
+          "y": 1016.5691233514323,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 168.29560002533253,
+          "y": 905.3173002327349,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 120.73704497409577,
+          "y": 774.9542280837819,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 370.48781169371296,
+          "y": 671.547556245147,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 402.88041570776045,
+          "y": 556.8089992241996,
+          "type": 2,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 104.94482853832446,
+          "y": 441.9964313421203,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 226.43582052647756,
+          "y": 319.84856477889497,
+          "type": 5,
+          "vx": 2.0,
+          "springed": true,
+          "springX": -32.850628106874126,
+          "springY": -17.269200930954227
+        },
+        {
+          "x": 389.58485428570845,
+          "y": 195.40636152055367,
+          "type": 3,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 588.3348542857084,
+          "y": 191.99363847943653,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 490.69621938298627,
+          "y": 56.89387121799521,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        },
+        {
+          "x": 97.14413490497452,
+          "y": -39.84359968968582,
+          "type": 5,
+          "vx": 2.0,
+          "springed": false,
+          "springX": null,
+          "springY": null
+        }
+      ],
+      "hole": {
+        "x": 192.57121938298633,
+        "y": 55.84949573312322
+      },
+      "terminated": false,
+      "frames": 6000
+    }
+  }
+]

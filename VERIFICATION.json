@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-08",
+  "environment_version": "native-viewport-v2",
+  "upstream": {
+    "commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+    "unchanged_files": 21
+  },
+  "training": {
+    "completed_runs": 12,
+    "decisions": 12000000,
+    "physics_frames": 47938132,
+    "hidden": 128,
+    "compute": "CPU, three concurrent processes, one Torch thread each",
+    "viewport": [
+      683,
+      871
+    ]
+  },
+  "evaluation": {
+    "learned_episodes": 3900,
+    "baseline_episodes": 600,
+    "legacy_episodes": 900,
+    "test_used_for_checkpoint_selection": false
+  },
+  "protocol_sha256": "66cc856881e1d5cf00dde471919b5ee0895f4ae9a7a4394fc9a02ad3ce6005c4",
+  "native_browser_parity": {
+    "runs": [
+      {
+        "viewport": {
+          "width": 683,
+          "height": 871
+        },
+        "seed": 42,
+        "initialPlatforms": 10,
+        "initialEqual": true,
+        "frames": 2000,
+        "allFramesEqual": true,
+        "canvas": {
+          "width": 683,
+          "height": 871
+        }
+      },
+      {
+        "viewport": {
+          "width": 683,
+          "height": 871
+        },
+        "seed": 10003,
+        "initialPlatforms": 10,
+        "initialEqual": true,
+        "frames": 202,
+        "allFramesEqual": true,
+        "canvas": {
+          "width": 683,
+          "height": 871
+        }
+      },
+      {
+        "viewport": {
+          "width": 683,
+          "height": 871
+        },
+        "seed": 20001,
+        "initialPlatforms": 10,
+        "initialEqual": true,
+        "frames": 2000,
+        "allFramesEqual": true,
+        "canvas": {
+          "width": 683,
+          "height": 871
+        }
+      }
+    ],
+    "totalFrames": 4202,
+    "manualKeyboard": true,
+    "manualUnlimited": true,
+    "pauseStable": true,
+    "modelInference": true,
+    "independentReference": {
+      "frames": 1800,
+      "equal": true,
+      "viewport": {
+        "width": 1360,
+        "height": 1060,
+        "mobile": false
+      }
+    },
+    "errors": []
+  },
+  "native_python_parity": {
+    "actual_browser_viewports": 1,
+    "frames": 800,
+    "all_passed": true,
+    "stale_scaling_rejected": true
+  },
+  "algorithm_tests": {
+    "tests_run": 5,
+    "all_passed": true
+  },
+  "browser_inference": {
+    "errors": [],
+    "failed": [],
+    "models": 12,
+    "comparisons": 4320,
+    "max_abs_error": 1.1491902352389616e-05,
+    "argmax_mismatches": 0,
+    "viewport": [
+      683,
+      871
+    ],
+    "demo": [
+      {
+        "kind": "good",
+        "decisions": 1500,
+        "score": 41949,
+        "height": 8619.236322730836,
+        "maxHeightError": 0
+      },
+      {
+        "kind": "failure",
+        "decisions": 73,
+        "score": 1565,
+        "height": 127.24985259891474,
+        "maxHeightError": 0
+      }
+    ],
+    "live": {
+      "seconds": 26.412,
+      "frames": 81,
+      "phase": "running",
+      "score": 10668,
+      "height": 1906.5967649340625
+    },
+    "desktopOverflow": false,
+    "mobileOverflow": false,
+    "options": [
+      "手动试玩（原版控制）",
+      "随机动作（未训练）",
+      "Double DQN（当前窗口重训）",
+      "DQN（当前窗口重训）",
+      "PPO（当前窗口重训）"
+    ]
+  },
+  "presentation": {
+    "slides": 17,
+    "main_slides": 14,
+    "seconds": 780,
+    "sha256": "0ee3ce31c8ced5931e05c046018410db7230835c3d6e16672ac9c541a04055f2",
+    "editable_tables": 10,
+    "editable_charts": 2,
+    "package_layout_workbook_import_passed": true,
+    "visual_review": "All 17 final slides inspected individually",
+    "native_powerpoint_opened": false
+  }
+}

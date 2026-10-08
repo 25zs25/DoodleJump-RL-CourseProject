@@ -1,0 +1,2531 @@
+{
+  "protocol": "native-viewport-v2-128-20261008",
+  "budget": 1000000,
+  "training_seeds": [
+    42,
+    59,
+    143
+  ],
+  "viewport": [
+    683,
+    871
+  ],
+  "conditions": [
+    {
+      "name": "native",
+      "viewport": {
+        "windowWidth": 683,
+        "windowHeight": 871,
+        "width": 683,
+        "height": 871,
+        "stepSize": 96,
+        "threshold": 300,
+        "jump": 5.507098525989139,
+        "gravity": 0.10811481768813035,
+        "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+        "environment_version": "native-viewport-v2"
+      },
+      "seed_start": 61000,
+      "episodes": 100,
+      "file": "viewport_native.json"
+    },
+    {
+      "name": "desktop",
+      "viewport": {
+        "windowWidth": 1360,
+        "windowHeight": 1060,
+        "width": 596.25,
+        "height": 1060,
+        "stepSize": 117,
+        "threshold": 300,
+        "jump": 6.702094647013189,
+        "gravity": 0.13157486423584172,
+        "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+        "environment_version": "native-viewport-v2"
+      },
+      "seed_start": 62000,
+      "episodes": 100,
+      "file": "viewport_desktop.json"
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "windowWidth": 390,
+        "windowHeight": 844,
+        "width": 390,
+        "height": 844,
+        "stepSize": 93,
+        "threshold": 300,
+        "jump": 5.336384794414275,
+        "gravity": 0.1047633824670287,
+        "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+        "environment_version": "native-viewport-v2"
+      },
+      "seed_start": 63000,
+      "episodes": 100,
+      "file": "viewport_mobile.json"
+    }
+  ],
+  "main": [
+    {
+      "algorithm": "dqn",
+      "label": "DQN",
+      "mode": "native",
+      "mean": 18476.5,
+      "sd": 1145.5572228832568,
+      "height": 3737.74844096201,
+      "score_ge_3000": 0.8366666666666667,
+      "truncated": 0.19666666666666666,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 19.7%"
+    },
+    {
+      "algorithm": "dqn",
+      "label": "DQN",
+      "mode": "desktop",
+      "mean": 19202.969999999998,
+      "sd": 743.3991239569756,
+      "height": 4664.087704163433,
+      "score_ge_3000": 0.8233333333333334,
+      "truncated": 0.25666666666666665,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 25.7%"
+    },
+    {
+      "algorithm": "dqn",
+      "label": "DQN",
+      "mode": "mobile",
+      "mean": 14150.886666666667,
+      "sd": 1447.3751939747121,
+      "height": 2685.1807412464423,
+      "score_ge_3000": 0.7833333333333333,
+      "truncated": 0.08333333333333333,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 8.3%"
+    },
+    {
+      "algorithm": "double_dqn",
+      "label": "Double DQN",
+      "mode": "native",
+      "mean": 18584.153333333332,
+      "sd": 1969.6536145813388,
+      "height": 3744.323169019934,
+      "score_ge_3000": 0.8566666666666667,
+      "truncated": 0.19666666666666666,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 19.7%"
+    },
+    {
+      "algorithm": "double_dqn",
+      "label": "Double DQN",
+      "mode": "desktop",
+      "mean": 16636.5,
+      "sd": 1931.5840838286076,
+      "height": 4008.9786552883356,
+      "score_ge_3000": 0.77,
+      "truncated": 0.21,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 21.0%"
+    },
+    {
+      "algorithm": "double_dqn",
+      "label": "Double DQN",
+      "mode": "mobile",
+      "mean": 14735.089999999998,
+      "sd": 1057.8236448482326,
+      "height": 2811.778315490041,
+      "score_ge_3000": 0.8266666666666667,
+      "truncated": 0.09666666666666666,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 9.7%"
+    },
+    {
+      "algorithm": "ppo",
+      "label": "PPO",
+      "mode": "native",
+      "mean": 3944.786666666667,
+      "sd": 535.6157802318124,
+      "height": 688.5042302818738,
+      "score_ge_3000": 0.4766666666666667,
+      "truncated": 0.15,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 15.0%"
+    },
+    {
+      "algorithm": "ppo",
+      "label": "PPO",
+      "mode": "desktop",
+      "mean": 3021.6666666666665,
+      "sd": 283.6150731772438,
+      "height": 641.8738753555726,
+      "score_ge_3000": 0.3433333333333333,
+      "truncated": 0.19333333333333333,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 19.3%"
+    },
+    {
+      "algorithm": "ppo",
+      "label": "PPO",
+      "mode": "mobile",
+      "mean": 3726.0833333333335,
+      "sd": 188.73302899422063,
+      "height": 605.9260501680874,
+      "score_ge_3000": 0.44666666666666666,
+      "truncated": 0.18333333333333332,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 18.3%"
+    }
+  ],
+  "ablation": [
+    {
+      "algorithm": "ppo",
+      "label": "PPO速度置零",
+      "mode": "native",
+      "mean": 4052.2433333333333,
+      "sd": 184.4428161608179,
+      "height": 706.8994334626342,
+      "score_ge_3000": 0.52,
+      "truncated": 0.2633333333333333,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 26.3%"
+    },
+    {
+      "algorithm": "ppo",
+      "label": "PPO速度置零",
+      "mode": "desktop",
+      "mean": 2683.1200000000003,
+      "sd": 352.3661755901098,
+      "height": 555.6599637962241,
+      "score_ge_3000": 0.30333333333333334,
+      "truncated": 0.20333333333333334,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 20.3%"
+    },
+    {
+      "algorithm": "ppo",
+      "label": "PPO速度置零",
+      "mode": "mobile",
+      "mean": 3518.866666666667,
+      "sd": 444.1848388152542,
+      "height": 556.3597849495718,
+      "score_ge_3000": 0.4533333333333333,
+      "truncated": 0.24,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 24.0%"
+    }
+  ],
+  "ppo_sample": {
+    "mean": 3576.376666666667,
+    "sd": 253.7200099190707,
+    "height": 614.5767262477385,
+    "score_ge_3000": 0.43333333333333335,
+    "truncated": 0.08666666666666667,
+    "n_training_seeds": 3,
+    "n_maps_per_seed": 100,
+    "reason": "截断 8.7%"
+  },
+  "baselines": [
+    {
+      "label": "随机动作",
+      "mode": "native",
+      "mean": 262.47,
+      "sd": null,
+      "height": 14.27590519782777,
+      "score_ge_3000": 0.0,
+      "reason": "截断 0.0%"
+    },
+    {
+      "label": "物理规则参考",
+      "mode": "native",
+      "mean": 29765.82,
+      "sd": null,
+      "height": 6093.8646663305235,
+      "score_ge_3000": 0.93,
+      "reason": "截断 40.0%"
+    },
+    {
+      "label": "随机动作",
+      "mode": "desktop",
+      "mean": 407.82,
+      "sd": null,
+      "height": 52.097104732350516,
+      "score_ge_3000": 0.02,
+      "reason": "截断 0.0%"
+    },
+    {
+      "label": "物理规则参考",
+      "mode": "desktop",
+      "mean": 31398.99,
+      "sd": null,
+      "height": 7761.168572536845,
+      "score_ge_3000": 0.93,
+      "reason": "截断 49.0%"
+    },
+    {
+      "label": "随机动作",
+      "mode": "mobile",
+      "mean": 293.43,
+      "sd": null,
+      "height": 32.154746004654655,
+      "score_ge_3000": 0.0,
+      "reason": "截断 0.0%"
+    },
+    {
+      "label": "物理规则参考",
+      "mode": "mobile",
+      "mean": 26822.48,
+      "sd": null,
+      "height": 5266.65760217222,
+      "score_ge_3000": 0.91,
+      "reason": "截断 42.0%"
+    }
+  ],
+  "curves": [
+    {
+      "algorithm": "dqn",
+      "label": "DQN",
+      "steps": [
+        50000,
+        100000,
+        150000,
+        200000,
+        250000,
+        300000,
+        350000,
+        400000,
+        450000,
+        500000,
+        550000,
+        600000,
+        650000,
+        700000,
+        750000,
+        800000,
+        850000,
+        900000,
+        950000,
+        1000000
+      ],
+      "scores": [
+        206.16666666666666,
+        469.18333333333334,
+        2630.2166666666667,
+        4194.366666666667,
+        5084.05,
+        7080.416666666667,
+        10908.25,
+        13581.583333333334,
+        18200.816666666666,
+        19091.766666666666,
+        17731.583333333332,
+        18391.616666666665,
+        15464.733333333332,
+        16314.016666666665,
+        17716.733333333334,
+        12993.533333333333,
+        14989.0,
+        16851.966666666667,
+        10381.9,
+        19179.983333333334
+      ],
+      "sd": [
+        195.70856734781268,
+        144.50018454428812,
+        181.05256373035255,
+        696.2362410370013,
+        1288.942160261662,
+        2719.4289576735287,
+        1585.9044430544993,
+        2605.754608713824,
+        3163.5501613430015,
+        3344.6592555645093,
+        1499.7723338338164,
+        3436.388892912636,
+        3562.862271170937,
+        4163.368080152573,
+        2265.951608228501,
+        2154.749991491666,
+        2657.858911323172,
+        4819.999687845771,
+        1155.3588219683095,
+        837.6670539858513
+      ],
+      "actual_checkpoint_steps": [
+        [
+          50000,
+          50000,
+          50000
+        ],
+        [
+          100000,
+          100000,
+          100000
+        ],
+        [
+          150000,
+          150000,
+          150000
+        ],
+        [
+          200000,
+          200000,
+          200000
+        ],
+        [
+          250000,
+          250000,
+          250000
+        ],
+        [
+          300000,
+          300000,
+          300000
+        ],
+        [
+          350000,
+          350000,
+          350000
+        ],
+        [
+          400000,
+          400000,
+          400000
+        ],
+        [
+          450000,
+          450000,
+          450000
+        ],
+        [
+          500000,
+          500000,
+          500000
+        ],
+        [
+          550000,
+          550000,
+          550000
+        ],
+        [
+          600000,
+          600000,
+          600000
+        ],
+        [
+          650000,
+          650000,
+          650000
+        ],
+        [
+          700000,
+          700000,
+          700000
+        ],
+        [
+          750000,
+          750000,
+          750000
+        ],
+        [
+          800000,
+          800000,
+          800000
+        ],
+        [
+          850000,
+          850000,
+          850000
+        ],
+        [
+          900000,
+          900000,
+          900000
+        ],
+        [
+          950000,
+          950000,
+          950000
+        ],
+        [
+          1000000,
+          1000000,
+          1000000
+        ]
+      ]
+    },
+    {
+      "algorithm": "double_dqn",
+      "label": "Double DQN",
+      "steps": [
+        50000,
+        100000,
+        150000,
+        200000,
+        250000,
+        300000,
+        350000,
+        400000,
+        450000,
+        500000,
+        550000,
+        600000,
+        650000,
+        700000,
+        750000,
+        800000,
+        850000,
+        900000,
+        950000,
+        1000000
+      ],
+      "scores": [
+        259.3666666666667,
+        743.2333333333332,
+        1912.4333333333334,
+        2979.2333333333336,
+        4217.150000000001,
+        5774.049999999999,
+        7069.566666666667,
+        9099.833333333334,
+        9984.083333333334,
+        13879.866666666667,
+        15839.716666666665,
+        16363.016666666668,
+        14890.516666666668,
+        14989.949999999999,
+        16228.966666666667,
+        13735.283333333333,
+        16337.583333333334,
+        14081.766666666668,
+        15071.25,
+        13495.4
+      ],
+      "sd": [
+        97.93357868133552,
+        171.13296243954093,
+        831.9572710382026,
+        971.5968972950322,
+        1081.6479406442745,
+        1535.8764142990149,
+        1835.3266911733544,
+        2862.470990828262,
+        2061.7517856990776,
+        2378.4347165380295,
+        4181.868043211471,
+        2913.596873854263,
+        2095.286150107745,
+        4198.098948631392,
+        2717.401523668031,
+        2420.1863184129716,
+        1713.3213215370124,
+        2752.8443945914073,
+        1349.951625059209,
+        3153.513110405601
+      ],
+      "actual_checkpoint_steps": [
+        [
+          50000,
+          50000,
+          50000
+        ],
+        [
+          100000,
+          100000,
+          100000
+        ],
+        [
+          150000,
+          150000,
+          150000
+        ],
+        [
+          200000,
+          200000,
+          200000
+        ],
+        [
+          250000,
+          250000,
+          250000
+        ],
+        [
+          300000,
+          300000,
+          300000
+        ],
+        [
+          350000,
+          350000,
+          350000
+        ],
+        [
+          400000,
+          400000,
+          400000
+        ],
+        [
+          450000,
+          450000,
+          450000
+        ],
+        [
+          500000,
+          500000,
+          500000
+        ],
+        [
+          550000,
+          550000,
+          550000
+        ],
+        [
+          600000,
+          600000,
+          600000
+        ],
+        [
+          650000,
+          650000,
+          650000
+        ],
+        [
+          700000,
+          700000,
+          700000
+        ],
+        [
+          750000,
+          750000,
+          750000
+        ],
+        [
+          800000,
+          800000,
+          800000
+        ],
+        [
+          850000,
+          850000,
+          850000
+        ],
+        [
+          900000,
+          900000,
+          900000
+        ],
+        [
+          950000,
+          950000,
+          950000
+        ],
+        [
+          1000000,
+          1000000,
+          1000000
+        ]
+      ]
+    },
+    {
+      "algorithm": "ppo",
+      "label": "PPO",
+      "steps": [
+        50000,
+        100000,
+        150000,
+        200000,
+        250000,
+        300000,
+        350000,
+        400000,
+        450000,
+        500000,
+        550000,
+        600000,
+        650000,
+        700000,
+        750000,
+        800000,
+        850000,
+        900000,
+        950000,
+        1000000
+      ],
+      "scores": [
+        209.14999999999998,
+        269.2833333333333,
+        440.40000000000003,
+        458.7666666666667,
+        918.3666666666668,
+        982.2000000000002,
+        1901.1000000000001,
+        2271.133333333333,
+        2596.6166666666663,
+        3241.7999999999997,
+        3345.033333333333,
+        3009.7000000000003,
+        3307.7000000000003,
+        3073.933333333333,
+        2879.133333333333,
+        2978.383333333333,
+        3107.6,
+        2757.0333333333333,
+        3187.566666666667,
+        3299.6666666666665
+      ],
+      "sd": [
+        43.41517591810494,
+        117.69596778706283,
+        156.93356078289946,
+        189.7391652593985,
+        341.3105965734632,
+        442.30594332430127,
+        1065.8419805487117,
+        964.8960311004153,
+        627.3519035065832,
+        210.08603594718056,
+        289.2635404494202,
+        77.04239092863092,
+        309.86330857331274,
+        675.7248928619791,
+        44.73673918976817,
+        889.7596393596045,
+        509.39225553594747,
+        291.95935647506377,
+        406.20840197284616,
+        705.905698966465
+      ],
+      "actual_checkpoint_steps": [
+        [
+          50176,
+          50176,
+          50176
+        ],
+        [
+          100352,
+          100352,
+          100352
+        ],
+        [
+          150528,
+          150528,
+          150528
+        ],
+        [
+          200704,
+          200704,
+          200704
+        ],
+        [
+          250880,
+          250880,
+          250880
+        ],
+        [
+          300032,
+          300032,
+          300032
+        ],
+        [
+          350208,
+          350208,
+          350208
+        ],
+        [
+          400384,
+          400384,
+          400384
+        ],
+        [
+          450560,
+          450560,
+          450560
+        ],
+        [
+          500736,
+          500736,
+          500736
+        ],
+        [
+          550912,
+          550912,
+          550912
+        ],
+        [
+          600064,
+          600064,
+          600064
+        ],
+        [
+          650240,
+          650240,
+          650240
+        ],
+        [
+          700416,
+          700416,
+          700416
+        ],
+        [
+          750592,
+          750592,
+          750592
+        ],
+        [
+          800768,
+          800768,
+          800768
+        ],
+        [
+          850944,
+          850944,
+          850944
+        ],
+        [
+          900096,
+          900096,
+          900096
+        ],
+        [
+          950272,
+          950272,
+          950272
+        ],
+        [
+          1000000,
+          1000000,
+          1000000
+        ]
+      ]
+    }
+  ],
+  "default_model": "native_v2_dqn_full_h128_seed59_1000000",
+  "display_models": {
+    "dqn": "native_v2_dqn_full_h128_seed59_1000000",
+    "double_dqn": "native_v2_double_dqn_full_h128_seed42_1000000",
+    "ppo": "native_v2_ppo_full_h128_seed42_1000000"
+  },
+  "statuses": [
+    {
+      "algorithm": "dqn",
+      "seed": 42,
+      "steps": 1000000,
+      "frames": 3995453,
+      "observation": "full",
+      "observation_dim": 209,
+      "hidden": 128,
+      "device": "cpu",
+      "viewport": [
+        683,
+        871
+      ],
+      "environment_version": "native-viewport-v2",
+      "run_id": "native_v2_dqn_full_h128_seed42_1000000",
+      "training_complete": true,
+      "elapsed_seconds": 1011.7408738999984,
+      "best_validation_score": 20525.6,
+      "parameters": 43779,
+      "gradient_updates": 249376,
+      "config": {
+        "algorithm": "dqn",
+        "seed": 42,
+        "steps": 1000000,
+        "obs": "full",
+        "hidden": 128,
+        "device": "cpu",
+        "viewport_json": "<PROJECT_ROOT>\\outputs\\doodle_jump_original\\experiments\\native_retrain_20261008\\viewport.json",
+        "run_id": "native_v2_dqn_full_h128_seed42_1000000",
+        "learning_rate": null,
+        "epsilon_decay_steps": 600000,
+        "checkpoint_every": 50000,
+        "native_geometry": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "viewport_width": 683,
+        "viewport_height": 871,
+        "observation_dim": 209,
+        "compute": {
+          "device": "cpu",
+          "gpu": null,
+          "torch_threads": 1,
+          "precision": "float32",
+          "cuda_matmul_allow_tf32": false
+        },
+        "training_map_seed_start": 1420000,
+        "validation_seeds": [
+          10000,
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019
+        ],
+        "mode": "original",
+        "viewport": [
+          683,
+          871
+        ],
+        "native_window": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "environment_version": "native-viewport-v2",
+        "versions": {
+          "python": "3.11.7",
+          "torch": "2.5.1+cu124",
+          "numpy": "1.26.4"
+        },
+        "source_sha256": {
+          "agents.py": "7e034cf3e28fc2107fe73675ea587892b86f68f189554ea4e461395dbc7bba09",
+          "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+          "train.py": "57d92e989f285b5e7289d1e2808797783e53b09289787f79dc8083894dc63442",
+          "evaluate.py": "2e2f80189fc4c9184941dea5c9eff623695f929da50915fc894570876924c181",
+          "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027"
+        },
+        "hyperparameters": {
+          "gamma": 0.99,
+          "learning_rate": 0.0005,
+          "buffer": 100000,
+          "learning_starts": 2500,
+          "batch_size": 128,
+          "train_every": 4,
+          "target_every": 2000,
+          "epsilon_start": 1.0,
+          "epsilon_end": 0.05,
+          "epsilon_decay_steps": 600000,
+          "loss": "Huber",
+          "max_grad_norm": 10.0
+        }
+      }
+    },
+    {
+      "algorithm": "double_dqn",
+      "seed": 42,
+      "steps": 1000000,
+      "frames": 3995616,
+      "observation": "full",
+      "observation_dim": 209,
+      "hidden": 128,
+      "device": "cpu",
+      "viewport": [
+        683,
+        871
+      ],
+      "environment_version": "native-viewport-v2",
+      "run_id": "native_v2_double_dqn_full_h128_seed42_1000000",
+      "training_complete": true,
+      "elapsed_seconds": 1082.5514839999996,
+      "best_validation_score": 20059.95,
+      "parameters": 43779,
+      "gradient_updates": 249376,
+      "config": {
+        "algorithm": "double_dqn",
+        "seed": 42,
+        "steps": 1000000,
+        "obs": "full",
+        "hidden": 128,
+        "device": "cpu",
+        "viewport_json": "<PROJECT_ROOT>\\outputs\\doodle_jump_original\\experiments\\native_retrain_20261008\\viewport.json",
+        "run_id": "native_v2_double_dqn_full_h128_seed42_1000000",
+        "learning_rate": null,
+        "epsilon_decay_steps": 600000,
+        "checkpoint_every": 50000,
+        "native_geometry": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "viewport_width": 683,
+        "viewport_height": 871,
+        "observation_dim": 209,
+        "compute": {
+          "device": "cpu",
+          "gpu": null,
+          "torch_threads": 1,
+          "precision": "float32",
+          "cuda_matmul_allow_tf32": false
+        },
+        "training_map_seed_start": 1420000,
+        "validation_seeds": [
+          10000,
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019
+        ],
+        "mode": "original",
+        "viewport": [
+          683,
+          871
+        ],
+        "native_window": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "environment_version": "native-viewport-v2",
+        "versions": {
+          "python": "3.11.7",
+          "torch": "2.5.1+cu124",
+          "numpy": "1.26.4"
+        },
+        "source_sha256": {
+          "agents.py": "7e034cf3e28fc2107fe73675ea587892b86f68f189554ea4e461395dbc7bba09",
+          "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+          "train.py": "57d92e989f285b5e7289d1e2808797783e53b09289787f79dc8083894dc63442",
+          "evaluate.py": "2e2f80189fc4c9184941dea5c9eff623695f929da50915fc894570876924c181",
+          "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027"
+        },
+        "hyperparameters": {
+          "gamma": 0.99,
+          "learning_rate": 0.0005,
+          "buffer": 100000,
+          "learning_starts": 2500,
+          "batch_size": 128,
+          "train_every": 4,
+          "target_every": 2000,
+          "epsilon_start": 1.0,
+          "epsilon_end": 0.05,
+          "epsilon_decay_steps": 600000,
+          "loss": "Huber",
+          "max_grad_norm": 10.0
+        }
+      }
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 42,
+      "steps": 1000000,
+      "frames": 3994491,
+      "observation": "full",
+      "observation_dim": 209,
+      "hidden": 128,
+      "device": "cpu",
+      "viewport": [
+        683,
+        871
+      ],
+      "environment_version": "native-viewport-v2",
+      "run_id": "native_v2_ppo_full_h128_seed42_1000000",
+      "training_complete": true,
+      "elapsed_seconds": 480.41484839999976,
+      "best_validation_score": 4112.6,
+      "parameters": 43908,
+      "gradient_updates": 15628,
+      "config": {
+        "algorithm": "ppo",
+        "seed": 42,
+        "steps": 1000000,
+        "obs": "full",
+        "hidden": 128,
+        "device": "cpu",
+        "viewport_json": "<PROJECT_ROOT>\\outputs\\doodle_jump_original\\experiments\\native_retrain_20261008\\viewport.json",
+        "run_id": "native_v2_ppo_full_h128_seed42_1000000",
+        "learning_rate": null,
+        "epsilon_decay_steps": 600000,
+        "checkpoint_every": 50000,
+        "native_geometry": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "viewport_width": 683,
+        "viewport_height": 871,
+        "observation_dim": 209,
+        "compute": {
+          "device": "cpu",
+          "gpu": null,
+          "torch_threads": 1,
+          "precision": "float32",
+          "cuda_matmul_allow_tf32": false
+        },
+        "training_map_seed_start": 1420000,
+        "validation_seeds": [
+          10000,
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019
+        ],
+        "mode": "original",
+        "viewport": [
+          683,
+          871
+        ],
+        "native_window": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "environment_version": "native-viewport-v2",
+        "versions": {
+          "python": "3.11.7",
+          "torch": "2.5.1+cu124",
+          "numpy": "1.26.4"
+        },
+        "source_sha256": {
+          "agents.py": "7e034cf3e28fc2107fe73675ea587892b86f68f189554ea4e461395dbc7bba09",
+          "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+          "train.py": "57d92e989f285b5e7289d1e2808797783e53b09289787f79dc8083894dc63442",
+          "evaluate.py": "2e2f80189fc4c9184941dea5c9eff623695f929da50915fc894570876924c181",
+          "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027"
+        },
+        "hyperparameters": {
+          "gamma": 0.99,
+          "gae_lambda": 0.95,
+          "learning_rate": 0.0003,
+          "vector_envs": 8,
+          "rollout_length": 128,
+          "epochs": 4,
+          "minibatch": 256,
+          "clip": 0.2,
+          "entropy_coef": 0.01,
+          "value_coef": 0.5,
+          "max_grad_norm": 0.5,
+          "advantage_normalization": true,
+          "value_clip": true
+        }
+      }
+    },
+    {
+      "algorithm": "dqn",
+      "seed": 59,
+      "steps": 1000000,
+      "frames": 3995516,
+      "observation": "full",
+      "observation_dim": 209,
+      "hidden": 128,
+      "device": "cpu",
+      "viewport": [
+        683,
+        871
+      ],
+      "environment_version": "native-viewport-v2",
+      "run_id": "native_v2_dqn_full_h128_seed59_1000000",
+      "training_complete": true,
+      "elapsed_seconds": 861.1787611,
+      "best_validation_score": 22495.15,
+      "parameters": 43779,
+      "gradient_updates": 249376,
+      "config": {
+        "algorithm": "dqn",
+        "seed": 59,
+        "steps": 1000000,
+        "obs": "full",
+        "hidden": 128,
+        "device": "cpu",
+        "viewport_json": "<PROJECT_ROOT>\\outputs\\doodle_jump_original\\experiments\\native_retrain_20261008\\viewport.json",
+        "run_id": "native_v2_dqn_full_h128_seed59_1000000",
+        "learning_rate": null,
+        "epsilon_decay_steps": 600000,
+        "checkpoint_every": 50000,
+        "native_geometry": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "viewport_width": 683,
+        "viewport_height": 871,
+        "observation_dim": 209,
+        "compute": {
+          "device": "cpu",
+          "gpu": null,
+          "torch_threads": 1,
+          "precision": "float32",
+          "cuda_matmul_allow_tf32": false
+        },
+        "training_map_seed_start": 1590000,
+        "validation_seeds": [
+          10000,
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019
+        ],
+        "mode": "original",
+        "viewport": [
+          683,
+          871
+        ],
+        "native_window": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "environment_version": "native-viewport-v2",
+        "versions": {
+          "python": "3.11.7",
+          "torch": "2.5.1+cu124",
+          "numpy": "1.26.4"
+        },
+        "source_sha256": {
+          "agents.py": "7e034cf3e28fc2107fe73675ea587892b86f68f189554ea4e461395dbc7bba09",
+          "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+          "train.py": "57d92e989f285b5e7289d1e2808797783e53b09289787f79dc8083894dc63442",
+          "evaluate.py": "2e2f80189fc4c9184941dea5c9eff623695f929da50915fc894570876924c181",
+          "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027"
+        },
+        "hyperparameters": {
+          "gamma": 0.99,
+          "learning_rate": 0.0005,
+          "buffer": 100000,
+          "learning_starts": 2500,
+          "batch_size": 128,
+          "train_every": 4,
+          "target_every": 2000,
+          "epsilon_start": 1.0,
+          "epsilon_end": 0.05,
+          "epsilon_decay_steps": 600000,
+          "loss": "Huber",
+          "max_grad_norm": 10.0
+        }
+      }
+    },
+    {
+      "algorithm": "double_dqn",
+      "seed": 59,
+      "steps": 1000000,
+      "frames": 3995299,
+      "observation": "full",
+      "observation_dim": 209,
+      "hidden": 128,
+      "device": "cpu",
+      "viewport": [
+        683,
+        871
+      ],
+      "environment_version": "native-viewport-v2",
+      "run_id": "native_v2_double_dqn_full_h128_seed59_1000000",
+      "training_complete": true,
+      "elapsed_seconds": 619.2268456999991,
+      "best_validation_score": 17820.85,
+      "parameters": 43779,
+      "gradient_updates": 249376,
+      "config": {
+        "algorithm": "double_dqn",
+        "seed": 59,
+        "steps": 1000000,
+        "obs": "full",
+        "hidden": 128,
+        "device": "cpu",
+        "viewport_json": "<PROJECT_ROOT>\\outputs\\doodle_jump_original\\experiments\\native_retrain_20261008\\viewport.json",
+        "run_id": "native_v2_double_dqn_full_h128_seed59_1000000",
+        "learning_rate": null,
+        "epsilon_decay_steps": 600000,
+        "checkpoint_every": 50000,
+        "native_geometry": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "viewport_width": 683,
+        "viewport_height": 871,
+        "observation_dim": 209,
+        "compute": {
+          "device": "cpu",
+          "gpu": null,
+          "torch_threads": 1,
+          "precision": "float32",
+          "cuda_matmul_allow_tf32": false
+        },
+        "training_map_seed_start": 1590000,
+        "validation_seeds": [
+          10000,
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019
+        ],
+        "mode": "original",
+        "viewport": [
+          683,
+          871
+        ],
+        "native_window": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "environment_version": "native-viewport-v2",
+        "versions": {
+          "python": "3.11.7",
+          "torch": "2.5.1+cu124",
+          "numpy": "1.26.4"
+        },
+        "source_sha256": {
+          "agents.py": "7e034cf3e28fc2107fe73675ea587892b86f68f189554ea4e461395dbc7bba09",
+          "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+          "train.py": "57d92e989f285b5e7289d1e2808797783e53b09289787f79dc8083894dc63442",
+          "evaluate.py": "2e2f80189fc4c9184941dea5c9eff623695f929da50915fc894570876924c181",
+          "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027"
+        },
+        "hyperparameters": {
+          "gamma": 0.99,
+          "learning_rate": 0.0005,
+          "buffer": 100000,
+          "learning_starts": 2500,
+          "batch_size": 128,
+          "train_every": 4,
+          "target_every": 2000,
+          "epsilon_start": 1.0,
+          "epsilon_end": 0.05,
+          "epsilon_decay_steps": 600000,
+          "loss": "Huber",
+          "max_grad_norm": 10.0
+        }
+      }
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 59,
+      "steps": 1000000,
+      "frames": 3993875,
+      "observation": "full",
+      "observation_dim": 209,
+      "hidden": 128,
+      "device": "cpu",
+      "viewport": [
+        683,
+        871
+      ],
+      "environment_version": "native-viewport-v2",
+      "run_id": "native_v2_ppo_full_h128_seed59_1000000",
+      "training_complete": true,
+      "elapsed_seconds": 300.2623281999986,
+      "best_validation_score": 3721.7,
+      "parameters": 43908,
+      "gradient_updates": 15628,
+      "config": {
+        "algorithm": "ppo",
+        "seed": 59,
+        "steps": 1000000,
+        "obs": "full",
+        "hidden": 128,
+        "device": "cpu",
+        "viewport_json": "<PROJECT_ROOT>\\outputs\\doodle_jump_original\\experiments\\native_retrain_20261008\\viewport.json",
+        "run_id": "native_v2_ppo_full_h128_seed59_1000000",
+        "learning_rate": null,
+        "epsilon_decay_steps": 600000,
+        "checkpoint_every": 50000,
+        "native_geometry": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "viewport_width": 683,
+        "viewport_height": 871,
+        "observation_dim": 209,
+        "compute": {
+          "device": "cpu",
+          "gpu": null,
+          "torch_threads": 1,
+          "precision": "float32",
+          "cuda_matmul_allow_tf32": false
+        },
+        "training_map_seed_start": 1590000,
+        "validation_seeds": [
+          10000,
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019
+        ],
+        "mode": "original",
+        "viewport": [
+          683,
+          871
+        ],
+        "native_window": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "environment_version": "native-viewport-v2",
+        "versions": {
+          "python": "3.11.7",
+          "torch": "2.5.1+cu124",
+          "numpy": "1.26.4"
+        },
+        "source_sha256": {
+          "agents.py": "7e034cf3e28fc2107fe73675ea587892b86f68f189554ea4e461395dbc7bba09",
+          "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+          "train.py": "57d92e989f285b5e7289d1e2808797783e53b09289787f79dc8083894dc63442",
+          "evaluate.py": "2e2f80189fc4c9184941dea5c9eff623695f929da50915fc894570876924c181",
+          "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027"
+        },
+        "hyperparameters": {
+          "gamma": 0.99,
+          "gae_lambda": 0.95,
+          "learning_rate": 0.0003,
+          "vector_envs": 8,
+          "rollout_length": 128,
+          "epochs": 4,
+          "minibatch": 256,
+          "clip": 0.2,
+          "entropy_coef": 0.01,
+          "value_coef": 0.5,
+          "max_grad_norm": 0.5,
+          "advantage_normalization": true,
+          "value_clip": true
+        }
+      }
+    },
+    {
+      "algorithm": "dqn",
+      "seed": 143,
+      "steps": 1000000,
+      "frames": 3995654,
+      "observation": "full",
+      "observation_dim": 209,
+      "hidden": 128,
+      "device": "cpu",
+      "viewport": [
+        683,
+        871
+      ],
+      "environment_version": "native-viewport-v2",
+      "run_id": "native_v2_dqn_full_h128_seed143_1000000",
+      "training_complete": true,
+      "elapsed_seconds": 715.6734664000032,
+      "best_validation_score": 22314.25,
+      "parameters": 43779,
+      "gradient_updates": 249376,
+      "config": {
+        "algorithm": "dqn",
+        "seed": 143,
+        "steps": 1000000,
+        "obs": "full",
+        "hidden": 128,
+        "device": "cpu",
+        "viewport_json": "<PROJECT_ROOT>\\outputs\\doodle_jump_original\\experiments\\native_retrain_20261008\\viewport.json",
+        "run_id": "native_v2_dqn_full_h128_seed143_1000000",
+        "learning_rate": null,
+        "epsilon_decay_steps": 600000,
+        "checkpoint_every": 50000,
+        "native_geometry": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "viewport_width": 683,
+        "viewport_height": 871,
+        "observation_dim": 209,
+        "compute": {
+          "device": "cpu",
+          "gpu": null,
+          "torch_threads": 1,
+          "precision": "float32",
+          "cuda_matmul_allow_tf32": false
+        },
+        "training_map_seed_start": 2430000,
+        "validation_seeds": [
+          10000,
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019
+        ],
+        "mode": "original",
+        "viewport": [
+          683,
+          871
+        ],
+        "native_window": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "environment_version": "native-viewport-v2",
+        "versions": {
+          "python": "3.11.7",
+          "torch": "2.5.1+cu124",
+          "numpy": "1.26.4"
+        },
+        "source_sha256": {
+          "agents.py": "7e034cf3e28fc2107fe73675ea587892b86f68f189554ea4e461395dbc7bba09",
+          "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+          "train.py": "57d92e989f285b5e7289d1e2808797783e53b09289787f79dc8083894dc63442",
+          "evaluate.py": "2e2f80189fc4c9184941dea5c9eff623695f929da50915fc894570876924c181",
+          "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027"
+        },
+        "hyperparameters": {
+          "gamma": 0.99,
+          "learning_rate": 0.0005,
+          "buffer": 100000,
+          "learning_starts": 2500,
+          "batch_size": 128,
+          "train_every": 4,
+          "target_every": 2000,
+          "epsilon_start": 1.0,
+          "epsilon_end": 0.05,
+          "epsilon_decay_steps": 600000,
+          "loss": "Huber",
+          "max_grad_norm": 10.0
+        }
+      }
+    },
+    {
+      "algorithm": "double_dqn",
+      "seed": 143,
+      "steps": 1000000,
+      "frames": 3995161,
+      "observation": "full",
+      "observation_dim": 209,
+      "hidden": 128,
+      "device": "cpu",
+      "viewport": [
+        683,
+        871
+      ],
+      "environment_version": "native-viewport-v2",
+      "run_id": "native_v2_double_dqn_full_h128_seed143_1000000",
+      "training_complete": true,
+      "elapsed_seconds": 802.6914983999995,
+      "best_validation_score": 19116.65,
+      "parameters": 43779,
+      "gradient_updates": 249376,
+      "config": {
+        "algorithm": "double_dqn",
+        "seed": 143,
+        "steps": 1000000,
+        "obs": "full",
+        "hidden": 128,
+        "device": "cpu",
+        "viewport_json": "<PROJECT_ROOT>\\outputs\\doodle_jump_original\\experiments\\native_retrain_20261008\\viewport.json",
+        "run_id": "native_v2_double_dqn_full_h128_seed143_1000000",
+        "learning_rate": null,
+        "epsilon_decay_steps": 600000,
+        "checkpoint_every": 50000,
+        "native_geometry": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "viewport_width": 683,
+        "viewport_height": 871,
+        "observation_dim": 209,
+        "compute": {
+          "device": "cpu",
+          "gpu": null,
+          "torch_threads": 1,
+          "precision": "float32",
+          "cuda_matmul_allow_tf32": false
+        },
+        "training_map_seed_start": 2430000,
+        "validation_seeds": [
+          10000,
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019
+        ],
+        "mode": "original",
+        "viewport": [
+          683,
+          871
+        ],
+        "native_window": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "environment_version": "native-viewport-v2",
+        "versions": {
+          "python": "3.11.7",
+          "torch": "2.5.1+cu124",
+          "numpy": "1.26.4"
+        },
+        "source_sha256": {
+          "agents.py": "7e034cf3e28fc2107fe73675ea587892b86f68f189554ea4e461395dbc7bba09",
+          "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+          "train.py": "57d92e989f285b5e7289d1e2808797783e53b09289787f79dc8083894dc63442",
+          "evaluate.py": "2e2f80189fc4c9184941dea5c9eff623695f929da50915fc894570876924c181",
+          "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027"
+        },
+        "hyperparameters": {
+          "gamma": 0.99,
+          "learning_rate": 0.0005,
+          "buffer": 100000,
+          "learning_starts": 2500,
+          "batch_size": 128,
+          "train_every": 4,
+          "target_every": 2000,
+          "epsilon_start": 1.0,
+          "epsilon_end": 0.05,
+          "epsilon_decay_steps": 600000,
+          "loss": "Huber",
+          "max_grad_norm": 10.0
+        }
+      }
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 143,
+      "steps": 1000000,
+      "frames": 3994459,
+      "observation": "full",
+      "observation_dim": 209,
+      "hidden": 128,
+      "device": "cpu",
+      "viewport": [
+        683,
+        871
+      ],
+      "environment_version": "native-viewport-v2",
+      "run_id": "native_v2_ppo_full_h128_seed143_1000000",
+      "training_complete": true,
+      "elapsed_seconds": 478.87675650000165,
+      "best_validation_score": 3909.1,
+      "parameters": 43908,
+      "gradient_updates": 15628,
+      "config": {
+        "algorithm": "ppo",
+        "seed": 143,
+        "steps": 1000000,
+        "obs": "full",
+        "hidden": 128,
+        "device": "cpu",
+        "viewport_json": "<PROJECT_ROOT>\\outputs\\doodle_jump_original\\experiments\\native_retrain_20261008\\viewport.json",
+        "run_id": "native_v2_ppo_full_h128_seed143_1000000",
+        "learning_rate": null,
+        "epsilon_decay_steps": 600000,
+        "checkpoint_every": 50000,
+        "native_geometry": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "viewport_width": 683,
+        "viewport_height": 871,
+        "observation_dim": 209,
+        "compute": {
+          "device": "cpu",
+          "gpu": null,
+          "torch_threads": 1,
+          "precision": "float32",
+          "cuda_matmul_allow_tf32": false
+        },
+        "training_map_seed_start": 2430000,
+        "validation_seeds": [
+          10000,
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019
+        ],
+        "mode": "original",
+        "viewport": [
+          683,
+          871
+        ],
+        "native_window": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "environment_version": "native-viewport-v2",
+        "versions": {
+          "python": "3.11.7",
+          "torch": "2.5.1+cu124",
+          "numpy": "1.26.4"
+        },
+        "source_sha256": {
+          "agents.py": "7e034cf3e28fc2107fe73675ea587892b86f68f189554ea4e461395dbc7bba09",
+          "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+          "train.py": "57d92e989f285b5e7289d1e2808797783e53b09289787f79dc8083894dc63442",
+          "evaluate.py": "2e2f80189fc4c9184941dea5c9eff623695f929da50915fc894570876924c181",
+          "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027"
+        },
+        "hyperparameters": {
+          "gamma": 0.99,
+          "gae_lambda": 0.95,
+          "learning_rate": 0.0003,
+          "vector_envs": 8,
+          "rollout_length": 128,
+          "epochs": 4,
+          "minibatch": 256,
+          "clip": 0.2,
+          "entropy_coef": 0.01,
+          "value_coef": 0.5,
+          "max_grad_norm": 0.5,
+          "advantage_normalization": true,
+          "value_clip": true
+        }
+      }
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 42,
+      "steps": 1000000,
+      "frames": 3994494,
+      "observation": "no_velocity",
+      "observation_dim": 209,
+      "hidden": 128,
+      "device": "cpu",
+      "viewport": [
+        683,
+        871
+      ],
+      "environment_version": "native-viewport-v2",
+      "run_id": "native_v2_ppo_no_velocity_h128_seed42_1000000",
+      "training_complete": true,
+      "elapsed_seconds": 453.2769516999979,
+      "best_validation_score": 3754.35,
+      "parameters": 43908,
+      "gradient_updates": 15628,
+      "config": {
+        "algorithm": "ppo",
+        "seed": 42,
+        "steps": 1000000,
+        "obs": "no_velocity",
+        "hidden": 128,
+        "device": "cpu",
+        "viewport_json": "<PROJECT_ROOT>\\outputs\\doodle_jump_original\\experiments\\native_retrain_20261008\\viewport.json",
+        "run_id": "native_v2_ppo_no_velocity_h128_seed42_1000000",
+        "learning_rate": null,
+        "epsilon_decay_steps": 600000,
+        "checkpoint_every": 50000,
+        "native_geometry": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "viewport_width": 683,
+        "viewport_height": 871,
+        "observation_dim": 209,
+        "compute": {
+          "device": "cpu",
+          "gpu": null,
+          "torch_threads": 1,
+          "precision": "float32",
+          "cuda_matmul_allow_tf32": false
+        },
+        "training_map_seed_start": 1420000,
+        "validation_seeds": [
+          10000,
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019
+        ],
+        "mode": "original",
+        "viewport": [
+          683,
+          871
+        ],
+        "native_window": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "environment_version": "native-viewport-v2",
+        "versions": {
+          "python": "3.11.7",
+          "torch": "2.5.1+cu124",
+          "numpy": "1.26.4"
+        },
+        "source_sha256": {
+          "agents.py": "7e034cf3e28fc2107fe73675ea587892b86f68f189554ea4e461395dbc7bba09",
+          "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+          "train.py": "57d92e989f285b5e7289d1e2808797783e53b09289787f79dc8083894dc63442",
+          "evaluate.py": "2e2f80189fc4c9184941dea5c9eff623695f929da50915fc894570876924c181",
+          "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027"
+        },
+        "hyperparameters": {
+          "gamma": 0.99,
+          "gae_lambda": 0.95,
+          "learning_rate": 0.0003,
+          "vector_envs": 8,
+          "rollout_length": 128,
+          "epochs": 4,
+          "minibatch": 256,
+          "clip": 0.2,
+          "entropy_coef": 0.01,
+          "value_coef": 0.5,
+          "max_grad_norm": 0.5,
+          "advantage_normalization": true,
+          "value_clip": true
+        }
+      }
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 59,
+      "steps": 1000000,
+      "frames": 3993828,
+      "observation": "no_velocity",
+      "observation_dim": 209,
+      "hidden": 128,
+      "device": "cpu",
+      "viewport": [
+        683,
+        871
+      ],
+      "environment_version": "native-viewport-v2",
+      "run_id": "native_v2_ppo_no_velocity_h128_seed59_1000000",
+      "training_complete": true,
+      "elapsed_seconds": 425.43147880000106,
+      "best_validation_score": 3673.95,
+      "parameters": 43908,
+      "gradient_updates": 15628,
+      "config": {
+        "algorithm": "ppo",
+        "seed": 59,
+        "steps": 1000000,
+        "obs": "no_velocity",
+        "hidden": 128,
+        "device": "cpu",
+        "viewport_json": "<PROJECT_ROOT>\\outputs\\doodle_jump_original\\experiments\\native_retrain_20261008\\viewport.json",
+        "run_id": "native_v2_ppo_no_velocity_h128_seed59_1000000",
+        "learning_rate": null,
+        "epsilon_decay_steps": 600000,
+        "checkpoint_every": 50000,
+        "native_geometry": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "viewport_width": 683,
+        "viewport_height": 871,
+        "observation_dim": 209,
+        "compute": {
+          "device": "cpu",
+          "gpu": null,
+          "torch_threads": 1,
+          "precision": "float32",
+          "cuda_matmul_allow_tf32": false
+        },
+        "training_map_seed_start": 1590000,
+        "validation_seeds": [
+          10000,
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019
+        ],
+        "mode": "original",
+        "viewport": [
+          683,
+          871
+        ],
+        "native_window": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "environment_version": "native-viewport-v2",
+        "versions": {
+          "python": "3.11.7",
+          "torch": "2.5.1+cu124",
+          "numpy": "1.26.4"
+        },
+        "source_sha256": {
+          "agents.py": "7e034cf3e28fc2107fe73675ea587892b86f68f189554ea4e461395dbc7bba09",
+          "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+          "train.py": "57d92e989f285b5e7289d1e2808797783e53b09289787f79dc8083894dc63442",
+          "evaluate.py": "2e2f80189fc4c9184941dea5c9eff623695f929da50915fc894570876924c181",
+          "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027"
+        },
+        "hyperparameters": {
+          "gamma": 0.99,
+          "gae_lambda": 0.95,
+          "learning_rate": 0.0003,
+          "vector_envs": 8,
+          "rollout_length": 128,
+          "epochs": 4,
+          "minibatch": 256,
+          "clip": 0.2,
+          "entropy_coef": 0.01,
+          "value_coef": 0.5,
+          "max_grad_norm": 0.5,
+          "advantage_normalization": true,
+          "value_clip": true
+        }
+      }
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 143,
+      "steps": 1000000,
+      "frames": 3994286,
+      "observation": "no_velocity",
+      "observation_dim": 209,
+      "hidden": 128,
+      "device": "cpu",
+      "viewport": [
+        683,
+        871
+      ],
+      "environment_version": "native-viewport-v2",
+      "run_id": "native_v2_ppo_no_velocity_h128_seed143_1000000",
+      "training_complete": true,
+      "elapsed_seconds": 420.1818386999985,
+      "best_validation_score": 4149.45,
+      "parameters": 43908,
+      "gradient_updates": 15628,
+      "config": {
+        "algorithm": "ppo",
+        "seed": 143,
+        "steps": 1000000,
+        "obs": "no_velocity",
+        "hidden": 128,
+        "device": "cpu",
+        "viewport_json": "<PROJECT_ROOT>\\outputs\\doodle_jump_original\\experiments\\native_retrain_20261008\\viewport.json",
+        "run_id": "native_v2_ppo_no_velocity_h128_seed143_1000000",
+        "learning_rate": null,
+        "epsilon_decay_steps": 600000,
+        "checkpoint_every": 50000,
+        "native_geometry": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "viewport_width": 683,
+        "viewport_height": 871,
+        "observation_dim": 209,
+        "compute": {
+          "device": "cpu",
+          "gpu": null,
+          "torch_threads": 1,
+          "precision": "float32",
+          "cuda_matmul_allow_tf32": false
+        },
+        "training_map_seed_start": 2430000,
+        "validation_seeds": [
+          10000,
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019
+        ],
+        "mode": "original",
+        "viewport": [
+          683,
+          871
+        ],
+        "native_window": {
+          "windowWidth": 683,
+          "windowHeight": 871,
+          "width": 683,
+          "height": 871,
+          "stepSize": 96,
+          "threshold": 300,
+          "jump": 5.507098525989139,
+          "gravity": 0.10811481768813033,
+          "platformHeight": 18.920093095422807,
+          "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+          "environment_version": "native-viewport-v2",
+          "source": "actual_codex_in_app_browser"
+        },
+        "environment_version": "native-viewport-v2",
+        "versions": {
+          "python": "3.11.7",
+          "torch": "2.5.1+cu124",
+          "numpy": "1.26.4"
+        },
+        "source_sha256": {
+          "agents.py": "7e034cf3e28fc2107fe73675ea587892b86f68f189554ea4e461395dbc7bba09",
+          "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+          "train.py": "57d92e989f285b5e7289d1e2808797783e53b09289787f79dc8083894dc63442",
+          "evaluate.py": "2e2f80189fc4c9184941dea5c9eff623695f929da50915fc894570876924c181",
+          "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027"
+        },
+        "hyperparameters": {
+          "gamma": 0.99,
+          "gae_lambda": 0.95,
+          "learning_rate": 0.0003,
+          "vector_envs": 8,
+          "rollout_length": 128,
+          "epochs": 4,
+          "minibatch": 256,
+          "clip": 0.2,
+          "entropy_coef": 0.01,
+          "value_coef": 0.5,
+          "max_grad_norm": 0.5,
+          "advantage_normalization": true,
+          "value_clip": true
+        }
+      }
+    }
+  ],
+  "legacy_same_window": [
+    {
+      "algorithm": "dqn",
+      "label": "DQN",
+      "mode": "native",
+      "mean": 2511.23,
+      "sd": 543.7929321901858,
+      "height": 380.68840493923034,
+      "score_ge_3000": 0.2866666666666667,
+      "truncated": 0.09333333333333334,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 9.3%"
+    },
+    {
+      "algorithm": "double_dqn",
+      "label": "Double DQN",
+      "mode": "native",
+      "mean": 2987.9566666666665,
+      "sd": 1280.4793343249758,
+      "height": 471.28599004396284,
+      "score_ge_3000": 0.36333333333333334,
+      "truncated": 0.1,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 10.0%"
+    },
+    {
+      "algorithm": "ppo",
+      "label": "PPO",
+      "mode": "native",
+      "mean": 2433.73,
+      "sd": 498.0971153299325,
+      "height": 372.2945378588061,
+      "score_ge_3000": 0.2733333333333333,
+      "truncated": 0.13666666666666666,
+      "n_training_seeds": 3,
+      "n_maps_per_seed": 100,
+      "reason": "截断 13.7%"
+    }
+  ],
+  "legacy_previous_display": [
+    {
+      "algorithm": "dqn",
+      "id": "dqn_full_seed143_1000000",
+      "score": 2011.13,
+      "height": 276.9607525213351
+    },
+    {
+      "algorithm": "double_dqn",
+      "id": "double_dqn_full_seed42_1000000",
+      "score": 3487.08,
+      "height": 573.4237840186204
+    },
+    {
+      "algorithm": "ppo",
+      "id": "ppo_full_seed42_1000000",
+      "score": 2979.34,
+      "height": 478.21454530644024
+    }
+  ],
+  "caption": "当前683×871原版窗口重新训练；每次100万决策，3算法×3训练种子，另有3次PPO速度消融。各场景每模型100张保留地图，±为3个训练种子均分之间的SD。原版得分与上升高度分开报告。",
+  "talk": {
+    "1": "大家好，我们的项目是使用强化学习控制开源Doodle Jump。角色自动跳跃，网络学习左右移动。本次保留原版外观、物理和平台生成规则，从头训练DQN、Double DQN与PPO，并在未用于训练的地图上测试。接下来介绍原版适配、算法对照以及实际效果。",
+    "2": "先看游戏。落到平台就自动起跳，所以只有左、不动、右三个动作。但连续控制需要预测下降时的落点。蓝色移动平台不断横向移动，白色易碎平台使用后消失，弹簧让跳跃更高、更久。横向超出边界后出现在另一侧，黑洞接近时会死亡。\n\n策略必须根据当前位置与速度，判断哪种动作能使未来落脚更安全。没有预先给出的路线，也没有BFS帮网络找路。平台和角色使用原仓库的图像与绘制函数。",
+    "3": "这次最重要的工程要求是保留原版。upstream保存完整21个原文件，浏览器直接执行原引擎。适配层只增加种子、动作接口、观测、训练奖励和时间截断。地图仍是全宽独立随机，没有加入保证连通的安全平台。\n\nPython训练移植需要复制原代码的实际行为，包括先碰撞再移动、顶部出生、300像素阈值，以及数组循环时同时删除添加平台。即使原代码某些行为不理想，也没有顺手修复，否则就成了另一种环境。原计分继续保留，同时记录高度，帮助判断策略是否持续攀升。",
+    "4": "输入是209维结构向量，维度就是标量数量。玩家5个标量，最多20个平台每个10个标量，原版单黑洞4个标量。平台带相对坐标、宽度、速度、类型、弹簧和有效掩码，空槽补零。有限可见对象构成局部观测，未来平台和随机数状态没有输入。\n\n两层128宽网络输出三种动作的Q值或概率，每次动作执行4帧。奖励是原版得分增量除以100，减少量时间代价，死亡再减1。1500次决策为时间截断，不能与真正死亡混淆。原版得分不是高度，评价时两项都记录。",
+    "5": "DQN学习每个动作的长期价值。训练把经历存入回放缓冲，再抽取小批量更新。目标网络周期同步，用相对稳定的下一状态估计作为TD目标。\n\nDQN在目标网络里同时选择最大动作和估计价值。带噪声估计取最大值可能导致高估。Double DQN用在线网络选动作，再由目标网络估值。我们让网络、回放、奖励和探索计划一致，只改变这一步。\n\n这形成明确的算法对照，但减少某类估计偏差不等于每次游戏成绩更高。探索、局部观测和训练预算仍会影响最终结果。死亡屏蔽bootstrap，时间截断保留下一状态价值。",
+    "6": "PPO直接学习动作概率。Actor给出三种动作的分布，Critic估计状态价值，GAE将多步TD残差组合成优势，判断动作比平均水平好多少。概率比裁剪限制过大的策略改变。\n\n这里gamma是0.99，lambda是0.95，裁剪范围0.8到1.2。采样来自当前策略，再对当前批次做多轮更新，随后重新采样。DQN可以反复使用长期旧回放，PPO的数据使用方式不同。\n\n相同环境交互预算只是统一了拿到多少经验，并不意味着更新次数和计算量相同。我们另外记录参数量与训练时间，也处理了时限bootstrap和重置时优势不能跨回合递推的边界。",
+    "7": "正式主实验是三算法乘三个独立训练种子，每次100万决策。速度置零消融另训练三个PPO模型，总计12次、1200万决策。全都在683乘871的原版环境训练。\n\n20张固定验证地图用于选择检查点，之后冻结权重。在100张保留地图上测试原窗口，再测试596.25乘1060桌面画布和390乘844手机画布。它们沿用原版窗口适配，不新增困难机制。主比较统一选择最大Q值或最大概率动作，PPO采样另列。\n\n每个算法每个场景有三个训练种子各100局。表中加减是三次训练之间的标准差，不能把地图数量当成独立训练次数。测试数据没有用于调参或选模型。",
+    "8": "这张曲线的横轴是训练决策数，纵轴是20张验证地图的原版平均得分，每个点再对三个训练种子取平均。图中每10万决策展示一次，原始文件每5万记录一次。\n\n学习可能波动，最终检查点不一定最好，所以按预先规定的验证标准选权重。每次训练仍完成100万决策，选择较早检查点并不等于少训练。曲线来自验证地图，不是保留测试成绩。\n\n原版分数依赖滚屏时处理的平台数，曲线上涨只能说明奖励对应的计分有所改善，不能单凭这个结论说模型已学会无限攀升。后面同时看高度和失败情况。",
+    "9": "原窗口保留测试结果是：DQN 18476 ± 1146, Double DQN 18584 ± 1970, PPO 3945 ± 536。这些是三个训练种子的平均成绩以及种子间标准差。随机动作平均262，物理规则参考平均29766。规则方法读取同样的局部观测，手工计算落点，没有参与神经网络训练。\n\nDouble DQN在本次原窗口平均分最高，但不能据此宣称普遍更好。还要看实际上升高度与时限比例。得分可能随着滚屏处理增加，但高度较有限，这说明评价指标与持续攀升之间存在差别。\n\n同一PPO权重改为概率采样，均分为3576 ± 254，属于独立的部署诊断，不替代统一argmax的主算法对照。",
+    "10": "窗口测试检查训练后策略对原版缩放规则的适应能力。训练只见过683乘871窗口，桌面和手机测试画布改变物理尺度与初始布局，而原版300阈值仍保持原常量。\n\n所以这里应在同一窗口比较算法，不能把不同窗口的分数变化直接说成统一难度提高或降低。随机地图分布公式、平台类型和生成规则没有换成新机制。\n\n每组仍是三个训练种子各100张保留地图。变化可能来自状态分布、缩放或原版边界行为，图表只报告观察结果，不把它解释成单一原因。",
+    "11": "消融使用PPO，把玩家横向和纵向速度、移动平台速度置零。输入仍是209维，网络宽度、训练种子、预算、奖励与验证协议一致，重新训练三个模型。\n\n原窗口完整观测得分3945 ± 536，速度置零得分4052 ± 184，均值差为107。结果并不需要符合预设的故事。三训练种子、局部观测与优化随机性会影响差异，不能直接得出速度特征必然有益或必然有害。\n\n这个实验展示的是观测设计如何影响策略学习。更强的因果结论需要更多种子、误差分析以及配对统计。",
+    "12": "接下来展示真实浏览器推理。默认模型为native_v2_dqn_full_h128_seed59_1000000，它只根据验证集选择。左图取20张验证地图中的最高分回合，种子10019，最终得分41949，最高上升约8619。这里是演示案例，不能冒充平均测试成绩。\n\n右图来自同一模型的低分死亡回合，种子10000，结束原因为blackhole。游戏没有替模型生成安全路线。\n\n浏览器实时读取209维状态，用导出的实际网络权重控制原版角色。12组新网络各360个观测与PyTorch对齐，动作没有差异。汇报时可播放约25秒GIF，或双击启动后现场选择模型和地图。",
+    "13": "四个人按模块分工，每人约四分之一工作量。A负责原版移植与种子接口，重点解释碰撞顺序和逐帧对照。B负责DQN与Double DQN，解释回放、目标网络以及TD差异，完成六次训练。C负责PPO、GAE与速度消融，也有六次训练。D负责保留测试、逐地图统计、浏览器推理、演示与汇报材料。\n\n每人除了本模块，还需复核相邻模块的接口和运行方式。交付保留原版源文件、配置、最佳与最终权重、学习曲线、逐局CSV、PPT与讲稿。成员姓名未提供，个人报告是技术草稿，需要按各自实际工作确认后署名。",
+    "14": "本轮保持两层128，没有增加参数。旧模型和重训模型都在当前窗口、相同100张新地图上测试；本次Double DQN均分最高，为18584。历史训练窗口不同，因此这里只描述整次重训效果，不能归因单一因素。原版分数和高度仍需分开判断，三个训练种子也不能证明算法普遍优劣。后续可以增加种子，独立研究高度奖励或视觉输入。"
+  },
+  "main_rows": [
+    [
+      "随机动作",
+      "262",
+      "14"
+    ],
+    [
+      "物理规则参考",
+      "29766",
+      "6094"
+    ],
+    [
+      "DQN",
+      "18476 ± 1146",
+      "3738"
+    ],
+    [
+      "Double DQN",
+      "18584 ± 1970",
+      "3744"
+    ],
+    [
+      "PPO",
+      "3945 ± 536",
+      "689"
+    ]
+  ],
+  "sample_caption": "PPO概率采样另测：得分3576 ± 254，高度615。规则参考没有训练。",
+  "ablation_rows": [
+    [
+      "完整观测",
+      "3945 ± 536",
+      "3022 ± 284",
+      "3726 ± 189"
+    ],
+    [
+      "速度置零",
+      "4052 ± 184",
+      "2683 ± 352",
+      "3519 ± 444"
+    ]
+  ],
+  "ablation_caption": "速度置零的原窗口平均得分增加107。\n三种子结果不足以证明速度信息普遍有益或有害。",
+  "conclusion_title": "Double DQN原窗口均分最高：18584 ± 1970",
+  "conclusion_lines": "同预算下算法排序来自本次实测，不能推出普遍优劣。\n学习模型最高均分约为随机动作的70.8倍。\n原版计分与高度不等价，持续攀升仍有明显局限。\n三训练种子与结构化观测限制结论的外推范围。",
+  "demo_caption": "模型只按验证成绩选择。\n种子10019，最终分41949\n最高上升高度8619\n展示局不能代替平均成绩。",
+  "failure_caption": "种子10000，最终分1565\n黑洞死亡，上升127",
+  "parameter_rows": [
+    [
+      "观测与隐藏层",
+      "209 / 128 / 128",
+      "209 / 128 / 128，共享骨干"
+    ],
+    [
+      "参数量",
+      "43,779",
+      "43,908（含价值头）"
+    ],
+    [
+      "学习率 / γ",
+      "0.0005 / 0.99",
+      "0.0003 / 0.99"
+    ],
+    [
+      "数据与更新",
+      "回放100k，batch128，每4决策",
+      "8环境×128步，4轮，batch256"
+    ],
+    [
+      "目标 / 优势",
+      "目标网络每2000决策同步",
+      "GAE λ0.95，clip0.2"
+    ],
+    [
+      "探索",
+      "ε 1→0.05，60万决策退火",
+      "熵系数0.01，策略概率采样"
+    ],
+    [
+      "预算 / 选点",
+      "100万，5万一次验证",
+      "100万，约5万一次验证"
+    ]
+  ],
+  "parameter_caption": "CPU单线程/进程，实测分钟：dqn 11.9–16.9，double_dqn 10.3–18.0，ppo 5.0–8.0",
+  "legacy_rows": [
+    [
+      "DQN",
+      "2511 ± 544",
+      "18476 ± 1146"
+    ],
+    [
+      "Double DQN",
+      "2988 ± 1280",
+      "18584 ± 1970"
+    ],
+    [
+      "PPO",
+      "2434 ± 498",
+      "3945 ± 536"
+    ]
+  ]
+}

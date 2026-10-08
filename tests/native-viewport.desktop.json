@@ -1,0 +1,13 @@
+{
+  "windowWidth": 1360,
+  "windowHeight": 1060,
+  "width": 596.25,
+  "height": 1060,
+  "stepSize": 117,
+  "threshold": 300,
+  "jump": 6.7020946470131895,
+  "gravity": 0.13157486423584175,
+  "platformHeight": 23.025601241272305,
+  "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+  "environment_version": "native-viewport-v2"
+}

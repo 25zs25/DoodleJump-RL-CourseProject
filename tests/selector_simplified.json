@@ -1,0 +1,63 @@
+{
+  "options": [
+    {
+      "value": "manual",
+      "label": "手动试玩"
+    },
+    {
+      "value": "random",
+      "label": "随机动作（未训练）"
+    },
+    {
+      "value": "double_dqn_full_seed42_1000000",
+      "label": "Double DQN（已训练）"
+    },
+    {
+      "value": "dqn_full_seed143_1000000",
+      "label": "DQN（已训练）"
+    },
+    {
+      "value": "ppo_full_seed42_1000000",
+      "label": "PPO（已训练）"
+    }
+  ],
+  "chosen": [
+    {
+      "algorithm": "double_dqn",
+      "id": "double_dqn_full_seed42_1000000",
+      "validation": 2258.9,
+      "seed": 42
+    },
+    {
+      "algorithm": "dqn",
+      "id": "dqn_full_seed143_1000000",
+      "validation": 2220.25,
+      "seed": 143
+    },
+    {
+      "algorithm": "ppo",
+      "id": "ppo_full_seed42_1000000",
+      "validation": 1747.05,
+      "seed": 42
+    }
+  ],
+  "checks": [
+    {
+      "algorithm": "double_dqn",
+      "steps": 2,
+      "network_outputs": 3
+    },
+    {
+      "algorithm": "dqn",
+      "steps": 2,
+      "network_outputs": 3
+    },
+    {
+      "algorithm": "ppo",
+      "steps": 2,
+      "network_outputs": 3
+    }
+  ],
+  "errors": [],
+  "all_training_models_preserved": 12
+}

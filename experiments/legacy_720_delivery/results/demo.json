@@ -1,0 +1,37 @@
+{
+  "good": {
+    "episode": {
+      "seed": 10006,
+      "score": 6421,
+      "height": 996.343211792087,
+      "landings": 65,
+      "springs": 1,
+      "fragile_used": 1,
+      "death_reason": null,
+      "steps": 1500,
+      "frames": 6000,
+      "episode_return": 62.71000000000282,
+      "terminated": false,
+      "truncated": true
+    }
+  },
+  "failure": {
+    "episode": {
+      "seed": 10012,
+      "score": 1168,
+      "height": 193.85880527540735,
+      "landings": 4,
+      "springs": 1,
+      "fragile_used": 0,
+      "death_reason": "blackhole",
+      "steps": 117,
+      "frames": 465,
+      "episode_return": 10.56300000000004,
+      "terminated": true,
+      "truncated": false
+    }
+  },
+  "model": "double_dqn_full_seed42_1000000",
+  "selection": "argmax",
+  "selection_note": "模型只按验证集选择。展示回合取该模型20张验证图中的最高分和最低分死亡局，不作为测试成绩。"
+}

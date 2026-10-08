@@ -1,0 +1,64 @@
+{
+  "runs": [
+    {
+      "viewport": {
+        "width": 683,
+        "height": 871
+      },
+      "seed": 42,
+      "initialPlatforms": 10,
+      "initialEqual": true,
+      "frames": 2000,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 683,
+        "height": 871
+      }
+    },
+    {
+      "viewport": {
+        "width": 683,
+        "height": 871
+      },
+      "seed": 10003,
+      "initialPlatforms": 10,
+      "initialEqual": true,
+      "frames": 202,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 683,
+        "height": 871
+      }
+    },
+    {
+      "viewport": {
+        "width": 683,
+        "height": 871
+      },
+      "seed": 20001,
+      "initialPlatforms": 10,
+      "initialEqual": true,
+      "frames": 2000,
+      "allFramesEqual": true,
+      "canvas": {
+        "width": 683,
+        "height": 871
+      }
+    }
+  ],
+  "totalFrames": 4202,
+  "manualKeyboard": true,
+  "manualUnlimited": true,
+  "pauseStable": true,
+  "modelInference": true,
+  "independentReference": {
+    "frames": 1800,
+    "equal": true,
+    "viewport": {
+      "width": 1360,
+      "height": 1060,
+      "mobile": false
+    }
+  },
+  "errors": []
+}

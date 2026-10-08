@@ -1,0 +1,272 @@
+[
+  {
+    "height": 600,
+    "seed": 1,
+    "policy": "random",
+    "decisions": 146,
+    "frames": 582,
+    "score": 1413,
+    "passed": true
+  },
+  {
+    "height": 600,
+    "seed": 42,
+    "policy": "random",
+    "decisions": 39,
+    "frames": 155,
+    "score": 516,
+    "passed": true
+  },
+  {
+    "height": 600,
+    "seed": 143,
+    "policy": "random",
+    "decisions": 132,
+    "frames": 525,
+    "score": 516,
+    "passed": true
+  },
+  {
+    "height": 600,
+    "seed": 10003,
+    "policy": "random",
+    "decisions": 92,
+    "frames": 366,
+    "score": 241,
+    "passed": true
+  },
+  {
+    "height": 600,
+    "seed": 20000,
+    "policy": "random",
+    "decisions": 46,
+    "frames": 181,
+    "score": 932,
+    "passed": true
+  },
+  {
+    "height": 720,
+    "seed": 1,
+    "policy": "random",
+    "decisions": 49,
+    "frames": 193,
+    "score": 0,
+    "passed": true
+  },
+  {
+    "height": 720,
+    "seed": 42,
+    "policy": "random",
+    "decisions": 25,
+    "frames": 99,
+    "score": 0,
+    "passed": true
+  },
+  {
+    "height": 720,
+    "seed": 143,
+    "policy": "random",
+    "decisions": 49,
+    "frames": 193,
+    "score": 0,
+    "passed": true
+  },
+  {
+    "height": 720,
+    "seed": 10003,
+    "policy": "random",
+    "decisions": 25,
+    "frames": 99,
+    "score": 0,
+    "passed": true
+  },
+  {
+    "height": 720,
+    "seed": 20000,
+    "policy": "random",
+    "decisions": 74,
+    "frames": 293,
+    "score": 1206,
+    "passed": true
+  },
+  {
+    "height": 900,
+    "seed": 1,
+    "policy": "random",
+    "decisions": 51,
+    "frames": 204,
+    "score": 0,
+    "passed": true
+  },
+  {
+    "height": 900,
+    "seed": 42,
+    "policy": "random",
+    "decisions": 90,
+    "frames": 358,
+    "score": 720,
+    "passed": true
+  },
+  {
+    "height": 900,
+    "seed": 143,
+    "policy": "random",
+    "decisions": 218,
+    "frames": 870,
+    "score": 783,
+    "passed": true
+  },
+  {
+    "height": 900,
+    "seed": 10003,
+    "policy": "random",
+    "decisions": 28,
+    "frames": 109,
+    "score": 0,
+    "passed": true
+  },
+  {
+    "height": 900,
+    "seed": 20000,
+    "policy": "random",
+    "decisions": 122,
+    "frames": 487,
+    "score": 807,
+    "passed": true
+  },
+  {
+    "height": 600,
+    "seed": 10000,
+    "policy": "rule",
+    "decisions": 1500,
+    "frames": 6000,
+    "score": 2348,
+    "passed": true
+  },
+  {
+    "height": 600,
+    "seed": 10001,
+    "policy": "rule",
+    "decisions": 1500,
+    "frames": 6000,
+    "score": 9803,
+    "passed": true
+  },
+  {
+    "height": 600,
+    "seed": 10003,
+    "policy": "rule",
+    "decisions": 1085,
+    "frames": 4339,
+    "score": 31536,
+    "passed": true
+  },
+  {
+    "height": 600,
+    "seed": 10007,
+    "policy": "rule",
+    "decisions": 1500,
+    "frames": 6000,
+    "score": 9324,
+    "passed": true
+  },
+  {
+    "height": 600,
+    "seed": 10019,
+    "policy": "rule",
+    "decisions": 1500,
+    "frames": 6000,
+    "score": 30802,
+    "passed": true
+  },
+  {
+    "height": 720,
+    "seed": 10000,
+    "policy": "rule",
+    "decisions": 115,
+    "frames": 457,
+    "score": 1683,
+    "passed": true
+  },
+  {
+    "height": 720,
+    "seed": 10001,
+    "policy": "rule",
+    "decisions": 1500,
+    "frames": 6000,
+    "score": 2103,
+    "passed": true
+  },
+  {
+    "height": 720,
+    "seed": 10003,
+    "policy": "rule",
+    "decisions": 1500,
+    "frames": 6000,
+    "score": 1947,
+    "passed": true
+  },
+  {
+    "height": 720,
+    "seed": 10007,
+    "policy": "rule",
+    "decisions": 1500,
+    "frames": 6000,
+    "score": 1947,
+    "passed": true
+  },
+  {
+    "height": 720,
+    "seed": 10019,
+    "policy": "rule",
+    "decisions": 1500,
+    "frames": 6000,
+    "score": 2145,
+    "passed": true
+  },
+  {
+    "height": 900,
+    "seed": 10000,
+    "policy": "rule",
+    "decisions": 74,
+    "frames": 293,
+    "score": 1383,
+    "passed": true
+  },
+  {
+    "height": 900,
+    "seed": 10001,
+    "policy": "rule",
+    "decisions": 1500,
+    "frames": 6000,
+    "score": 1707,
+    "passed": true
+  },
+  {
+    "height": 900,
+    "seed": 10003,
+    "policy": "rule",
+    "decisions": 1500,
+    "frames": 6000,
+    "score": 1587,
+    "passed": true
+  },
+  {
+    "height": 900,
+    "seed": 10007,
+    "policy": "rule",
+    "decisions": 1500,
+    "frames": 6000,
+    "score": 1587,
+    "passed": true
+  },
+  {
+    "height": 900,
+    "seed": 10019,
+    "policy": "rule",
+    "decisions": 1500,
+    "frames": 6000,
+    "score": 1749,
+    "passed": true
+  }
+]

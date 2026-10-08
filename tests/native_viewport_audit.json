@@ -1,0 +1,935 @@
+{
+  "oldWrapper": {
+    "window": {
+      "width": 405,
+      "height": 720,
+      "mobile": true
+    },
+    "canvas": {
+      "width": 405,
+      "height": 720
+    },
+    "constants": {
+      "jump": 4.5523661753297135,
+      "superJump": 7.820015515903801,
+      "speed": 4.022068965517241,
+      "gravity": 0.08937160589604344,
+      "maxFall": 5.5857253685027155,
+      "threshold": 300,
+      "playerWidth": 44.689655172413794,
+      "playerHeight": 44.685802948021724,
+      "platformWidth": 61.44827586206897,
+      "platformHeight": 15.640031031807602,
+      "stepSize": 80
+    },
+    "player": {
+      "x": 271.80710149998777,
+      "y": 129.83708301008534,
+      "vx": 0,
+      "vy": 0,
+      "direction": 1
+    },
+    "platforms": [
+      {
+        "x": 69.46127871387029,
+        "y": 720,
+        "type": 2,
+        "vx": 2,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 354.5474369438317,
+        "y": 640,
+        "type": 5,
+        "vx": 2,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 33.18390285740767,
+        "y": 560,
+        "type": 5,
+        "vx": 2,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 173.08712574094534,
+        "y": 480,
+        "type": 5,
+        "vx": 2,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 360.0266009787226,
+        "y": 400,
+        "type": 5,
+        "vx": 2,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 69.30480550985044,
+        "y": 320,
+        "type": 5,
+        "vx": 2,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 284.2415480271046,
+        "y": 240,
+        "type": 2,
+        "vx": 2,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 271.80710149998777,
+        "y": 160,
+        "type": 5,
+        "vx": 2,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      },
+      {
+        "x": 172.60048337786554,
+        "y": 80,
+        "type": 5,
+        "vx": 2,
+        "springed": false,
+        "springX": null,
+        "springY": null
+      }
+    ],
+    "hole": null,
+    "score": 0,
+    "isOver": false,
+    "isBlackholed": false
+  },
+  "viewportComparisons": [
+    {
+      "height": 720,
+      "native": {
+        "window": {
+          "width": 1360,
+          "height": 720,
+          "mobile": false
+        },
+        "canvas": {
+          "width": 405,
+          "height": 720
+        },
+        "constants": {
+          "jump": 4.5523661753297135,
+          "superJump": 7.820015515903801,
+          "speed": 4.022068965517241,
+          "gravity": 0.08937160589604344,
+          "maxFall": 5.5857253685027155,
+          "threshold": 300,
+          "playerWidth": 44.689655172413794,
+          "playerHeight": 44.685802948021724,
+          "platformWidth": 61.44827586206897,
+          "platformHeight": 15.640031031807602,
+          "stepSize": 80
+        },
+        "player": {
+          "x": 271.80710149998777,
+          "y": 129.83708301008534,
+          "vx": 0,
+          "vy": 0,
+          "direction": 1
+        },
+        "platforms": [
+          {
+            "x": 69.46127871387029,
+            "y": 720,
+            "type": 2,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 354.5474369438317,
+            "y": 640,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 33.18390285740767,
+            "y": 560,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 173.08712574094534,
+            "y": 480,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 360.0266009787226,
+            "y": 400,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 69.30480550985044,
+            "y": 320,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 284.2415480271046,
+            "y": 240,
+            "type": 2,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 271.80710149998777,
+            "y": 160,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 172.60048337786554,
+            "y": 80,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          }
+        ],
+        "hole": null,
+        "score": 0,
+        "isOver": false,
+        "isBlackholed": false
+      },
+      "adapter": {
+        "window": {
+          "width": 1360,
+          "height": 720,
+          "mobile": false
+        },
+        "canvas": {
+          "width": 405,
+          "height": 720
+        },
+        "constants": {
+          "jump": 4.5523661753297135,
+          "superJump": 7.820015515903801,
+          "speed": 4.022068965517241,
+          "gravity": 0.08937160589604344,
+          "maxFall": 5.5857253685027155,
+          "threshold": 300,
+          "playerWidth": 44.689655172413794,
+          "playerHeight": 44.685802948021724,
+          "platformWidth": 61.44827586206897,
+          "platformHeight": 15.640031031807602,
+          "stepSize": 80
+        },
+        "player": {
+          "x": 271.80710149998777,
+          "y": 129.83708301008534,
+          "vx": 0,
+          "vy": 0,
+          "direction": 1
+        },
+        "platforms": [
+          {
+            "x": 69.46127871387029,
+            "y": 720,
+            "type": 2,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 354.5474369438317,
+            "y": 640,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 33.18390285740767,
+            "y": 560,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 173.08712574094534,
+            "y": 480,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 360.0266009787226,
+            "y": 400,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 69.30480550985044,
+            "y": 320,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 284.2415480271046,
+            "y": 240,
+            "type": 2,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 271.80710149998777,
+            "y": 160,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 172.60048337786554,
+            "y": 80,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          }
+        ],
+        "hole": null,
+        "score": 0,
+        "isOver": false,
+        "isBlackholed": false
+      },
+      "initialEqual": true
+    },
+    {
+      "height": 900,
+      "native": {
+        "window": {
+          "width": 1360,
+          "height": 900,
+          "mobile": false
+        },
+        "canvas": {
+          "width": 506.25,
+          "height": 900
+        },
+        "constants": {
+          "jump": 5.690457719162142,
+          "superJump": 9.775019394879752,
+          "speed": 5.027586206896552,
+          "gravity": 0.11171450737005431,
+          "maxFall": 6.982156710628394,
+          "threshold": 300,
+          "playerWidth": 55.86206896551724,
+          "playerHeight": 55.85725368502715,
+          "platformWidth": 76.8103448275862,
+          "platformHeight": 19.550038789759505,
+          "stepSize": 100
+        },
+        "player": {
+          "x": 339.75887687498465,
+          "y": 162.29635376260666,
+          "vx": 0,
+          "vy": 0,
+          "direction": 1
+        },
+        "platforms": [
+          {
+            "x": 86.82659839233784,
+            "y": 900,
+            "type": 2,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 443.18429617978956,
+            "y": 800,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 41.479878571759585,
+            "y": 700,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 216.35890717618167,
+            "y": 600,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 450.0332512234032,
+            "y": 500,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 86.63100688731305,
+            "y": 400,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 355.30193503388074,
+            "y": 300,
+            "type": 2,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 339.75887687498465,
+            "y": 200,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 215.75060422233193,
+            "y": 100,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          }
+        ],
+        "hole": null,
+        "score": 0,
+        "isOver": false,
+        "isBlackholed": false
+      },
+      "adapter": {
+        "window": {
+          "width": 1360,
+          "height": 900,
+          "mobile": false
+        },
+        "canvas": {
+          "width": 506.25,
+          "height": 900
+        },
+        "constants": {
+          "jump": 5.690457719162142,
+          "superJump": 9.775019394879752,
+          "speed": 5.027586206896552,
+          "gravity": 0.11171450737005431,
+          "maxFall": 6.982156710628394,
+          "threshold": 300,
+          "playerWidth": 55.86206896551724,
+          "playerHeight": 55.85725368502715,
+          "platformWidth": 76.8103448275862,
+          "platformHeight": 19.550038789759505,
+          "stepSize": 100
+        },
+        "player": {
+          "x": 339.75887687498465,
+          "y": 162.29635376260666,
+          "vx": 0,
+          "vy": 0,
+          "direction": 1
+        },
+        "platforms": [
+          {
+            "x": 86.82659839233784,
+            "y": 900,
+            "type": 2,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 443.18429617978956,
+            "y": 800,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 41.479878571759585,
+            "y": 700,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 216.35890717618167,
+            "y": 600,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 450.0332512234032,
+            "y": 500,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 86.63100688731305,
+            "y": 400,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 355.30193503388074,
+            "y": 300,
+            "type": 2,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 339.75887687498465,
+            "y": 200,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 215.75060422233193,
+            "y": 100,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          }
+        ],
+        "hole": null,
+        "score": 0,
+        "isOver": false,
+        "isBlackholed": false
+      },
+      "initialEqual": true
+    },
+    {
+      "height": 1060,
+      "native": {
+        "window": {
+          "width": 1360,
+          "height": 1060,
+          "mobile": false
+        },
+        "canvas": {
+          "width": 596.25,
+          "height": 1060
+        },
+        "constants": {
+          "jump": 6.7020946470131895,
+          "superJump": 11.512800620636153,
+          "speed": 5.921379310344828,
+          "gravity": 0.13157486423584175,
+          "maxFall": 8.223429014740109,
+          "threshold": 300,
+          "playerWidth": 65.79310344827587,
+          "playerHeight": 65.78743211792087,
+          "platformWidth": 90.46551724137932,
+          "platformHeight": 23.025601241272305,
+          "stepSize": 117
+        },
+        "player": {
+          "x": 254.10626719519095,
+          "y": 79.59348332040341,
+          "vx": 0,
+          "vy": 0,
+          "direction": 1
+        },
+        "platforms": [
+          {
+            "x": 102.26243810653125,
+            "y": 1060,
+            "type": 2,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 521.9726155006412,
+            "y": 943,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 48.85407920673907,
+            "y": 826,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 254.82271289639175,
+            "y": 709,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 530.0391625520083,
+            "y": 592,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 102.03207477839095,
+            "y": 475,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 418.46672348434845,
+            "y": 358,
+            "type": 2,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 400.1604549860931,
+            "y": 241,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 254.10626719519095,
+            "y": 124,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 404.6534473008962,
+            "y": 7,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          }
+        ],
+        "hole": null,
+        "score": 0,
+        "isOver": false,
+        "isBlackholed": false
+      },
+      "adapter": {
+        "window": {
+          "width": 1360,
+          "height": 1060,
+          "mobile": false
+        },
+        "canvas": {
+          "width": 596.25,
+          "height": 1060
+        },
+        "constants": {
+          "jump": 6.7020946470131895,
+          "superJump": 11.512800620636153,
+          "speed": 5.921379310344828,
+          "gravity": 0.13157486423584175,
+          "maxFall": 8.223429014740109,
+          "threshold": 300,
+          "playerWidth": 65.79310344827587,
+          "playerHeight": 65.78743211792087,
+          "platformWidth": 90.46551724137932,
+          "platformHeight": 23.025601241272305,
+          "stepSize": 117
+        },
+        "player": {
+          "x": 254.10626719519095,
+          "y": 79.59348332040341,
+          "vx": 0,
+          "vy": 0,
+          "direction": 1
+        },
+        "platforms": [
+          {
+            "x": 102.26243810653125,
+            "y": 1060,
+            "type": 2,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 521.9726155006412,
+            "y": 943,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 48.85407920673907,
+            "y": 826,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 254.82271289639175,
+            "y": 709,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 530.0391625520083,
+            "y": 592,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 102.03207477839095,
+            "y": 475,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 418.46672348434845,
+            "y": 358,
+            "type": 2,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 400.1604549860931,
+            "y": 241,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 254.10626719519095,
+            "y": 124,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          },
+          {
+            "x": 404.6534473008962,
+            "y": 7,
+            "type": 5,
+            "vx": 2,
+            "springed": false,
+            "springX": null,
+            "springY": null
+          }
+        ],
+        "hole": null,
+        "score": 0,
+        "isOver": false,
+        "isBlackholed": false
+      },
+      "initialEqual": true
+    }
+  ],
+  "results": [
+    {
+      "height": 720,
+      "seed": 42,
+      "frames": 696,
+      "initialEqual": true,
+      "mismatch": -1,
+      "finalEqual": true
+    },
+    {
+      "height": 720,
+      "seed": 10003,
+      "frames": 381,
+      "initialEqual": true,
+      "mismatch": -1,
+      "finalEqual": true
+    },
+    {
+      "height": 720,
+      "seed": 20001,
+      "frames": 564,
+      "initialEqual": true,
+      "mismatch": -1,
+      "finalEqual": true
+    },
+    {
+      "height": 900,
+      "seed": 42,
+      "frames": 1404,
+      "initialEqual": true,
+      "mismatch": -1,
+      "finalEqual": true
+    },
+    {
+      "height": 900,
+      "seed": 10003,
+      "frames": 1600,
+      "initialEqual": true,
+      "mismatch": -1,
+      "finalEqual": true
+    },
+    {
+      "height": 900,
+      "seed": 20001,
+      "frames": 1600,
+      "initialEqual": true,
+      "mismatch": -1,
+      "finalEqual": true
+    },
+    {
+      "height": 1060,
+      "seed": 42,
+      "frames": 1600,
+      "initialEqual": true,
+      "mismatch": -1,
+      "finalEqual": true
+    },
+    {
+      "height": 1060,
+      "seed": 10003,
+      "frames": 116,
+      "initialEqual": true,
+      "mismatch": -1,
+      "finalEqual": true
+    },
+    {
+      "height": 1060,
+      "seed": 20001,
+      "frames": 1600,
+      "initialEqual": true,
+      "mismatch": -1,
+      "finalEqual": true
+    }
+  ],
+  "errors": []
+}

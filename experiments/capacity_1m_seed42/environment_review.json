@@ -1,0 +1,25 @@
+{
+  "status": "stopped_for_environment_review",
+  "reason": "Fixed 405x720 preview was not the actual upstream viewport; 720 triggers a nine-row startup / ten-spacing recycle gap.",
+  "formal_capacity_comparison_complete": false,
+  "paired_test_executed": false,
+  "valid_capacity_conclusion": null,
+  "upstream_modified": false,
+  "new_preview_version": "native-viewport-v2",
+  "runs": [
+    {
+      "run_id": "double_dqn_full_h512_cuda_seed42_1000000",
+      "hidden": 512,
+      "steps": 1000000,
+      "training_complete": true,
+      "elapsed_seconds": 1399.2982056
+    },
+    {
+      "run_id": "double_dqn_full_h128_cuda_seed42_1000000",
+      "hidden": 128,
+      "steps": 250000,
+      "training_complete": false,
+      "elapsed_seconds": 246.50532940000267
+    }
+  ]
+}

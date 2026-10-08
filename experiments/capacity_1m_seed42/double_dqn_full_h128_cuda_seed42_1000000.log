@@ -1,0 +1,5 @@
+{"run": "double_dqn_full_h128_cuda_seed42_1000000", "steps": 50000, "score": 163.95, "recent_train_height": 20.12, "seconds": 36.58, "final": false}
+{"run": "double_dqn_full_h128_cuda_seed42_1000000", "steps": 100000, "score": 361.0, "recent_train_height": 7.16, "seconds": 75.26, "final": false}
+{"run": "double_dqn_full_h128_cuda_seed42_1000000", "steps": 150000, "score": 1294.4, "recent_train_height": 46.35, "seconds": 136.53, "final": false}
+{"run": "double_dqn_full_h128_cuda_seed42_1000000", "steps": 200000, "score": 1891.0, "recent_train_height": 70.83, "seconds": 192.78, "final": false}
+{"run": "double_dqn_full_h128_cuda_seed42_1000000", "steps": 250000, "score": 1487.95, "recent_train_height": 123.93, "seconds": 246.51, "final": false}

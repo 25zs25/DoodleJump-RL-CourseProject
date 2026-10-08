@@ -1,0 +1,20 @@
+[
+  {
+    "device": "cpu",
+    "decisions": 20000,
+    "seconds": 10.357689000000391,
+    "process_wall_seconds": 15.564379400002508,
+    "decisions_per_second": 1930.932662681728,
+    "parameters": 43779,
+    "gradient_updates": 4376
+  },
+  {
+    "device": "cuda",
+    "decisions": 20000,
+    "seconds": 14.895115700001043,
+    "process_wall_seconds": 19.556114200000593,
+    "decisions_per_second": 1342.7220306854415,
+    "parameters": 43779,
+    "gradient_updates": 4376
+  }
+]

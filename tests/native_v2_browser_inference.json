@@ -1,0 +1,44 @@
+{
+  "errors": [],
+  "failed": [],
+  "models": 12,
+  "comparisons": 4320,
+  "max_abs_error": 0.000011491902352389616,
+  "argmax_mismatches": 0,
+  "viewport": [
+    683,
+    871
+  ],
+  "demo": [
+    {
+      "kind": "good",
+      "decisions": 1500,
+      "score": 41949,
+      "height": 8619.236322730836,
+      "maxHeightError": 0
+    },
+    {
+      "kind": "failure",
+      "decisions": 73,
+      "score": 1565,
+      "height": 127.24985259891474,
+      "maxHeightError": 0
+    }
+  ],
+  "live": {
+    "seconds": 26.412,
+    "frames": 81,
+    "phase": "running",
+    "score": 10668,
+    "height": 1906.5967649340625
+  },
+  "desktopOverflow": false,
+  "mobileOverflow": false,
+  "options": [
+    "手动试玩（原版控制）",
+    "随机动作（未训练）",
+    "Double DQN（当前窗口重训）",
+    "DQN（当前窗口重训）",
+    "PPO（当前窗口重训）"
+  ]
+}

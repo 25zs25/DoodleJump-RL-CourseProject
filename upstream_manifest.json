@@ -1,0 +1,112 @@
+{
+  "repository": "takosenpai2687/doodle-jump",
+  "commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+  "archive_sha256": "afafe9f7a8b7de9dd25c5ddb1afbeb1a619296d86c46f6cd3a842d805f8d53ae",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "bytes": 66
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "9c27cb448e4ccd2c8d4ca56757fafa0e6c9fe8af4874e723f3c1cd880993095d",
+      "bytes": 1067
+    },
+    {
+      "path": "README.md",
+      "sha256": "e2ad1ff3b16b0a74f0efec647b60439a87d0d96083473897441ca32f8e1c9be7",
+      "bytes": 2540
+    },
+    {
+      "path": "assets/img/doodler_left.png",
+      "sha256": "899805b1ca0b37c36b518f0c547e02e2203d2edc5a58d5ec9915b6021971e5cb",
+      "bytes": 38003
+    },
+    {
+      "path": "assets/img/doodler_right.png",
+      "sha256": "39e7ca4335b3c27ff638dbd81455f78f6374793756021b0e348e9fa9f5f8b535",
+      "bytes": 83967
+    },
+    {
+      "path": "assets/img/hole.png",
+      "sha256": "23c21171cb16bbcc93c49d5b4d2ed41633d2ab8baaf92188e9e9114582ebcc23",
+      "bytes": 3327
+    },
+    {
+      "path": "assets/img/spring.png",
+      "sha256": "d7c799c9fbd03373b7ee5f58d05ba161b19a41935f61c6010982b646f78952c9",
+      "bytes": 1044
+    },
+    {
+      "path": "assets/sound/blackhole.mp3",
+      "sha256": "7cfb287e23f72ccbc6cafa94f8f5df26069bf710a0e76240915aec543ae4179d",
+      "bytes": 34750
+    },
+    {
+      "path": "assets/sound/falling.mp3",
+      "sha256": "c824de026cf004e07a35f216fd78151425aa5e9955f43ebb77f2498c3eec9d99",
+      "bytes": 24294
+    },
+    {
+      "path": "assets/sound/fragile.mp3",
+      "sha256": "dbe3dbd693de451c9216ab001b79176b41f9f863eec88d7541754e16a4303235",
+      "bytes": 7996
+    },
+    {
+      "path": "assets/sound/jump.wav",
+      "sha256": "5e783fa2c779e51d65ab5b2a6e8c77792b1022b53cd7e333bf115b0da2d3a278",
+      "bytes": 8172
+    },
+    {
+      "path": "assets/sound/spring.mp3",
+      "sha256": "d29fcf6e8e43064425ef1b2a59c35de96e39b2bae4a92ffa09659afbcc06539a",
+      "bytes": 15099
+    },
+    {
+      "path": "css/style.css",
+      "sha256": "efa4ea042335263ac3e9a10b6d00130a36f73a91da29e3dd1249094391c2fe7d",
+      "bytes": 562
+    },
+    {
+      "path": "index.html",
+      "sha256": "ca7559340894ea4877c0a528efff357799f96a587ac6c6fb02b576fcbadc530b",
+      "bytes": 786
+    },
+    {
+      "path": "js/blackhole.js",
+      "sha256": "c4c949d19aabf26b4e87c95648b9147d1f360e9488424ef388fd41f05845676f",
+      "bytes": 408
+    },
+    {
+      "path": "js/config.js",
+      "sha256": "cfa9972cabf338c434f2315fd8a9fe7f1c044af00961c312bce71e19585f0a02",
+      "bytes": 553
+    },
+    {
+      "path": "js/doodler.js",
+      "sha256": "a834e4074c7854f76ea813b857aa9927f59439ecc167552effdeb1ba3e03cca8",
+      "bytes": 1789
+    },
+    {
+      "path": "js/index.js",
+      "sha256": "b3af69fc08b8128869b46bcd21a7e79439fd3e54914c8608fc6ad1b8508b2155",
+      "bytes": 18250
+    },
+    {
+      "path": "js/platform.js",
+      "sha256": "b60955f2b99afa7c4d0f04b3be30d6ac3f05b4165c90cd7256ca6fd22d1abf2e",
+      "bytes": 4190
+    },
+    {
+      "path": "lib/p5.min.js",
+      "sha256": "2ee031e707ccbd2cc8551c985fd1ebf5f59fea0abe186a7b23606568a1a306a1",
+      "bytes": 1055288
+    },
+    {
+      "path": "lib/p5.sound.min.js",
+      "sha256": "f067ef7cf80b3561327e7b14661ec980fbd34b2baf1e0a9d529a120132ba0107",
+      "bytes": 200064
+    }
+  ]
+}

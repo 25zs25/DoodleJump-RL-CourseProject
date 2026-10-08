@@ -1,0 +1,14 @@
+{
+  "version": "native-viewport-v2",
+  "upstream_commit": "d4b6071813a9c1353267d53dcfa9d8abc3e5b2f4",
+  "viewport": "Read from actual native browser; explicit exported JSON required for new training",
+  "upstream_files_unchanged": 21,
+  "hashes": {
+    "env.py": "2095cc8610d5f9857751aa8be555146ff716f2e032026d44952412e39d1c3336",
+    "bridge-core.js": "29b9e5cbd3fa563009e2bf00e82241c78e45e498ef7f2509052c2aca3a22f25b",
+    "viewport.py": "a4dd93235cda1b31fe4715f9e7fb105ae415d8675a5a114cac9c071019130027",
+    "game.html": "cb5b2eb8162a66a3a44003bb7d22eacbdf30a45908feb27334d9919339c8ccf0",
+    "ui-bridge.js": "d644f9c39835246a4793b89e018d018c56f5505ccc6c885c1a22dd20a4944ac8"
+  },
+  "legacy_environment": "experiments/legacy_720_source/environment-freeze.json"
+}
