@@ -1,0 +1,150 @@
+{
+  "slides": [
+    {
+      "file": "slide-01.png",
+      "slide": 1,
+      "title": "Doodle Jump 原版规则强化学习",
+      "speaker": "A",
+      "seconds": 25,
+      "sha256": "be45ca75f9daeb1e78c3cd12e5723ddcc8855da84853b3d3ff7dbf6fb460d3fe"
+    },
+    {
+      "file": "slide-02.png",
+      "slide": 2,
+      "title": "原版游戏与左右控制",
+      "speaker": "A",
+      "seconds": 55,
+      "sha256": "444a969017899f5331c9d6564dadf0e592a0be806ae54a12286ad5a715e53ac2"
+    },
+    {
+      "file": "slide-03.png",
+      "slide": 3,
+      "title": "原版引擎与训练接口",
+      "speaker": "A",
+      "seconds": 55,
+      "sha256": "6fb7221a3056c7670c7f544851f06338c587b3e10a0731652f6b99a3bcf328c8"
+    },
+    {
+      "file": "slide-04.png",
+      "slide": 4,
+      "title": "209维局部观测与奖励",
+      "speaker": "A",
+      "seconds": 60,
+      "sha256": "b7a0159426912e2823f9ebb0951cacdd9401aadd83d831111c6e99d9c889879b"
+    },
+    {
+      "file": "slide-05.png",
+      "slide": 5,
+      "title": "DQN的回放与价值更新",
+      "speaker": "B",
+      "seconds": 55,
+      "sha256": "4ffe481f2a7d50536f55efc55adc5a93339e183cc0114737194e8b49cb7f766c"
+    },
+    {
+      "file": "slide-06.png",
+      "slide": 6,
+      "title": "Double DQN的动作选择与估值",
+      "speaker": "B",
+      "seconds": 50,
+      "sha256": "d1f1fdd82d414d082ec45cd82e091088ed0d68b2d4bc28cdccc01d44e3d19247"
+    },
+    {
+      "file": "slide-07.png",
+      "slide": 7,
+      "title": "独立训练、验证与保留测试",
+      "speaker": "B",
+      "seconds": 50,
+      "sha256": "34ebf7b09ecfb3fb8c9efea993c3b52b3e43a3ed963c351a2768f914bb10141c"
+    },
+    {
+      "file": "slide-08.png",
+      "slide": 8,
+      "title": "三种子的验证学习曲线",
+      "speaker": "B",
+      "seconds": 40,
+      "sha256": "e1dcb537bd3b5c242b5b4c67a2be37d810e1fc2a6873dcbe38566023298c24d4"
+    },
+    {
+      "file": "slide-09.png",
+      "slide": 9,
+      "title": "PPO的策略、价值与优势更新",
+      "speaker": "C",
+      "seconds": 65,
+      "sha256": "c408c49f79459acc2b771df77b66884fb01dfd0cfb96a4b385cc40ff2e99e804"
+    },
+    {
+      "file": "slide-10.png",
+      "slide": 10,
+      "title": "当前窗口的保留地图结果",
+      "speaker": "C",
+      "seconds": 65,
+      "sha256": "fac78fb3c72ad4c2a624d3fec2635bbb2c869440fc43ec3baf9630fa528957ee"
+    },
+    {
+      "file": "slide-11.png",
+      "slide": 11,
+      "title": "PPO速度置零消融",
+      "speaker": "C",
+      "seconds": 65,
+      "sha256": "64573f673a982bdd4c826e8eb2c6ab118b14883dc8b712361f9d30e73e6ceda1"
+    },
+    {
+      "file": "slide-12.png",
+      "slide": 12,
+      "title": "原版窗口缩放下的测试",
+      "speaker": "D",
+      "seconds": 65,
+      "sha256": "f731182bb1e63d21fc2671faefe9c371cf099a8ee1d2c95450c0badd06728a6c"
+    },
+    {
+      "file": "slide-13.png",
+      "slide": 13,
+      "title": "真实推理与失败回合",
+      "speaker": "D",
+      "seconds": 65,
+      "sha256": "49c5a980dd950a38ac98c02bdb10f3d6f0c6b9ee7f2f68c30999aac7efed28d4"
+    },
+    {
+      "file": "slide-14.png",
+      "slide": 14,
+      "title": "本次结论与四人分工",
+      "speaker": "D",
+      "seconds": 65,
+      "sha256": "19be43d5d228f7cc1c7acdeb4abfe9ca666bea5f55ec8f120ef24bcead68ec12"
+    },
+    {
+      "file": "slide-15.png",
+      "slide": 15,
+      "title": "附录：超参数与实际训练设备",
+      "speaker": "答辩",
+      "seconds": 0,
+      "sha256": "d09b51eb38ce18c7366d58f0fe85e65fd04838890eba07faf39567ee722f7a48"
+    },
+    {
+      "file": "slide-16.png",
+      "slide": 16,
+      "title": "附录：旧模型在同一当前窗口复测",
+      "speaker": "答辩",
+      "seconds": 0,
+      "sha256": "6c36adc1afff8395f5008d4106642b9c356c9fc7160a78ba8aa8f846aaa90eb2"
+    },
+    {
+      "file": "slide-17.png",
+      "slide": 17,
+      "title": "附录：输入向量的精确字段",
+      "speaker": "答辩",
+      "seconds": 0,
+      "sha256": "f88f4f6b3ddb47dc48236169420525fe2b93b99f0a5e9eea2765475b2c70e260"
+    },
+    {
+      "file": "slide-18.png",
+      "slide": 18,
+      "title": "附录：原版、部署证据与共享入口",
+      "speaker": "答辩",
+      "seconds": 0,
+      "sha256": "c870bc6414331811a47835876ec78274db7054dc591896dc1c85cf7ba3e40ac9"
+    }
+  ],
+  "count": 18,
+  "source_presentation": "../DoodleJump_13分钟汇报_美化完善版.pptx"
+}

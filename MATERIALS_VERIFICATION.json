@@ -1,0 +1,122 @@
+{
+  "revision": "v1.1.0",
+  "review_date": "2026-10-09",
+  "presentation_file": "DoodleJump_13分钟汇报_美化完善版.pptx",
+  "presentation_sha256": "1243c5de1a59eb4c43083ab2691bd75e31e73e7bedb0776e1976ee70b1dd806b",
+  "presentation_slides": 18,
+  "main_slides": 14,
+  "appendix_slides": 4,
+  "main_duration_seconds": 780,
+  "speaker_duration_seconds": {
+    "A": 195,
+    "B": 195,
+    "C": 195,
+    "D": 195
+  },
+  "native_editable_charts": 6,
+  "slide_previews": 18,
+  "presentation_review": "All 18 final slides individually reviewed at original resolution; root also independently reviewed all 18",
+  "root_final_changed_slides_reviewed": [
+    10,
+    11,
+    12
+  ],
+  "other_15_final_images_identical_to_root_reviewed_images": true,
+  "report_count": 5,
+  "report_pages": 22,
+  "reports": [
+    {
+      "file": "A_环境与原版保留报告.pdf",
+      "pages": 4,
+      "sha256": "eb7af02c6374bf3056bee1b46e8ad4db951b94e9172fc6837f7781583ca5ad5d",
+      "markdown_sha256": "f221e1695d7f71df7aab519d216c5f9cd870e490269cffdd3f544b23617e38ba",
+      "text_characters": 3975,
+      "native_hyperlinks": 2,
+      "visual_review": "passed_all_pages_at_original_resolution",
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "structural_layout_findings": []
+    },
+    {
+      "file": "B_DQN与DoubleDQN报告.pdf",
+      "pages": 4,
+      "sha256": "a5825acb5850b406de4be57776a14d547914b80c65cbb091b27ffc0119c4a764",
+      "markdown_sha256": "23bd3932b49836430b54e2a5e617d2dc7b0b8fe3f38d0750bde5553b4009fe2e",
+      "text_characters": 3745,
+      "native_hyperlinks": 2,
+      "visual_review": "passed_all_pages_at_original_resolution",
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "structural_layout_findings": []
+    },
+    {
+      "file": "C_PPO与消融报告.pdf",
+      "pages": 4,
+      "sha256": "fe54a959ed9a566c2dadd95fe04887991f7f3e9fe2e5127e3358486eadfc4d84",
+      "markdown_sha256": "cc6a9471feb71fdf19012c4d7b206d83f4102060adb2be48fcda770971c4dc13",
+      "text_characters": 3567,
+      "native_hyperlinks": 3,
+      "visual_review": "passed_all_pages_at_original_resolution",
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "structural_layout_findings": []
+    },
+    {
+      "file": "D_评测部署与汇报报告.pdf",
+      "pages": 4,
+      "sha256": "ed6fe1980accaa70b68c06d8e4ac0bea78933194ca1a29e8a42fb8fa3eadd3e8",
+      "markdown_sha256": "bb254d190ff5586cf8fac491f24df899a54ce50e65bfc1c999143a59ac597ce7",
+      "text_characters": 3590,
+      "native_hyperlinks": 2,
+      "visual_review": "passed_all_pages_at_original_resolution",
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "structural_layout_findings": []
+    },
+    {
+      "file": "小组技术报告.pdf",
+      "pages": 6,
+      "sha256": "3e7980827d10c0c038cd1585ac2ba22080118d56373224dffb3a41a296cea1e3",
+      "markdown_sha256": "a92345e37e1f6dc6c7e881c4a4015c45097ad055d0e1711db29f78aeef06a94c",
+      "text_characters": 6094,
+      "native_hyperlinks": 6,
+      "visual_review": "passed_all_pages_at_original_resolution",
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "structural_layout_findings": []
+    }
+  ],
+  "upstream_unchanged_files": 21,
+  "frozen_core_sources_unchanged": 8,
+  "current_model_manifest_items_verified": 84,
+  "unchanged_model_weight_export_curve_files": 120,
+  "published_current_results_unchanged": [
+    "results/native_v2/summary.json",
+    "results/native_v2/test_episodes.csv",
+    "results/native_v2/baseline_episodes.csv"
+  ],
+  "training_repeated_for_material_polish": false,
+  "remaining_member_action": "Fill real names, student IDs and actual individual participation in the editable reports"
+}

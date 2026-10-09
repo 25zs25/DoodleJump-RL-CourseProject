@@ -1,3 +1,4 @@
+"""Retired 405x720 publisher; use analyze_native.py for current results."""
 from pathlib import Path
 import json,numpy as np
 P=Path(__file__).resolve().parent
@@ -12,6 +13,13 @@ def group(records):
             'n_training_seeds':len(records),'n_maps_per_seed':100,
             'reason':f"截断 {100*np.mean([e['truncated'] for d in records for e in d['episodes']]):.1f}%"}
 def main():
+    raise SystemExit(
+        "analyze_results.py is a retired 405x720 result publisher.\n"
+        "Use python analyze_native.py for the current native-window results.\n"
+        "Historical data is retained in experiments/legacy_720_delivery/ and\n"
+        "results/evaluation/ for inspection only.\n"
+        "No model, score, or browser deployment files have been changed."
+    )
     files=list((P/'results/evaluation').glob('*.json'))
     assert len(files)==39, len(files)
     records=[read(p) for p in files]

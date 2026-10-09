@@ -81,3 +81,11 @@
 - `results/presentation_data.json`
 - `results/summary.json`
 - `results.js`
+
+## 2026-10-09 · v1.1.0 课程材料完善版
+
+新版PPT为18页可编辑演示文稿，14页主讲合计13分钟，4页答辩附录，四位讲者各195秒。重新设计版式、真实游戏图像、学习曲线和种子散点图，共6个原生可编辑图表；配套逐页讲稿与slides目录的18页在线图片预览。PPT按演示文稿skill完成结构检查、嵌入工作簿数据核对、18页逐页渲染检查和独立复核。
+
+四份个人模块报告各4页，小组技术报告6页，共22页正式PDF，同时保留可编辑Markdown。所有最终PDF逐页渲染检查通过。姓名、学号及个人实际参与范围仍需由成员填写。reports/export_pdf.py可从填写后的源稿导出新PDF，源稿不会被覆盖。
+
+修复旧实验入口、公开配置的模型清单哈希和无效并行数问题，详见PUBLICATION_AUDIT_20261008.md。21个上游原版文件、8份冻结核心源码、全部训练权重和当前逐局成绩不变；未重新训练。新材料的验收记录为MATERIALS_VERIFICATION.json、PRESENTATION_VERIFICATION.json和reports/REPORT_VERIFICATION.json。原VERIFICATION.json及17页首版PPT仍作为原交付历史记录保留，不作为新版PPT哈希凭据。

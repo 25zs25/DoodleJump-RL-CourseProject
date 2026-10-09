@@ -1,0 +1,282 @@
+{
+  "schema": "doodle-presentation-verification-v1",
+  "verified_on": "2026-10-09",
+  "all_visual_checks_passed": true,
+  "file": "DoodleJump_13分钟汇报_美化完善版.pptx",
+  "sha256": "1243c5de1a59eb4c43083ab2691bd75e31e73e7bedb0776e1976ee70b1dd806b",
+  "byte_count": 308856,
+  "slide_count": 18,
+  "main_slide_count": 14,
+  "appendix_slide_count": 4,
+  "talk_seconds": 780,
+  "demonstration_seconds_in_slide_13": 25,
+  "speaker_seconds": {
+    "A": 195,
+    "B": 195,
+    "C": 195,
+    "D": 195
+  },
+  "speakers_are_placeholders": true,
+  "slide_metadata": [
+    {
+      "slide": 1,
+      "title": "Doodle Jump 原版规则强化学习",
+      "speaker": "A",
+      "seconds": 25
+    },
+    {
+      "slide": 2,
+      "title": "原版游戏与左右控制",
+      "speaker": "A",
+      "seconds": 55
+    },
+    {
+      "slide": 3,
+      "title": "原版引擎与训练接口",
+      "speaker": "A",
+      "seconds": 55
+    },
+    {
+      "slide": 4,
+      "title": "209维局部观测与奖励",
+      "speaker": "A",
+      "seconds": 60
+    },
+    {
+      "slide": 5,
+      "title": "DQN的回放与价值更新",
+      "speaker": "B",
+      "seconds": 55
+    },
+    {
+      "slide": 6,
+      "title": "Double DQN的动作选择与估值",
+      "speaker": "B",
+      "seconds": 50
+    },
+    {
+      "slide": 7,
+      "title": "独立训练、验证与保留测试",
+      "speaker": "B",
+      "seconds": 50
+    },
+    {
+      "slide": 8,
+      "title": "三种子的验证学习曲线",
+      "speaker": "B",
+      "seconds": 40
+    },
+    {
+      "slide": 9,
+      "title": "PPO的策略、价值与优势更新",
+      "speaker": "C",
+      "seconds": 65
+    },
+    {
+      "slide": 10,
+      "title": "当前窗口的保留地图结果",
+      "speaker": "C",
+      "seconds": 65
+    },
+    {
+      "slide": 11,
+      "title": "PPO速度置零消融",
+      "speaker": "C",
+      "seconds": 65
+    },
+    {
+      "slide": 12,
+      "title": "原版窗口缩放下的测试",
+      "speaker": "D",
+      "seconds": 65
+    },
+    {
+      "slide": 13,
+      "title": "真实推理与失败回合",
+      "speaker": "D",
+      "seconds": 65
+    },
+    {
+      "slide": 14,
+      "title": "本次结论与四人分工",
+      "speaker": "D",
+      "seconds": 65
+    },
+    {
+      "slide": 15,
+      "title": "附录：超参数与实际训练设备",
+      "speaker": "答辩",
+      "seconds": 0
+    },
+    {
+      "slide": 16,
+      "title": "附录：旧模型在同一当前窗口复测",
+      "speaker": "答辩",
+      "seconds": 0
+    },
+    {
+      "slide": 17,
+      "title": "附录：输入向量的精确字段",
+      "speaker": "答辩",
+      "seconds": 0
+    },
+    {
+      "slide": 18,
+      "title": "附录：原版、部署证据与共享入口",
+      "speaker": "答辩",
+      "seconds": 0
+    }
+  ],
+  "native_chart_count": 6,
+  "native_chart_owner_slides": [
+    8,
+    10,
+    11,
+    12
+  ],
+  "native_table_count": 8,
+  "main_native_table_owner_slides": [
+    7,
+    10,
+    11,
+    12,
+    14
+  ],
+  "embedded_chart_workbooks": 6,
+  "chart_workbook_values_and_cache_reference_validation_passed": true,
+  "chart_display_decimals": 1,
+  "chart_workbook_score_precision_decimals": 3,
+  "maximum_score_rounding_error_bound": 0.0005,
+  "training_seed_count": 3,
+  "test_maps_per_training_seed": 100,
+  "standard_deviation_definition": "sample SD of the three training-seed means, ddof=1; not SE or CI",
+  "original_deck_replaced": false,
+  "game_assets_are_original_or_actual_browser_captures": true,
+  "ai_generated_game_assets": false,
+  "layout_validation_findings": 0,
+  "package_integrity_findings": 0,
+  "artifact_tool_import_passed": true,
+  "render_dimensions_pixels": [
+    1280,
+    720
+  ],
+  "visual_review": {
+    "full_size_reviewed_slides": 18,
+    "unresolved_overlap_or_clipping": 0,
+    "last_revision_changed_pages": [
+      10,
+      11,
+      12
+    ],
+    "other_15_rendered_pages_sha256_unchanged": true
+  },
+  "rendered_slides": [
+    {
+      "slide": 1,
+      "path": "slides/slide-01.png",
+      "sha256": "be45ca75f9daeb1e78c3cd12e5723ddcc8855da84853b3d3ff7dbf6fb460d3fe"
+    },
+    {
+      "slide": 2,
+      "path": "slides/slide-02.png",
+      "sha256": "444a969017899f5331c9d6564dadf0e592a0be806ae54a12286ad5a715e53ac2"
+    },
+    {
+      "slide": 3,
+      "path": "slides/slide-03.png",
+      "sha256": "6fb7221a3056c7670c7f544851f06338c587b3e10a0731652f6b99a3bcf328c8"
+    },
+    {
+      "slide": 4,
+      "path": "slides/slide-04.png",
+      "sha256": "b7a0159426912e2823f9ebb0951cacdd9401aadd83d831111c6e99d9c889879b"
+    },
+    {
+      "slide": 5,
+      "path": "slides/slide-05.png",
+      "sha256": "4ffe481f2a7d50536f55efc55adc5a93339e183cc0114737194e8b49cb7f766c"
+    },
+    {
+      "slide": 6,
+      "path": "slides/slide-06.png",
+      "sha256": "d1f1fdd82d414d082ec45cd82e091088ed0d68b2d4bc28cdccc01d44e3d19247"
+    },
+    {
+      "slide": 7,
+      "path": "slides/slide-07.png",
+      "sha256": "34ebf7b09ecfb3fb8c9efea993c3b52b3e43a3ed963c351a2768f914bb10141c"
+    },
+    {
+      "slide": 8,
+      "path": "slides/slide-08.png",
+      "sha256": "e1dcb537bd3b5c242b5b4c67a2be37d810e1fc2a6873dcbe38566023298c24d4"
+    },
+    {
+      "slide": 9,
+      "path": "slides/slide-09.png",
+      "sha256": "c408c49f79459acc2b771df77b66884fb01dfd0cfb96a4b385cc40ff2e99e804"
+    },
+    {
+      "slide": 10,
+      "path": "slides/slide-10.png",
+      "sha256": "fac78fb3c72ad4c2a624d3fec2635bbb2c869440fc43ec3baf9630fa528957ee"
+    },
+    {
+      "slide": 11,
+      "path": "slides/slide-11.png",
+      "sha256": "64573f673a982bdd4c826e8eb2c6ab118b14883dc8b712361f9d30e73e6ceda1"
+    },
+    {
+      "slide": 12,
+      "path": "slides/slide-12.png",
+      "sha256": "f731182bb1e63d21fc2671faefe9c371cf099a8ee1d2c95450c0badd06728a6c"
+    },
+    {
+      "slide": 13,
+      "path": "slides/slide-13.png",
+      "sha256": "49c5a980dd950a38ac98c02bdb10f3d6f0c6b9ee7f2f68c30999aac7efed28d4"
+    },
+    {
+      "slide": 14,
+      "path": "slides/slide-14.png",
+      "sha256": "19be43d5d228f7cc1c7acdeb4abfe9ca666bea5f55ec8f120ef24bcead68ec12"
+    },
+    {
+      "slide": 15,
+      "path": "slides/slide-15.png",
+      "sha256": "d09b51eb38ce18c7366d58f0fe85e65fd04838890eba07faf39567ee722f7a48"
+    },
+    {
+      "slide": 16,
+      "path": "slides/slide-16.png",
+      "sha256": "6c36adc1afff8395f5008d4106642b9c356c9fc7160a78ba8aa8f846aaa90eb2"
+    },
+    {
+      "slide": 17,
+      "path": "slides/slide-17.png",
+      "sha256": "f88f4f6b3ddb47dc48236169420525fe2b93b99f0a5e9eea2765475b2c70e260"
+    },
+    {
+      "slide": 18,
+      "path": "slides/slide-18.png",
+      "sha256": "c870bc6414331811a47835876ec78274db7054dc591896dc1c85cf7ba3e40ac9"
+    }
+  ],
+  "notes_include_sources_and_actual_talk_text": true,
+  "input_spring_offset_description": "springX is relative to the platform center, normalized by canvas width",
+  "failed_demo_height_display": "127.2px",
+  "source_episode_csv": {
+    "path": "results/native_v2/test_episodes.csv",
+    "sha256": "c3510bf968adff94f68e47231f654d79b3b85b88dfa91adb5c27b0894c2e63c2"
+  },
+  "source_summary": {
+    "path": "results/native_v2/summary.json",
+    "sha256": "649275c5e96d2165f41fce2fedfd3ee84f38c4aa9b53e5cdd8e6a2035518a09b"
+  },
+  "speech_file": {
+    "path": "13分钟讲稿.md",
+    "sha256": "8a8d410b2d84d91006238b96c87d152a9bdef1690989696816eb0f1697810bf5"
+  },
+  "native_powerpoint_open_tested": false,
+  "claim_boundary": "Artifact Tool finalizer/import plus individual full-size render review. Native PowerPoint or Google Slides execution was not tested."
+}

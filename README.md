@@ -1,6 +1,15 @@
 # Doodle Jump 强化学习课程项目
 
-保留原版 JavaScript 游戏的外观、物理与平台生成规则，在实际窗口训练并比较 **DQN、Double DQN、PPO**。包含可试玩网页、训练与评测代码、训练权重、实验数据、13分钟PPT及四人报告草稿。
+保留原版 JavaScript 游戏的外观、物理与平台生成规则，在实际窗口训练并比较 **DQN、Double DQN、PPO**。包含可试玩网页、训练与评测代码、训练权重、实验数据、13分钟PPT及四份个人报告和小组报告。
+
+## 最新汇报与正式报告
+
+- **[18页PPT美化完善版](DoodleJump_13分钟汇报_美化完善版.pptx)**：14页主讲共13分钟，4页答辩附录，四位讲者各3分15秒。
+- [直接浏览全部幻灯片](slides/README.md) / [新版逐页讲稿](13分钟讲稿.md)
+- **[正式PDF报告与可编辑源稿](reports/README.md)**：四份个人模块报告及小组技术报告。
+- [下载完整项目](https://github.com/25zs25/DoodleJump-RL-CourseProject/releases/latest) / [项目问题检查与修复记录](PUBLICATION_AUDIT_20261008.md)
+
+报告技术正文已补全。姓名、学号和实际参与范围由组员据实填写，建议分工不代替真实贡献。初版PPT和旧720窗口实验保留供历史追溯，汇报请使用上面的新版入口。
 
 ![真实浏览器AI演示](assets/native_demo.gif)
 
@@ -26,13 +35,13 @@ python serve.py --port 8765
 
 ## 交付与协作入口
 
-- [13分钟PPT](DoodleJump_当前窗口重训_13分钟汇报.pptx) / [逐页讲稿](13分钟讲稿.md)
+- [13分钟PPT](DoodleJump_13分钟汇报_美化完善版.pptx) / [逐页讲稿](13分钟讲稿.md)
 - [小组技术报告](reports/小组技术报告.md) / [四人分工](reports/四人分工与验收.md)
 - [实验结果](results/native_v2/summary.json) / [旧模型与重训对比](results/native_v2/旧模型与重训对比.md)
 - [组员协作说明](CONTRIBUTING.md) / [发布说明](PUBLICATION_NOTES.md)
 - [完整项目下载](https://github.com/25zs25/DoodleJump-RL-CourseProject/releases/latest)
 
-四份个人报告使用A–D占位，组员应填写真实姓名并按实际贡献修改。下面的原交付说明提供完整训练、复现和验证方法；旧720窗口文件仅作为历史实验，不代表当前成绩。
+四份个人报告以A–D划分模块，包含正式PDF和可编辑Markdown。组员应填写真实姓名并按实际贡献修改。下面的原交付说明提供完整训练、复现和验证方法；旧720窗口文件仅作为历史实验，不代表当前成绩。
 
 ## 开源许可与来源
 
@@ -96,7 +105,7 @@ python evaluate.py --checkpoint models/native_v2_double_dqn_full_h128_seed42_100
 
 输入209维：玩家5、最多20个平台各10、单黑洞4；输出左/停/右。奖励 `Δ原版得分/100 − 0.001 − 1×死亡`。DQN使用回放和目标网络，Double DQN分离下一动作选择与价值估计；PPO使用Actor/Critic、GAE和概率比裁剪。死亡屏蔽bootstrap，时间截断保留价值但阻断跨回合GAE递推。
 
-本轮PPT：`DoodleJump_当前窗口重训_13分钟汇报.pptx`，14页主讲共780秒，3页答辩附录；配套 `13分钟讲稿.md`。四份个人模块报告与小组报告在 `reports/`。成员姓名和实际个人贡献由四位成员填写，技术草稿不虚构人工作业经历。演示及失败案例仅从验证集选取，见 `DEMO.md`，真实浏览器录像为 `assets/native_demo.gif`。
+最新PPT：`DoodleJump_13分钟汇报_美化完善版.pptx`，14页主讲共780秒，4页答辩附录；配套 `13分钟讲稿.md`，四位讲者各195秒。四份个人模块报告与小组报告以PDF和Markdown形式放在 `reports/`。成员姓名和实际个人贡献由四位成员填写，技术稿不虚构人工作业经历。演示及失败案例仅从验证集选取，见 `DEMO.md`，真实浏览器录像为 `assets/native_demo.gif`。
 
 ## 验证与历史文件
 

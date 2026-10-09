@@ -1,8 +1,8 @@
-"""Reproduce all frozen original-rule runs; completed runs are reused.
+"""Retired 405x720 experiment entry point; use retrain_native.py instead.
 
-python run_experiments.py --train --evaluate --export
-Use a fresh project copy for a completely new reproduction. Each training
-run requires CPU PyTorch; no teacher or changed game-rule mode is used.
+This entry point exits before running its historical implementation.
+Current reproduction: retrain_native.py --train / --evaluate, then
+analyze_native.py. Keep historical files for inspection, not republication.
 """
 from pathlib import Path
 import argparse,sys,subprocess,json,time,hashlib,csv
@@ -13,6 +13,14 @@ from evaluate import summarize
 P=Path(__file__).resolve().parent
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
 def main():
+    raise SystemExit(
+        "run_experiments.py is a retired 405x720 experiment entry point.\n"
+        "Use the current native-window commands instead:\n"
+        "  python retrain_native.py --train --workers 3\n"
+        "  python retrain_native.py --evaluate --workers 2\n"
+        "  python analyze_native.py\n"
+        "No training or result files have been changed."
+    )
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--train',action='store_true');ap.add_argument('--evaluate',action='store_true');ap.add_argument('--export',action='store_true')
     ap.add_argument('--workers',type=int,default=3);args=ap.parse_args()

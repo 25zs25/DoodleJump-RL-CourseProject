@@ -135,7 +135,10 @@ def evaluate(protocol,workers,watch=False):
     write(P/'results/native_v2/baselines.json',baselines)
 def main():
     ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--train',action='store_true');ap.add_argument('--evaluate',action='store_true')
-    ap.add_argument('--workers',type=int,default=3);ap.add_argument('--watch',action='store_true');args=ap.parse_args();protocol=freeze()
+    ap.add_argument('--workers',type=int,default=3);ap.add_argument('--watch',action='store_true');args=ap.parse_args()
+    if args.workers <= 0:
+        ap.error('--workers must be a positive integer')
+    protocol=freeze()
     for n,h in protocol['source_sha256'].items():assert sha(P/n)==h,f'Frozen source changed: {n}'
     if args.train:train(protocol,args.workers)
     if args.evaluate:evaluate(protocol,args.workers,args.watch)
